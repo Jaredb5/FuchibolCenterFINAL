@@ -1,0 +1,365 @@
+﻿date_GMT;home_team_name;away_team_name;home_team_goal_count;away_team_goal_count;total_goal_count;home_team_corner_count;away_team_corner_count;home_team_yellow_cards;home_team_red_cards;away_team_yellow_cards;away_team_red_cards;stadium_name
+Jan 24 2014 - 11:00pm;La Equidad;Alianza Petrolera;1;1;2;4;3;1;0;2;0;Estadio Metropolitano de Techo
+Jan 25 2014 - 1:00am;Santa Fe;Rionegro Águilas;3;0;3;2;11;1;0;2;0;Estadio Nemesio Camacho El Campín
+Jan 25 2014 - 8:15pm;Uniautónoma;Deportes Tolima;3;2;5;3;4;4;1;4;1;Estadio Metropolitano Roberto Meléndez
+Jan 25 2014 - 10:00pm;Envigado;Millonarios;1;2;3;6;2;5;0;4;0;Estadio Polideportivo Sur
+Jan 25 2014 - 10:30pm;Once Caldas;Fortaleza CEIF;3;1;4;4;9;5;0;3;0;Estadio Palogrande
+Jan 26 2014 - 12:45am;Atlético Huila;Junior;2;3;5;5;5;6;1;6;1;Estadio Guillermo Plazas Alcid
+Jan 26 2014 - 8:15pm;Deportivo Pasto;Patriotas Boyacá;3;1;4;1;2;2;0;5;0;Estadio Departamental Libertad
+Jan 26 2014 - 10:15pm;Atlético Nacional;Independiente Medellín;3;1;4;4;3;2;0;3;2;Estadio Atanasio Girardot
+Jan 27 2014 - 12:15am;Boyacá Chicó;Deportivo Cali;2;1;3;3;3;4;0;1;0;Estadio de La Independencia
+Jan 31 2014 - 11:00pm;Patriotas Boyacá;Once Caldas;0;0;0;4;6;5;0;4;0;Estadio de La Independencia
+Feb 01 2014 - 1:00am;Independiente Medellín;Deportivo Pasto;2;0;2;2;9;3;0;3;0;Estadio Atanasio Girardot
+Feb 01 2014 - 8:15pm;Alianza Petrolera;Boyacá Chicó;1;2;3;1;4;4;1;3;0;Estadio Álvaro Gómez Hurtado
+Feb 01 2014 - 10:00pm;Junior;Uniautónoma;1;1;2;3;5;3;1;5;1;Estadio Metropolitano Roberto Meléndez
+Feb 01 2014 - 10:30pm;Fortaleza CEIF;Santa Fe;1;2;3;6;5;5;0;4;1;Estadio Metropolitano de Techo
+Feb 02 2014 - 12:45am;Deportes Tolima;Envigado;2;4;6;9;2;6;0;6;1;Estadio Manuel Murillo Toro
+Feb 02 2014 - 8:15pm;Rionegro Águilas;Atlético Huila;2;1;3;6;6;0;0;3;0;Estadio Metropolitano de Itagüí (Itagüí)
+Feb 02 2014 - 10:15pm;Millonarios;La Equidad;0;1;1;9;3;1;0;2;0;Estadio Nemesio Camacho El Campín
+Feb 03 2014 - 12:15am;Deportivo Cali;Atlético Nacional;0;3;3;8;3;2;0;2;0;Estadio Olímpico Pascual Guerrero
+Feb 05 2014 - 12:45am;Once Caldas;Independiente Medellín;2;2;4;6;3;1;0;4;0;Estadio Palogrande
+Feb 05 2014 - 11:00pm;Envigado;Uniautónoma;1;0;1;6;8;2;0;4;0;Estadio Polideportivo Sur
+Feb 05 2014 - 11:00pm;La Equidad;Deportes Tolima;0;2;2;9;1;2;1;2;0;Estadio Metropolitano de Techo
+Feb 06 2014 - 1:00am;Deportivo Pasto;Deportivo Cali;1;1;2;5;3;1;0;2;0;Estadio Departamental Libertad
+Feb 06 2014 - 1:00am;Santa Fe;Patriotas Boyacá;1;0;1;1;6;3;0;4;0;Estadio Nemesio Camacho El Campín
+Feb 06 2014 - 11:00pm;Atlético Nacional;Alianza Petrolera;5;1;6;7;3;1;0;0;0;Estadio Atanasio Girardot
+Feb 06 2014 - 11:00pm;Atlético Huila;Fortaleza CEIF;3;1;4;-1;-1;4;0;2;0;Estadio Guillermo Plazas Alcid
+Feb 07 2014 - 1:00am;Boyacá Chicó;Millonarios;1;0;1;5;8;1;0;2;0;Estadio de La Independencia
+Feb 07 2014 - 1:00am;Junior;Rionegro Águilas;2;0;2;3;1;2;0;2;0;Estadio Metropolitano Roberto Meléndez
+Feb 08 2014 - 8:15pm;Envigado;La Equidad;1;3;4;10;4;2;0;2;0;Estadio Polideportivo Sur
+Feb 08 2014 - 10:15pm;Independiente Medellín;Santa Fe;0;2;2;7;1;4;0;3;0;Estadio Atanasio Girardot
+Feb 09 2014 - 12:45am;Deportivo Cali;Once Caldas;0;1;1;11;5;2;0;2;0;Estadio Olímpico Pascual Guerrero
+Feb 09 2014 - 8:15pm;Uniautónoma;Rionegro Águilas;1;1;2;7;3;5;0;4;0;Estadio Metropolitano Roberto Meléndez
+Feb 09 2014 - 8:15pm;Alianza Petrolera;Deportivo Pasto;1;1;2;6;1;3;0;3;1;Estadio Álvaro Gómez Hurtado
+Feb 09 2014 - 10:30pm;Millonarios;Atlético Nacional;3;1;4;4;5;4;1;3;1;Estadio Nemesio Camacho El Campín
+Feb 10 2014 - 12:30am;Deportes Tolima;Boyacá Chicó;1;0;1;6;1;2;0;1;0;Estadio Manuel Murillo Toro
+Feb 10 2014 - 11:00pm;Patriotas Boyacá;Atlético Huila;3;1;4;6;3;2;0;3;0;Estadio de La Independencia
+Feb 11 2014 - 1:00am;Fortaleza CEIF;Junior;0;0;0;6;3;4;1;2;0;Estadio Metropolitano de Techo
+Feb 14 2014 - 11:00pm;Boyacá Chicó;Envigado;2;0;2;1;1;3;0;2;1;Estadio de La Independencia
+Feb 15 2014 - 1:00am;Atlético Huila;Independiente Medellín;1;1;2;7;3;3;1;3;0;Estadio Guillermo Plazas Alcid
+Feb 15 2014 - 8:15pm;La Equidad;Uniautónoma;0;0;0;4;3;1;0;2;0;Estadio Metropolitano de Techo
+Feb 15 2014 - 10:00pm;Deportivo Pasto;Millonarios;1;1;2;4;5;2;1;2;0;Estadio Departamental Libertad
+Feb 15 2014 - 10:30pm;Rionegro Águilas;Fortaleza CEIF;2;1;3;3;5;5;0;4;0;Estadio Metropolitano de Itagüí (Itagüí)
+Feb 16 2014 - 12:45am;Santa Fe;Deportivo Cali;0;0;0;10;5;3;0;1;0;Estadio Nemesio Camacho El Campín
+Feb 16 2014 - 8:15pm;Once Caldas;Alianza Petrolera;2;1;3;-1;-1;2;0;4;0;Estadio Palogrande
+Feb 16 2014 - 10:30pm;Junior;Patriotas Boyacá;1;0;1;7;7;1;0;2;0;Estadio Metropolitano Roberto Meléndez
+Feb 17 2014 - 12:30am;Atlético Nacional;Deportes Tolima;2;0;2;4;5;4;0;2;1;Estadio Atanasio Girardot
+Feb 18 2014 - 11:00pm;Uniautónoma;Fortaleza CEIF;0;1;1;-1;-1;3;0;3;1;Estadio Metropolitano Roberto Meléndez
+Feb 19 2014 - 1:00am;La Equidad;Boyacá Chicó;1;0;1;-1;-1;2;0;1;1;Estadio Metropolitano de Techo
+Feb 19 2014 - 8:15pm;Alianza Petrolera;Santa Fe;1;2;3;4;6;3;0;3;0;Estadio Álvaro Gómez Hurtado
+Feb 19 2014 - 11:00pm;Patriotas Boyacá;Rionegro Águilas;1;0;1;0;0;3;0;1;0;Estadio de La Independencia
+Feb 20 2014 - 1:00am;Millonarios;Once Caldas;1;1;2;4;9;2;0;2;0;Estadio Nemesio Camacho El Campín
+Feb 20 2014 - 1:00am;Envigado;Atlético Nacional;2;3;5;1;5;5;1;5;0;Estadio Polideportivo Sur
+Feb 20 2014 - 11:00pm;Deportes Tolima;Deportivo Pasto;1;1;2;13;2;3;0;2;0;Estadio Manuel Murillo Toro
+Feb 21 2014 - 1:00am;Independiente Medellín;Junior;2;2;4;2;3;3;0;3;0;Estadio Atanasio Girardot
+Feb 22 2014 - 7:00pm;Fortaleza CEIF;Patriotas Boyacá;2;2;4;6;2;4;0;3;1;Estadio Metropolitano de Techo
+Feb 22 2014 - 9:00pm;Atlético Huila;Alianza Petrolera;3;0;3;-1;-1;0;0;3;0;Estadio Guillermo Plazas Alcid
+Feb 22 2014 - 10:40pm;Santa Fe;Millonarios;0;1;1;-1;-1;6;0;5;0;Estadio Nemesio Camacho El Campín
+Feb 22 2014 - 11:00pm;Boyacá Chicó;Uniautónoma;3;2;5;10;2;3;0;3;1;Estadio de La Independencia
+Feb 23 2014 - 1:00am;Atlético Nacional;La Equidad;1;2;3;4;1;3;1;1;0;Estadio Atanasio Girardot
+Feb 23 2014 - 8:15pm;Deportivo Pasto;Envigado;1;2;3;7;7;3;2;7;0;Estadio Departamental Libertad
+Feb 23 2014 - 8:15pm;Rionegro Águilas;Independiente Medellín;1;1;2;5;5;1;0;3;0;Estadio Metropolitano de Itagüí (Itagüí)
+Feb 23 2014 - 10:30pm;Once Caldas;Deportes Tolima;3;0;3;5;10;2;0;3;0;Estadio Palogrande
+Feb 24 2014 - 12:30am;Junior;Deportivo Cali;1;0;1;5;7;3;0;4;0;Estadio Metropolitano Roberto Meléndez
+Feb 25 2014 - 11:00pm;Uniautónoma;Patriotas Boyacá;2;0;2;5;4;3;0;5;0;Estadio Metropolitano Roberto Meléndez
+Feb 26 2014 - 1:00am;Millonarios;Atlético Huila;2;2;4;12;2;2;0;2;0;Estadio Nemesio Camacho El Campín
+Feb 27 2014 - 1:00am;Independiente Medellín;Fortaleza CEIF;3;3;6;8;3;2;0;6;0;Estadio Atanasio Girardot
+Feb 27 2014 - 1:00am;Envigado;Once Caldas;2;1;3;3;3;6;1;0;0;Estadio Polideportivo Sur
+Feb 27 2014 - 1:00am;La Equidad;Deportivo Pasto;1;1;2;3;0;4;0;2;0;Estadio Metropolitano de Techo
+Feb 27 2014 - 8:15pm;Alianza Petrolera;Junior;1;0;1;2;7;1;1;1;1;Estadio Álvaro Gómez Hurtado
+Feb 28 2014 - 1:00am;Deportivo Cali;Rionegro Águilas;2;3;5;4;3;3;1;3;0;Estadio Olímpico Pascual Guerrero
+Mar 01 2014 - 7:00pm;Fortaleza CEIF;La Equidad;1;1;2;3;4;2;0;6;0;Estadio Metropolitano de Techo
+Mar 01 2014 - 9:00pm;Patriotas Boyacá;Boyacá Chicó;2;1;3;1;0;4;1;1;0;Estadio de La Independencia
+Mar 01 2014 - 11:00pm;Independiente Medellín;Atlético Nacional;0;2;2;4;4;3;0;2;0;Estadio Atanasio Girardot
+Mar 02 2014 - 4:00pm;Deportes Tolima;Atlético Huila;1;1;2;3;2;3;0;2;0;Estadio Manuel Murillo Toro
+Mar 02 2014 - 8:15pm;Rionegro Águilas;Envigado;1;0;1;3;6;2;0;6;2;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 02 2014 - 8:15pm;Alianza Petrolera;Once Caldas;0;2;2;5;7;4;0;3;0;Estadio Álvaro Gómez Hurtado
+Mar 02 2014 - 10:30pm;Deportivo Cali;Deportivo Pasto;2;2;4;8;4;2;0;3;0;Estadio Olímpico Pascual Guerrero
+Mar 03 2014 - 12:30am;Millonarios;Santa Fe;2;1;3;2;7;1;0;5;0;Estadio Nemesio Camacho El Campín
+Mar 05 2014 - 12:45am;Atlético Nacional;Uniautónoma;3;1;4;5;3;1;0;4;0;Estadio Atanasio Girardot
+Mar 06 2014 - 12:45am;Deportivo Cali;Atlético Huila;1;0;1;10;7;1;0;3;0;Estadio Olímpico Pascual Guerrero
+Mar 07 2014 - 12:45am;Deportes Tolima;Santa Fe;0;0;0;10;7;1;0;3;0;Estadio Manuel Murillo Toro
+Mar 08 2014 - 12:50am;Boyacá Chicó;Atlético Nacional;1;2;3;-1;-1;3;0;2;0;Estadio de La Independencia
+Mar 11 2014 - 1:00am;Fortaleza CEIF;Deportivo Cali;0;0;0;5;4;1;0;2;0;Estadio Metropolitano de Techo
+Mar 12 2014 - 1:00am;Deportivo Pasto;Boyacá Chicó;0;0;0;5;6;4;0;1;0;Estadio Departamental Libertad
+Mar 12 2014 - 1:00am;Junior;Millonarios;0;1;1;7;3;1;0;4;0;Estadio Metropolitano Roberto Meléndez
+Mar 12 2014 - 11:00pm;Rionegro Águilas;Alianza Petrolera;1;2;3;10;3;2;0;6;0;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 13 2014 - 1:00am;Once Caldas;La Equidad;0;0;0;-1;-1;3;0;2;0;Estadio Palogrande
+Mar 13 2014 - 11:00pm;Atlético Huila;Deportes Tolima;2;0;2;1;9;2;0;2;0;Estadio Guillermo Plazas Alcid
+Mar 14 2014 - 1:00am;Patriotas Boyacá;Independiente Medellín;1;0;1;3;0;1;0;2;0;Estadio de La Independencia
+Mar 15 2014 - 12:45am;Atlético Nacional;Deportivo Pasto;1;1;2;5;3;2;0;3;0;Estadio Atanasio Girardot
+Mar 15 2014 - 8:15pm;Alianza Petrolera;Fortaleza CEIF;1;0;1;-1;-1;5;0;4;1;Estadio Álvaro Gómez Hurtado
+Mar 15 2014 - 10:30pm;Boyacá Chicó;Once Caldas;1;1;2;4;3;4;0;3;0;Estadio de La Independencia
+Mar 16 2014 - 12:45am;La Equidad;Santa Fe;0;2;2;4;9;2;1;3;0;Estadio Metropolitano de Techo
+Mar 16 2014 - 8:15pm;Deportivo Cali;Patriotas Boyacá;2;1;3;7;2;2;0;2;0;Estadio Olímpico Pascual Guerrero
+Mar 16 2014 - 8:15pm;Envigado;Atlético Huila;2;0;2;2;6;2;0;3;0;Estadio Polideportivo Sur
+Mar 16 2014 - 10:00pm;Millonarios;Rionegro Águilas;3;0;3;4;3;3;0;1;0;Estadio Nemesio Camacho El Campín
+Mar 16 2014 - 10:30pm;Uniautónoma;Independiente Medellín;4;2;6;3;11;4;1;7;1;Estadio Metropolitano Roberto Meléndez
+Mar 17 2014 - 12:30am;Deportes Tolima;Junior;3;1;4;7;5;3;0;2;1;Estadio Manuel Murillo Toro
+Mar 22 2014 - 12:45am;Atlético Huila;La Equidad;0;1;1;-1;-1;1;0;6;1;Estadio Guillermo Plazas Alcid
+Mar 22 2014 - 8:15pm;Rionegro Águilas;Deportes Tolima;1;0;1;4;4;2;0;3;0;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 22 2014 - 10:00pm;Santa Fe;Boyacá Chicó;0;0;0;7;6;4;0;4;0;Estadio Nemesio Camacho El Campín
+Mar 22 2014 - 10:30pm;Patriotas Boyacá;Alianza Petrolera;3;3;6;7;4;3;0;3;0;Estadio de La Independencia
+Mar 23 2014 - 12:45am;Once Caldas;Atlético Nacional;0;0;0;2;9;3;0;3;0;Estadio Palogrande
+Mar 23 2014 - 8:15pm;Deportivo Pasto;Uniautónoma;4;0;4;7;3;0;0;1;0;Estadio Departamental Libertad
+Mar 23 2014 - 10:00pm;Independiente Medellín;Deportivo Cali;2;0;2;1;5;3;0;2;0;Estadio Atanasio Girardot
+Mar 23 2014 - 10:30pm;Junior;Envigado;1;0;1;8;4;0;0;2;0;Estadio Olímpico Jaime Morón León
+Mar 24 2014 - 12:45am;Fortaleza CEIF;Millonarios;0;1;1;3;1;3;0;2;0;Estadio Metropolitano de Techo
+Mar 26 2014 - 11:00pm;Atlético Huila;Atlético Nacional;2;0;2;-1;-1;4;0;4;0;Estadio Guillermo Plazas Alcid
+Mar 27 2014 - 1:00am;Santa Fe;Envigado;0;1;1;10;3;2;0;7;2;Estadio Nemesio Camacho El Campín
+Mar 28 2014 - 1:00am;Uniautónoma;Junior;1;2;3;6;7;2;0;4;1;Estadio Metropolitano Roberto Meléndez
+Mar 29 2014 - 12:45am;Deportivo Pasto;Once Caldas;3;2;5;2;7;5;0;3;0;Estadio Departamental Libertad
+Mar 29 2014 - 8:15pm;Alianza Petrolera;Independiente Medellín;2;1;3;7;5;2;0;2;0;Estadio Álvaro Gómez Hurtado
+Mar 29 2014 - 10:00pm;Millonarios;Patriotas Boyacá;4;0;4;4;4;2;0;2;0;Estadio Nemesio Camacho El Campín
+Mar 29 2014 - 10:30pm;Boyacá Chicó;Atlético Huila;1;0;1;3;4;1;0;2;0;Estadio de La Independencia
+Mar 30 2014 - 12:45am;Atlético Nacional;Santa Fe;2;2;4;5;2;2;0;2;0;Estadio Atanasio Girardot
+Mar 30 2014 - 8:15pm;Envigado;Rionegro Águilas;1;0;1;0;8;3;0;2;0;Estadio Polideportivo Sur
+Mar 30 2014 - 10:00pm;La Equidad;Junior;0;1;1;4;3;5;0;4;0;Estadio Metropolitano de Techo
+Mar 30 2014 - 10:30pm;Deportes Tolima;Fortaleza CEIF;1;1;2;5;5;2;0;5;0;Estadio Manuel Murillo Toro
+Mar 31 2014 - 12:45am;Uniautónoma;Deportivo Cali;0;2;2;5;1;1;0;4;0;Estadio Metropolitano Roberto Meléndez
+Apr 01 2014 - 11:00pm;Santa Fe;Deportivo Pasto;3;2;5;9;4;1;0;5;0;Estadio Nemesio Camacho El Campín
+Apr 02 2014 - 1:00am;Independiente Medellín;Millonarios;2;1;3;1;3;3;0;3;0;Estadio Atanasio Girardot
+Apr 02 2014 - 11:00pm;Once Caldas;Uniautónoma;3;1;4;9;2;1;0;1;0;Estadio Palogrande
+Apr 03 2014 - 1:00am;Junior;Boyacá Chicó;2;1;3;9;4;0;0;2;0;Estadio Metropolitano Roberto Meléndez
+Apr 03 2014 - 1:00am;Deportivo Cali;Alianza Petrolera;1;2;3;11;3;2;0;3;0;Estadio Olímpico Pascual Guerrero
+Apr 03 2014 - 11:00pm;Rionegro Águilas;La Equidad;3;1;4;4;3;3;0;4;1;Estadio Metropolitano de Itagüí (Itagüí)
+Apr 04 2014 - 1:00am;Fortaleza CEIF;Envigado;2;1;3;6;5;3;0;4;0;Estadio Metropolitano de Techo
+Apr 04 2014 - 1:55am;Patriotas Boyacá;Deportes Tolima;1;2;3;-1;-1;2;0;3;0;Estadio de La Independencia
+Apr 05 2014 - 8:15pm;Deportivo Pasto;Atlético Huila;5;1;6;3;8;3;0;2;0;Estadio Departamental Libertad
+Apr 05 2014 - 10:00pm;Millonarios;Deportivo Cali;1;0;1;6;4;3;0;2;0;Estadio Nemesio Camacho El Campín
+Apr 05 2014 - 10:30pm;Uniautónoma;Alianza Petrolera;0;2;2;2;6;1;0;1;1;Estadio Metropolitano Roberto Meléndez
+Apr 06 2014 - 12:45am;Atlético Nacional;Junior;1;0;1;8;6;3;0;2;0;Estadio Atanasio Girardot
+Apr 06 2014 - 8:15pm;La Equidad;Fortaleza CEIF;1;1;2;9;1;3;0;6;1;Estadio Metropolitano de Techo
+Apr 06 2014 - 8:15pm;Once Caldas;Santa Fe;1;1;2;6;5;2;0;2;0;Estadio Palogrande
+Apr 06 2014 - 10:00pm;Boyacá Chicó;Rionegro Águilas;0;1;1;7;1;3;0;3;0;Estadio de La Independencia
+Apr 06 2014 - 10:30pm;Envigado;Patriotas Boyacá;2;2;4;8;5;1;0;2;0;Estadio Polideportivo Sur
+Apr 07 2014 - 12:45am;Deportes Tolima;Independiente Medellín;1;1;2;7;5;4;0;7;1;Estadio Manuel Murillo Toro
+Apr 08 2014 - 8:15pm;Alianza Petrolera;Millonarios;2;1;3;0;10;3;0;6;2;Estadio Álvaro Gómez Hurtado
+Apr 09 2014 - 1:00am;Junior;Deportivo Pasto;1;0;1;5;1;2;0;4;1;Estadio Metropolitano Roberto Meléndez
+Apr 09 2014 - 11:00pm;Fortaleza CEIF;Boyacá Chicó;0;0;0;-1;-1;4;0;1;0;Estadio Metropolitano de Techo
+Apr 09 2014 - 11:00pm;Patriotas Boyacá;La Equidad;1;2;3;-1;-1;4;0;3;0;Estadio de La Independencia
+Apr 10 2014 - 1:00am;Atlético Huila;Once Caldas;2;0;2;5;5;3;0;1;0;Estadio Guillermo Plazas Alcid
+Apr 10 2014 - 11:00pm;Deportivo Cali;Deportes Tolima;2;0;2;6;1;3;0;3;1;Estadio Olímpico Pascual Guerrero
+Apr 11 2014 - 1:00am;Independiente Medellín;Envigado;3;2;5;5;7;2;0;0;0;Estadio Metropolitano de Techo
+Apr 12 2014 - 12:45am;Deportivo Pasto;Rionegro Águilas;1;2;3;4;10;2;0;2;0;Estadio Departamental Libertad
+Apr 12 2014 - 8:15pm;Boyacá Chicó;Patriotas Boyacá;3;0;3;5;5;2;0;3;0;Estadio de La Independencia
+Apr 12 2014 - 10:00pm;Once Caldas;Junior;3;0;3;2;5;5;0;4;0;Estadio Palogrande
+Apr 13 2014 - 12:45am;Uniautónoma;Millonarios;1;0;1;6;7;2;0;3;0;Estadio Metropolitano Roberto Meléndez
+Apr 13 2014 - 8:15pm;Deportes Tolima;Alianza Petrolera;1;2;3;-1;-1;2;0;2;0;Estadio Manuel Murillo Toro
+Apr 13 2014 - 8:15pm;La Equidad;Independiente Medellín;2;1;3;3;5;1;1;4;0;Estadio Metropolitano de Techo
+Apr 13 2014 - 10:00pm;Santa Fe;Atlético Huila;2;1;3;4;4;3;0;2;0;Estadio Nemesio Camacho El Campín
+Apr 13 2014 - 10:30pm;Envigado;Deportivo Cali;3;1;4;2;8;3;0;2;0;Estadio Polideportivo Sur
+Apr 14 2014 - 12:45am;Atlético Nacional;Fortaleza CEIF;4;3;7;6;8;0;0;3;0;Estadio Atanasio Girardot
+Apr 16 2014 - 11:00pm;Santa Fe;Uniautónoma;2;2;4;19;3;2;0;2;0;Estadio Nemesio Camacho El Campín
+Apr 17 2014 - 1:00am;Rionegro Águilas;Atlético Nacional;1;1;2;3;2;2;0;7;1;Estadio Metropolitano de Itagüí (Itagüí)
+Apr 19 2014 - 8:15pm;Atlético Huila;Uniautónoma;1;1;2;-1;-1;2;0;3;1;Estadio Guillermo Plazas Alcid
+Apr 19 2014 - 10:30pm;Millonarios;Deportes Tolima;3;1;4;5;2;1;0;0;0;Estadio Nemesio Camacho El Campín
+Apr 20 2014 - 12:45am;Patriotas Boyacá;Atlético Nacional;2;1;3;-1;-1;3;0;0;0;Estadio de La Independencia
+Apr 20 2014 - 8:15pm;Rionegro Águilas;Once Caldas;2;2;4;2;2;1;0;3;0;Estadio Metropolitano de Itagüí (Itagüí)
+Apr 20 2014 - 8:15pm;Deportivo Cali;La Equidad;1;0;1;7;3;2;0;3;1;Estadio Olímpico Pascual Guerrero
+Apr 20 2014 - 8:15pm;Independiente Medellín;Boyacá Chicó;2;1;3;10;11;5;0;4;0;Estadio Atanasio Girardot
+Apr 20 2014 - 8:15pm;Alianza Petrolera;Envigado;0;2;2;6;6;1;0;3;0;Estadio Álvaro Gómez Hurtado
+Apr 20 2014 - 10:30pm;Junior;Santa Fe;2;1;3;-1;-1;3;0;3;0;Estadio Metropolitano Roberto Meléndez
+Apr 21 2014 - 12:15am;Fortaleza CEIF;Deportivo Pasto;4;1;5;8;1;2;0;2;1;Estadio Metropolitano de Techo
+Apr 26 2014 - 10:00pm;Envigado;Atlético Nacional;1;4;5;7;4;3;0;2;0;Estadio Polideportivo Sur
+Apr 27 2014 - 12:30am;Once Caldas;Santa Fe;1;4;5;11;0;5;1;2;0;Estadio Palogrande
+Apr 27 2014 - 10:00pm;Rionegro Águilas;Junior;1;1;2;3;3;2;1;3;0;Estadio Metropolitano de Itagüí (Itagüí)
+Apr 28 2014 - 12:15am;La Equidad;Millonarios;0;1;1;2;1;3;0;1;0;Estadio Metropolitano de Techo
+May 03 2014 - 10:00pm;Millonarios;La Equidad;1;1;2;4;2;2;1;2;0;Estadio Nemesio Camacho El Campín
+May 04 2014 - 12:30am;Junior;Rionegro Águilas;2;1;3;2;4;2;1;5;0;Estadio Metropolitano Roberto Meléndez
+May 04 2014 - 10:00pm;Santa Fe;Once Caldas;1;2;3;2;3;3;0;4;0;Estadio Nemesio Camacho El Campín
+May 05 2014 - 12:15am;Atlético Nacional;Envigado;2;1;3;10;2;1;0;4;0;Estadio Atanasio Girardot
+May 07 2014 - 11:30pm;Santa Fe;Atlético Nacional;1;0;1;-1;-1;1;0;3;0;Estadio Nemesio Camacho El Campín
+May 08 2014 - 1:30am;Junior;Millonarios;0;0;0;10;2;2;0;2;0;Estadio Metropolitano Roberto Meléndez
+May 11 2014 - 10:00pm;Millonarios;Junior;0;0;0;12;2;2;0;3;0;Estadio Nemesio Camacho El Campín
+May 12 2014 - 12:15am;Atlético Nacional;Santa Fe;2;0;2;8;4;2;0;2;1;Estadio Atanasio Girardot
+May 18 2014 - 11:30pm;Junior;Atlético Nacional;1;0;1;-1;-1;2;0;5;0;Estadio Metropolitano Roberto Meléndez
+May 22 2014 - 12:00am;Atlético Nacional;Junior;2;1;3;8;0;3;0;4;0;Estadio Atanasio Girardot
+Jul 19 2014 - 12:45am;Patriotas Boyacá;Deportivo Pasto;3;0;3;-1;-1;2;0;3;1;Estadio de La Independencia
+Jul 19 2014 - 8:15pm;Deportivo Cali;Boyacá Chicó;0;1;1;6;2;3;1;2;0;Estadio Deportivo Cali
+Jul 19 2014 - 10:30pm;Millonarios;Envigado;2;1;3;2;1;0;0;1;0;Estadio Nemesio Camacho El Campín
+Jul 20 2014 - 12:45am;Independiente Medellín;Atlético Nacional;1;0;1;7;7;2;0;3;0;Estadio Atanasio Girardot
+Jul 20 2014 - 8:00pm;Deportes Tolima;Uniautónoma;2;0;2;6;4;2;0;2;0;Estadio Manuel Murillo Toro
+Jul 21 2014 - 12:45am;Fortaleza CEIF;Once Caldas;0;1;1;9;2;6;0;4;0;Estadio Metropolitano de Techo
+Jul 26 2014 - 8:15pm;Atlético Huila;Rionegro Águilas;1;3;4;5;5;3;0;2;0;Estadio Guillermo Plazas Alcid
+Jul 26 2014 - 8:15pm;Envigado;Deportes Tolima;0;0;0;3;1;6;0;3;0;Estadio Polideportivo Sur
+Jul 26 2014 - 10:30pm;Uniautónoma;Junior;2;4;6;6;5;3;0;2;1;Estadio Metropolitano Roberto Meléndez
+Jul 26 2014 - 10:30pm;La Equidad;Millonarios;0;1;1;3;4;4;0;0;0;Estadio Metropolitano de Techo
+Jul 27 2014 - 12:45am;Deportivo Pasto;Independiente Medellín;0;0;0;6;4;1;0;2;0;Estadio Departamental Libertad
+Jul 27 2014 - 8:15pm;Once Caldas;Patriotas Boyacá;2;0;2;-1;-1;2;1;4;0;Estadio Palogrande
+Jul 27 2014 - 10:30pm;Santa Fe;Fortaleza CEIF;2;0;2;5;6;2;0;3;2;Estadio Nemesio Camacho El Campín
+Jul 27 2014 - 10:30pm;Boyacá Chicó;Alianza Petrolera;1;0;1;3;3;2;1;1;1;Estadio de La Independencia
+Jul 28 2014 - 12:30am;Atlético Nacional;Deportivo Cali;2;2;4;8;1;1;0;3;0;Estadio Atanasio Girardot
+Aug 02 2014 - 7:00pm;Fortaleza CEIF;Atlético Huila;1;1;2;6;3;4;0;2;1;Estadio Metropolitano de Techo
+Aug 02 2014 - 9:00pm;Uniautónoma;Envigado;0;2;2;6;2;4;0;3;0;Estadio Metropolitano Roberto Meléndez
+Aug 02 2014 - 10:30pm;Patriotas Boyacá;Santa Fe;0;0;0;2;5;1;0;2;0;Estadio de La Independencia
+Aug 02 2014 - 11:00pm;Rionegro Águilas;Junior;0;0;0;6;3;2;0;2;0;Estadio Hernán Ramírez Villegas
+Aug 03 2014 - 1:00am;Millonarios;Boyacá Chicó;1;1;2;10;2;1;0;2;0;Estadio Nemesio Camacho El Campín
+Aug 03 2014 - 8:15pm;Alianza Petrolera;Atlético Nacional;1;1;2;-1;-1;3;0;2;0;Estadio Álvaro Gómez Hurtado
+Aug 03 2014 - 10:30pm;Deportivo Cali;Deportivo Pasto;2;0;2;4;6;3;0;0;0;Estadio Olímpico Pascual Guerrero
+Aug 03 2014 - 10:30pm;Independiente Medellín;Once Caldas;1;3;4;9;5;1;0;4;0;Estadio Atanasio Girardot
+Aug 04 2014 - 12:30am;Deportes Tolima;La Equidad;2;1;3;1;4;1;0;3;0;Estadio Manuel Murillo Toro
+Aug 09 2014 - 8:15pm;Deportivo Pasto;Alianza Petrolera;0;0;0;5;6;3;0;3;0;Estadio Departamental Libertad
+Aug 09 2014 - 10:30pm;Rionegro Águilas;Uniautónoma;2;0;2;9;3;1;0;4;0;Estadio Hernán Ramírez Villegas
+Aug 09 2014 - 10:30pm;Santa Fe;Independiente Medellín;2;1;3;2;6;2;0;1;0;Estadio Nemesio Camacho El Campín
+Aug 10 2014 - 12:45am;Atlético Huila;Patriotas Boyacá;4;1;5;-1;-1;2;0;3;0;Estadio Guillermo Plazas Alcid
+Aug 10 2014 - 6:45pm;La Equidad;Envigado;0;1;1;5;1;4;1;3;0;Estadio Metropolitano de Techo
+Aug 10 2014 - 8:45pm;Boyacá Chicó;Deportes Tolima;0;1;1;-1;-1;2;0;4;0;Estadio de La Independencia
+Aug 10 2014 - 10:30pm;Junior;Fortaleza CEIF;1;3;4;5;2;7;1;6;0;Estadio Metropolitano Roberto Meléndez
+Aug 10 2014 - 10:45pm;Atlético Nacional;Millonarios;5;0;5;9;4;1;0;4;1;Estadio Atanasio Girardot
+Aug 11 2014 - 12:45am;Once Caldas;Deportivo Cali;3;3;6;9;3;1;0;0;0;Estadio Palogrande
+Aug 16 2014 - 7:00pm;Envigado;Boyacá Chicó;2;2;4;-1;-1;3;0;3;0;Estadio Polideportivo Sur
+Aug 16 2014 - 9:00pm;Fortaleza CEIF;Rionegro Águilas;0;2;2;4;1;4;0;3;0;Estadio Metropolitano de Techo
+Aug 16 2014 - 10:30pm;Deportes Tolima;Atlético Nacional;1;1;2;6;6;2;0;6;0;Estadio Manuel Murillo Toro
+Aug 16 2014 - 11:00pm;Uniautónoma;La Equidad;3;2;5;4;4;2;0;3;0;Estadio Metropolitano Roberto Meléndez
+Aug 17 2014 - 1:00am;Millonarios;Deportivo Pasto;1;1;2;12;2;2;0;1;0;Estadio Nemesio Camacho El Campín
+Aug 17 2014 - 8:15pm;Alianza Petrolera;Once Caldas;1;0;1;3;8;2;1;3;0;Estadio Álvaro Gómez Hurtado
+Aug 17 2014 - 10:30pm;Deportivo Cali;Santa Fe;2;0;2;1;6;2;0;5;0;Estadio Olímpico Pascual Guerrero
+Aug 17 2014 - 10:30pm;Patriotas Boyacá;Junior;0;0;0;-1;-1;3;0;3;0;Estadio de La Independencia
+Aug 18 2014 - 12:30am;Independiente Medellín;Atlético Huila;4;1;5;5;4;2;0;4;2;Estadio Atanasio Girardot
+Aug 23 2014 - 8:15pm;Fortaleza CEIF;Uniautónoma;1;1;2;13;1;3;0;3;0;Estadio Metropolitano de Techo
+Aug 23 2014 - 10:30pm;Rionegro Águilas;Patriotas Boyacá;2;3;5;11;0;3;0;6;0;Estadio Hernán Ramírez Villegas
+Aug 23 2014 - 10:30pm;Atlético Nacional;Envigado;0;1;1;8;5;2;0;1;0;Estadio Atanasio Girardot
+Aug 24 2014 - 12:45am;Santa Fe;Alianza Petrolera;0;0;0;11;1;1;1;3;0;Estadio Nemesio Camacho El Campín
+Aug 24 2014 - 6:45pm;Boyacá Chicó;La Equidad;5;1;6;-1;-1;2;0;4;1;Estadio de La Independencia
+Aug 24 2014 - 8:45pm;Junior;Independiente Medellín;0;1;1;8;1;2;0;4;0;Estadio Metropolitano Roberto Meléndez
+Aug 24 2014 - 10:30pm;Atlético Huila;Deportivo Cali;0;1;1;-1;-1;2;0;2;0;Estadio Guillermo Plazas Alcid
+Aug 24 2014 - 10:45pm;Once Caldas;Millonarios;1;1;2;9;2;2;0;2;1;Estadio Palogrande
+Aug 25 2014 - 12:45am;Deportivo Pasto;Deportes Tolima;2;2;4;12;3;5;0;1;1;Estadio Departamental Libertad
+Aug 30 2014 - 8:15pm;Alianza Petrolera;Atlético Huila;0;0;0;6;3;2;0;2;0;Estadio Álvaro Gómez Hurtado
+Aug 30 2014 - 10:30pm;Uniautónoma;Boyacá Chicó;1;1;2;5;4;1;0;1;0;Estadio Metropolitano Roberto Meléndez
+Aug 31 2014 - 12:45am;Patriotas Boyacá;Fortaleza CEIF;1;0;1;3;0;2;1;3;2;Estadio de La Independencia
+Aug 31 2014 - 6:45pm;Envigado;Deportivo Pasto;1;2;3;10;2;1;0;4;0;Estadio Polideportivo Sur
+Aug 31 2014 - 8:45pm;Deportivo Cali;Junior;1;0;1;5;5;2;0;3;0;Estadio Olímpico Pascual Guerrero
+Aug 31 2014 - 10:30pm;Deportes Tolima;Once Caldas;3;3;6;5;2;0;0;5;2;Estadio Manuel Murillo Toro
+Aug 31 2014 - 10:45pm;Independiente Medellín;Rionegro Águilas;3;0;3;10;2;3;0;4;0;Estadio Atanasio Girardot
+Sep 01 2014 - 12:45am;Millonarios;Santa Fe;0;1;1;4;3;2;0;2;0;Estadio Nemesio Camacho El Campín
+Sep 02 2014 - 1:00am;La Equidad;Atlético Nacional;0;4;4;3;5;2;0;2;0;Estadio Nemesio Camacho El Campín
+Sep 03 2014 - 11:00pm;Rionegro Águilas;Santa Fe;2;1;3;3;8;3;0;3;0;Estadio Hernán Ramírez Villegas
+Sep 04 2014 - 1:00am;Junior;Atlético Huila;4;3;7;-1;-1;4;0;3;0;Estadio Metropolitano Roberto Meléndez
+Sep 04 2014 - 8:15pm;Alianza Petrolera;La Equidad;3;1;4;4;4;3;0;3;0;Estadio Álvaro Gómez Hurtado
+Sep 06 2014 - 7:00pm;Fortaleza CEIF;Independiente Medellín;2;3;5;5;6;3;0;3;0;Estadio Metropolitano de Techo
+Sep 06 2014 - 9:00pm;Atlético Huila;Millonarios;1;0;1;-1;-1;3;0;0;0;Estadio Guillermo Plazas Alcid
+Sep 06 2014 - 10:30pm;Santa Fe;Deportes Tolima;5;0;5;4;7;4;0;4;0;Estadio Nemesio Camacho El Campín
+Sep 06 2014 - 11:00pm;Patriotas Boyacá;Uniautónoma;1;0;1;-1;-1;2;0;4;0;Estadio de La Independencia
+Sep 07 2014 - 1:00am;Once Caldas;Envigado;2;1;3;-1;-1;2;0;5;1;Estadio Palogrande
+Sep 07 2014 - 8:15pm;Deportivo Pasto;La Equidad;0;0;0;5;1;3;0;3;0;Estadio Departamental Libertad
+Sep 07 2014 - 10:30pm;Junior;Alianza Petrolera;0;1;1;5;0;6;0;5;1;Estadio Metropolitano Roberto Meléndez
+Sep 07 2014 - 10:30pm;Atlético Nacional;Boyacá Chicó;2;2;4;6;4;2;0;2;0;Estadio Atanasio Girardot
+Sep 08 2014 - 12:30am;Rionegro Águilas;Deportivo Cali;0;1;1;-1;-1;1;0;4;0;Estadio Hernán Ramírez Villegas
+Sep 13 2014 - 12:45am;Envigado;Rionegro Águilas;2;0;2;3;10;1;0;2;0;Estadio Polideportivo Sur
+Sep 13 2014 - 8:15pm;La Equidad;Fortaleza CEIF;0;0;0;5;5;2;0;5;0;Estadio Metropolitano de Techo
+Sep 13 2014 - 10:30pm;Deportivo Pasto;Deportivo Cali;2;0;2;5;6;2;0;2;0;Estadio Departamental Libertad
+Sep 13 2014 - 10:30pm;Santa Fe;Millonarios;4;1;5;3;8;2;1;1;0;Estadio Nemesio Camacho El Campín
+Sep 14 2014 - 12:45am;Atlético Nacional;Independiente Medellín;1;0;1;7;11;3;0;3;0;Estadio Atanasio Girardot
+Sep 14 2014 - 9:00pm;Boyacá Chicó;Patriotas Boyacá;1;1;2;4;6;3;2;3;2;Estadio de La Independencia
+Sep 14 2014 - 10:30pm;Once Caldas;Alianza Petrolera;3;0;3;2;3;1;0;2;0;Estadio Palogrande
+Sep 14 2014 - 11:00pm;Atlético Huila;Deportes Tolima;0;0;0;11;3;3;0;2;0;Estadio Guillermo Plazas Alcid
+Sep 15 2014 - 1:00am;Junior;Uniautónoma;3;1;4;-1;-1;1;0;6;1;Estadio Metropolitano Roberto Meléndez
+Sep 20 2014 - 7:00pm;Boyacá Chicó;Deportivo Pasto;0;0;0;-1;-1;3;0;3;0;Estadio de La Independencia
+Sep 20 2014 - 9:00pm;Deportes Tolima;Atlético Huila;1;5;6;9;5;2;0;2;0;Estadio Manuel Murillo Toro
+Sep 20 2014 - 10:30pm;La Equidad;Once Caldas;2;0;2;6;4;0;0;3;0;Estadio Metropolitano de Techo
+Sep 20 2014 - 11:00pm;Millonarios;Junior;0;0;0;17;4;1;0;3;0;Estadio Nemesio Camacho El Campín
+Sep 21 2014 - 1:00am;Independiente Medellín;Patriotas Boyacá;3;1;4;1;4;3;0;1;0;Estadio Atanasio Girardot
+Sep 21 2014 - 8:15pm;Alianza Petrolera;Rionegro Águilas;1;0;1;3;4;2;0;4;0;Estadio Álvaro Gómez Hurtado
+Sep 21 2014 - 10:30pm;Uniautónoma;Atlético Nacional;0;3;3;9;3;4;0;1;0;Estadio Metropolitano Roberto Meléndez
+Sep 21 2014 - 10:30pm;Envigado;Santa Fe;2;2;4;5;2;2;1;1;0;Estadio Polideportivo Sur
+Sep 22 2014 - 12:30am;Deportivo Cali;Fortaleza CEIF;2;0;2;2;5;4;0;5;0;Estadio Olímpico Pascual Guerrero
+Sep 24 2014 - 7:00pm;Fortaleza CEIF;Alianza Petrolera;2;1;3;5;1;5;0;3;0;Estadio Metropolitano de Techo
+Sep 24 2014 - 9:00pm;Atlético Huila;Envigado;1;1;2;-1;-1;2;0;4;0;Estadio Guillermo Plazas Alcid
+Sep 24 2014 - 11:00pm;Junior;Deportes Tolima;1;0;1;5;5;2;0;3;0;Estadio Metropolitano Roberto Meléndez
+Sep 24 2014 - 11:00pm;Santa Fe;La Equidad;2;0;2;4;5;2;0;1;0;Estadio Nemesio Camacho El Campín
+Sep 25 2014 - 1:00am;Independiente Medellín;Uniautónoma;1;0;1;8;9;1;0;1;0;Estadio Atanasio Girardot
+Sep 25 2014 - 1:00am;Rionegro Águilas;Millonarios;4;2;6;1;6;3;0;0;0;Estadio Hernán Ramírez Villegas
+Sep 25 2014 - 11:00pm;Patriotas Boyacá;Deportivo Cali;1;0;1;7;3;3;0;3;0;Estadio de La Independencia
+Sep 26 2014 - 1:00am;Once Caldas;Boyacá Chicó;4;1;5;6;5;3;0;5;0;Estadio Palogrande
+Sep 27 2014 - 7:00pm;La Equidad;Atlético Huila;1;1;2;3;6;1;0;0;0;Estadio Metropolitano de Techo
+Sep 27 2014 - 9:00pm;Uniautónoma;Deportivo Pasto;1;1;2;4;5;3;1;1;0;Estadio Metropolitano Roberto Meléndez
+Sep 27 2014 - 10:30pm;Envigado;Junior;1;0;1;2;4;5;0;3;1;Estadio Polideportivo Sur
+Sep 27 2014 - 11:00pm;Deportes Tolima;Rionegro Águilas;2;0;2;1;3;2;0;2;0;Estadio Manuel Murillo Toro
+Sep 28 2014 - 1:00am;Millonarios;Fortaleza CEIF;4;0;4;6;6;3;0;5;0;Estadio Nemesio Camacho El Campín
+Sep 28 2014 - 8:15pm;Alianza Petrolera;Patriotas Boyacá;1;1;2;-1;-1;1;0;0;0;Estadio Álvaro Gómez Hurtado
+Sep 28 2014 - 10:30pm;Atlético Nacional;Once Caldas;0;0;0;8;2;0;0;2;0;Estadio Atanasio Girardot
+Sep 28 2014 - 10:30pm;Boyacá Chicó;Santa Fe;1;2;3;3;2;3;0;4;0;Estadio de La Independencia
+Sep 29 2014 - 12:30am;Deportivo Cali;Independiente Medellín;1;1;2;5;5;1;1;3;0;Estadio Olímpico Pascual Guerrero
+Oct 04 2014 - 12:45am;Atlético Huila;Boyacá Chicó;2;0;2;8;5;1;0;1;1;Estadio Guillermo Plazas Alcid
+Oct 04 2014 - 8:15pm;Rionegro Águilas;Envigado;1;0;1;3;5;2;0;4;2;Estadio Hernán Ramírez Villegas
+Oct 04 2014 - 10:30pm;Independiente Medellín;Alianza Petrolera;1;2;3;8;3;4;1;5;0;Estadio Atanasio Girardot
+Oct 04 2014 - 10:30pm;Once Caldas;Deportivo Pasto;1;0;1;6;7;2;0;2;0;Estadio Palogrande
+Oct 05 2014 - 12:45am;Patriotas Boyacá;Millonarios;0;3;3;8;4;3;0;4;0;Estadio de La Independencia
+Oct 05 2014 - 8:15pm;Junior;La Equidad;1;0;1;9;5;2;0;3;0;Estadio Metropolitano Roberto Meléndez
+Oct 05 2014 - 10:30pm;Deportivo Cali;Uniautónoma;0;4;4;7;5;2;0;4;0;Estadio Olímpico Pascual Guerrero
+Oct 05 2014 - 10:30pm;Santa Fe;Atlético Nacional;0;1;1;4;4;2;0;3;1;Estadio Nemesio Camacho El Campín
+Oct 06 2014 - 12:30am;Fortaleza CEIF;Deportes Tolima;1;1;2;-1;-1;2;0;1;1;Estadio Metropolitano de Techo
+Oct 10 2014 - 9:00pm;La Equidad;Rionegro Águilas;0;0;0;5;9;2;0;1;0;Estadio Metropolitano de Techo
+Oct 11 2014 - 8:15pm;Alianza Petrolera;Deportivo Cali;3;1;4;-1;-1;3;0;4;0;Estadio Álvaro Gómez Hurtado
+Oct 11 2014 - 10:30pm;Deportivo Pasto;Santa Fe;1;2;3;5;6;2;0;2;0;Estadio Departamental Libertad
+Oct 11 2014 - 10:30pm;Millonarios;Independiente Medellín;1;4;5;9;3;1;0;4;0;Estadio Nemesio Camacho El Campín
+Oct 12 2014 - 12:45am;Uniautónoma;Once Caldas;0;0;0;5;3;2;0;2;0;Estadio Metropolitano Roberto Meléndez
+Oct 12 2014 - 8:15pm;Envigado;Fortaleza CEIF;0;2;2;6;5;4;1;5;0;Estadio Polideportivo Sur
+Oct 12 2014 - 10:30pm;Boyacá Chicó;Junior;2;0;2;-1;-1;2;0;4;0;Estadio de La Independencia
+Oct 12 2014 - 10:30pm;Deportes Tolima;Patriotas Boyacá;1;1;2;5;3;1;0;7;0;Estadio Manuel Murillo Toro
+Oct 13 2014 - 12:30am;Atlético Nacional;Atlético Huila;0;1;1;9;3;2;0;3;0;Estadio Atanasio Girardot
+Oct 16 2014 - 12:45am;Deportivo Pasto;Atlético Nacional;2;1;3;4;5;2;0;0;0;Estadio Departamental Libertad
+Oct 18 2014 - 12:45am;Fortaleza CEIF;La Equidad;3;0;3;6;9;3;0;5;1;Estadio Metropolitano de Techo
+Oct 18 2014 - 8:15pm;Alianza Petrolera;Uniautónoma;0;0;0;-1;-1;0;0;4;1;Estadio Álvaro Gómez Hurtado
+Oct 18 2014 - 10:30pm;Independiente Medellín;Deportes Tolima;2;3;5;5;2;1;1;4;0;Estadio Atanasio Girardot
+Oct 18 2014 - 10:30pm;Santa Fe;Once Caldas;0;0;0;13;0;2;0;1;0;Estadio Nemesio Camacho El Campín
+Oct 19 2014 - 12:45am;Patriotas Boyacá;Envigado;2;1;3;-1;-1;3;0;2;2;Estadio de La Independencia
+Oct 19 2014 - 8:15pm;Rionegro Águilas;Boyacá Chicó;3;2;5;10;2;3;0;2;0;Estadio Hernán Ramírez Villegas
+Oct 19 2014 - 10:30pm;Deportivo Cali;Millonarios;4;3;7;4;2;1;0;5;0;Estadio Olímpico Pascual Guerrero
+Oct 19 2014 - 10:30pm;Junior;Atlético Nacional;0;1;1;5;3;3;0;1;0;Estadio Metropolitano Roberto Meléndez
+Oct 20 2014 - 12:30am;Atlético Huila;Deportivo Pasto;3;0;3;2;5;1;0;4;0;Estadio Guillermo Plazas Alcid
+Oct 25 2014 - 12:00am;Boyacá Chicó;Fortaleza CEIF;0;0;0;6;3;1;0;5;0;Estadio de La Independencia
+Oct 25 2014 - 8:15pm;La Equidad;Patriotas Boyacá;4;2;6;5;4;3;0;3;0;Estadio Metropolitano de Techo
+Oct 25 2014 - 10:30pm;Uniautónoma;Santa Fe;1;0;1;6;6;2;0;4;0;Estadio Metropolitano Roberto Meléndez
+Oct 25 2014 - 10:30pm;Atlético Nacional;Rionegro Águilas;2;0;2;7;2;1;0;3;0;Estadio Atanasio Girardot
+Oct 26 2014 - 1:45am;Millonarios;Alianza Petrolera;2;0;2;3;8;5;0;2;1;Estadio Nemesio Camacho El Campín
+Oct 26 2014 - 8:15pm;Deportivo Pasto;Junior;3;3;6;7;4;2;0;2;0;Estadio Departamental Libertad
+Oct 26 2014 - 10:30pm;Once Caldas;Atlético Huila;0;0;0;7;3;1;0;4;0;Estadio Palogrande
+Oct 26 2014 - 10:35pm;Envigado;Independiente Medellín;0;1;1;9;4;3;0;3;0;Estadio Polideportivo Sur
+Oct 27 2014 - 12:30am;Deportes Tolima;Deportivo Cali;2;3;5;10;1;1;0;3;0;Estadio Manuel Murillo Toro
+Nov 01 2014 - 8:15pm;Rionegro Águilas;Deportivo Pasto;2;0;2;4;2;1;0;2;0;Estadio Hernán Ramírez Villegas
+Nov 01 2014 - 10:30pm;Deportivo Cali;Envigado;0;0;0;6;3;4;0;3;0;Estadio Olímpico Pascual Guerrero
+Nov 01 2014 - 10:30pm;Independiente Medellín;La Equidad;1;1;2;8;5;3;0;3;0;Estadio Atanasio Girardot
+Nov 02 2014 - 12:45am;Fortaleza CEIF;Atlético Nacional;1;0;1;-1;-1;5;0;1;0;Estadio Nemesio Camacho El Campín
+Nov 02 2014 - 6:00pm;Patriotas Boyacá;Boyacá Chicó;1;0;1;-1;-1;4;0;5;1;Estadio de La Independencia
+Nov 02 2014 - 8:15pm;Alianza Petrolera;Deportes Tolima;0;1;1;-1;-1;2;1;3;0;Estadio Álvaro Gómez Hurtado
+Nov 02 2014 - 10:30pm;Millonarios;Uniautónoma;0;0;0;-1;-1;1;0;1;0;Estadio Nemesio Camacho El Campín
+Nov 02 2014 - 10:30pm;Atlético Huila;Santa Fe;1;0;1;10;5;6;0;6;0;Estadio Guillermo Plazas Alcid
+Nov 03 2014 - 12:30am;Junior;Once Caldas;2;0;2;6;8;1;0;4;1;Estadio Metropolitano Roberto Meléndez
+Nov 09 2014 - 10:30pm;Uniautónoma;Atlético Huila;1;0;1;6;6;1;0;1;0;Estadio Metropolitano Roberto Meléndez
+Nov 09 2014 - 10:30pm;Santa Fe;Junior;1;0;1;5;3;4;0;2;0;Estadio Nemesio Camacho El Campín
+Nov 09 2014 - 10:30pm;Once Caldas;Rionegro Águilas;1;2;3;6;3;1;0;1;0;Estadio Palogrande
+Nov 09 2014 - 10:30pm;Deportivo Pasto;Fortaleza CEIF;1;1;2;4;9;1;0;3;0;Estadio Departamental Libertad
+Nov 09 2014 - 10:30pm;Atlético Nacional;Patriotas Boyacá;2;0;2;9;3;4;0;4;1;Estadio Atanasio Girardot
+Nov 09 2014 - 10:30pm;La Equidad;Deportivo Cali;3;2;5;8;3;1;0;3;0;Estadio Metropolitano de Techo
+Nov 09 2014 - 10:30pm;Boyacá Chicó;Independiente Medellín;3;1;4;6;5;0;0;2;1;Estadio de La Independencia
+Nov 09 2014 - 10:30pm;Envigado;Alianza Petrolera;2;3;5;7;9;6;0;2;0;Estadio Polideportivo Sur
+Nov 09 2014 - 10:30pm;Deportes Tolima;Millonarios;1;0;1;4;2;2;0;4;0;Estadio Manuel Murillo Toro
+Nov 14 2014 - 12:45am;Atlético Nacional;Atlético Huila;1;0;1;9;3;3;0;4;0;Estadio Atanasio Girardot
+Nov 16 2014 - 12:45am;Independiente Medellín;Deportivo Cali;3;2;5;10;5;2;0;4;1;Estadio Atanasio Girardot
+Nov 16 2014 - 8:30pm;Rionegro Águilas;Deportes Tolima;2;2;4;5;4;3;0;4;0;Estadio Hernán Ramírez Villegas
+Nov 16 2014 - 10:30pm;Santa Fe;Atlético Nacional;3;2;5;3;6;4;0;3;1;Estadio Nemesio Camacho El Campín
+Nov 17 2014 - 12:45am;Atlético Huila;Once Caldas;2;1;3;-1;-1;3;1;3;0;Estadio Guillermo Plazas Alcid
+Nov 19 2014 - 11:00pm;Once Caldas;Santa Fe;0;1;1;9;5;3;1;5;0;Estadio Palogrande
+Nov 20 2014 - 11:00pm;Deportivo Cali;Rionegro Águilas;2;2;4;5;7;3;0;3;0;Estadio Olímpico Pascual Guerrero
+Nov 21 2014 - 1:00am;Deportes Tolima;Independiente Medellín;1;2;3;8;2;0;0;3;0;Estadio Manuel Murillo Toro
+Nov 22 2014 - 10:30pm;Once Caldas;Atlético Nacional;1;0;1;3;10;5;0;4;1;Estadio Palogrande
+Nov 23 2014 - 12:30am;Atlético Huila;Santa Fe;3;3;6;-1;-1;2;0;3;0;Estadio Guillermo Plazas Alcid
+Nov 23 2014 - 10:00pm;Deportivo Cali;Deportes Tolima;2;1;3;5;2;5;0;0;1;Estadio Olímpico Pascual Guerrero
+Nov 24 2014 - 12:00am;Independiente Medellín;Rionegro Águilas;2;1;3;3;2;2;0;1;0;Estadio Atanasio Girardot
+Nov 29 2014 - 10:30pm;Santa Fe;Atlético Huila;0;0;0;10;2;3;0;5;0;Estadio Nemesio Camacho El Campín
+Nov 30 2014 - 12:45am;Deportes Tolima;Deportivo Cali;4;2;6;5;2;2;1;4;1;Estadio Manuel Murillo Toro
+Nov 30 2014 - 10:00pm;Rionegro Águilas;Independiente Medellín;2;2;4;11;3;2;0;2;0;Estadio Hernán Ramírez Villegas
+Dec 01 2014 - 12:00am;Atlético Nacional;Once Caldas;1;0;1;3;2;3;0;6;0;Estadio Atanasio Girardot
+Dec 06 2014 - 11:00pm;Atlético Huila;Atlético Nacional;1;0;1;0;3;3;0;4;0;Estadio Guillermo Plazas Alcid
+Dec 06 2014 - 11:00pm;Santa Fe;Once Caldas;0;1;1;8;5;4;0;4;0;Estadio Nemesio Camacho El Campín
+Dec 07 2014 - 8:00pm;Rionegro Águilas;Deportivo Cali;2;2;4;3;5;2;0;5;1;Estadio Hernán Ramírez Villegas
+Dec 07 2014 - 10:00pm;Independiente Medellín;Deportes Tolima;1;1;2;10;4;6;0;6;0;Estadio Atanasio Girardot
+Dec 13 2014 - 8:15pm;Deportes Tolima;Rionegro Águilas;1;2;3;10;2;3;1;5;0;Estadio Manuel Murillo Toro
+Dec 13 2014 - 10:30pm;Deportivo Cali;Independiente Medellín;2;1;3;2;3;5;0;4;0;Estadio Olímpico Pascual Guerrero
+Dec 14 2014 - 11:15pm;Atlético Nacional;Santa Fe;0;1;1;8;5;3;0;4;0;Estadio Atanasio Girardot
+Dec 14 2014 - 11:15pm;Once Caldas;Atlético Huila;1;2;3;3;3;2;0;3;0;Estadio Palogrande
+Dec 18 2014 - 12:30am;Independiente Medellín;Santa Fe;1;2;3;8;6;0;0;1;0;Estadio Atanasio Girardot
+Dec 21 2014 - 11:00pm;Santa Fe;Independiente Medellín;1;1;2;1;6;3;0;3;0;Estadio Nemesio Camacho El Campín

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171037412838",
+    "project_id": "futbol-95807",
+    "storage_bucket": "futbol-95807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171037412838:android:bd5c5da7d21f3b55f71a27",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLPQGjiz8tMtn7tSloNqTPpLcr31o-KdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

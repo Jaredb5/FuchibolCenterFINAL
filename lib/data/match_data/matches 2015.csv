@@ -1,0 +1,429 @@
+﻿date_GMT;home_team_name;away_team_name;home_team_goal_count;away_team_goal_count;total_goal_count;home_team_corner_count;away_team_corner_count;home_team_yellow_cards;home_team_red_cards;away_team_yellow_cards;away_team_red_cards;stadium_name
+Jan 31 2015 - 12:45am;Cortuluá;Envigado;1;1;2;7;3;3;1;3;0;Estadio Doce de Octubre
+Jan 31 2015 - 8:15pm;Deportes Tolima;Boyacá Chicó;4;1;5;4;5;2;0;3;0;Estadio Manuel Murillo Toro
+Jan 31 2015 - 10:30pm;Once Caldas;Independiente Medellín;0;2;2;10;3;1;0;3;0;Estadio Palogrande
+Feb 01 2015 - 12:45am;Atlético Nacional;Rionegro Águilas;2;0;2;9;3;3;0;3;0;Estadio Atanasio Girardot
+Feb 01 2015 - 8:00pm;Jaguares de Córdoba;Deportivo Cali;0;0;0;-1;-1;2;0;5;0;Estadio de Fútbol Jaraguay de Montería
+Feb 01 2015 - 10:00pm;La Equidad;Santa Fe;2;2;4;4;3;4;1;3;1;Estadio Metropolitano de Techo
+Feb 01 2015 - 10:30pm;Patriotas Boyacá;Atlético Huila;2;1;3;1;4;4;0;0;0;Estadio de La Independencia
+Feb 02 2015 - 12:30am;Cúcuta Deportivo;Junior;1;0;1;7;6;3;0;3;0;Estadio General Santander
+Feb 03 2015 - 12:45am;Uniautónoma;Alianza Petrolera;1;1;2;3;1;1;0;3;0;Estadio Metropolitano Roberto Meléndez
+Feb 07 2015 - 12:45am;Atlético Huila;Jaguares de Córdoba;2;1;3;6;2;3;0;2;0;Estadio Guillermo Plazas Alcid
+Feb 07 2015 - 7:00pm;Deportivo Pasto;Cortuluá;0;3;3;4;2;2;0;2;0;Estadio Departamental Libertad
+Feb 07 2015 - 9:00pm;Rionegro Águilas;Uniautónoma;1;0;1;5;5;1;0;2;1;Estadio Hernán Ramírez Villegas
+Feb 07 2015 - 10:00pm;Millonarios;Patriotas Boyacá;2;0;2;7;5;3;0;4;0;Estadio Nemesio Camacho El Campín
+Feb 07 2015 - 11:00pm;Independiente Medellín;Atlético Nacional;0;1;1;8;4;2;0;4;0;Estadio Atanasio Girardot
+Feb 08 2015 - 1:00am;Cúcuta Deportivo;Santa Fe;2;2;4;-1;-1;1;0;2;0;Estadio General Santander
+Feb 08 2015 - 8:15pm;Boyacá Chicó;Alianza Petrolera;0;0;0;7;1;1;0;1;0;Estadio de La Independencia
+Feb 08 2015 - 10:00pm;Deportivo Cali;La Equidad;2;0;2;2;3;3;0;6;1;Estadio Deportivo Cali
+Feb 08 2015 - 10:30pm;Junior;Once Caldas;2;1;3;9;4;2;0;3;0;Estadio Metropolitano Roberto Meléndez
+Feb 09 2015 - 12:30am;Envigado;Deportes Tolima;1;0;1;3;6;4;0;3;0;Estadio Polideportivo Sur
+Feb 10 2015 - 9:00pm;Jaguares de Córdoba;Deportivo Pasto;2;0;2;-1;-1;0;0;3;1;Estadio de Fútbol Jaraguay de Montería
+Feb 11 2015 - 12:45am;Patriotas Boyacá;Cúcuta Deportivo;3;0;3;9;1;2;0;6;1;Estadio de La Independencia
+Feb 11 2015 - 9:00pm;Alianza Petrolera;Rionegro Águilas;1;0;1;-1;-1;4;0;1;0;Estadio Álvaro Gómez Hurtado
+Feb 11 2015 - 11:00pm;Atlético Nacional;Atlético Huila;1;2;3;7;5;2;0;2;0;Estadio Atanasio Girardot
+Feb 11 2015 - 11:00pm;La Equidad;Envigado;0;1;1;6;1;2;0;2;0;Estadio Metropolitano de Techo
+Feb 12 2015 - 1:00am;Uniautónoma;Deportivo Cali;1;2;3;3;4;3;0;3;0;Estadio Metropolitano Roberto Meléndez
+Feb 12 2015 - 1:00am;Santa Fe;Boyacá Chicó;1;0;1;5;3;3;1;3;0;Estadio Nemesio Camacho El Campín
+Feb 12 2015 - 11:00pm;Cortuluá;Junior;2;0;2;6;6;3;0;4;0;Estadio Doce de Octubre
+Feb 13 2015 - 1:00am;Deportes Tolima;Independiente Medellín;1;2;3;12;3;1;0;4;0;Estadio Manuel Murillo Toro
+Feb 14 2015 - 7:00pm;La Equidad;Rionegro Águilas;0;2;2;-1;-1;1;0;1;0;Estadio Metropolitano de Techo
+Feb 14 2015 - 9:00pm;Alianza Petrolera;Santa Fe;0;1;1;-1;-1;2;1;2;0;Estadio Álvaro Gómez Hurtado
+Feb 14 2015 - 10:00pm;Envigado;Atlético Nacional;1;2;3;2;7;1;0;3;0;Estadio Polideportivo Sur
+Feb 14 2015 - 11:00pm;Boyacá Chicó;Uniautónoma;0;0;0;6;2;3;0;3;0;Estadio de La Independencia
+Feb 15 2015 - 1:00am;Millonarios;Cúcuta Deportivo;3;0;3;-1;-1;1;0;3;1;Estadio Nemesio Camacho El Campín
+Feb 15 2015 - 8:15pm;Cortuluá;Atlético Huila;0;1;1;8;2;2;0;2;0;Estadio Doce de Octubre
+Feb 15 2015 - 10:00pm;Deportes Tolima;Deportivo Cali;4;1;5;8;11;1;0;4;0;Estadio Manuel Murillo Toro
+Feb 15 2015 - 10:30pm;Independiente Medellín;Jaguares de Córdoba;2;2;4;12;0;3;0;5;0;Estadio Atanasio Girardot
+Feb 16 2015 - 12:30am;Once Caldas;Deportivo Pasto;1;0;1;9;1;3;1;4;0;Estadio Palogrande
+Feb 21 2015 - 7:00pm;Envigado;Uniautónoma;2;0;2;3;2;2;0;2;1;Estadio Polideportivo Sur
+Feb 21 2015 - 9:00pm;Cúcuta Deportivo;Boyacá Chicó;1;1;2;-1;-1;3;0;5;0;Estadio General Santander
+Feb 21 2015 - 10:00pm;Deportivo Cali;Alianza Petrolera;0;0;0;15;3;3;2;4;1;Estadio Deportivo Cali
+Feb 21 2015 - 11:00pm;Millonarios;Cortuluá;4;1;5;11;2;3;0;4;0;Estadio Nemesio Camacho El Campín
+Feb 22 2015 - 1:00am;Junior;Jaguares de Córdoba;4;0;4;6;2;1;0;3;1;Estadio Metropolitano Roberto Meléndez
+Feb 22 2015 - 7:00pm;Patriotas Boyacá;Once Caldas;1;1;2;5;2;4;0;4;0;Estadio de La Independencia
+Feb 22 2015 - 9:00pm;Independiente Medellín;La Equidad;1;0;1;5;1;2;0;2;0;Estadio Atanasio Girardot
+Feb 22 2015 - 10:00pm;Rionegro Águilas;Santa Fe;1;1;2;7;6;2;0;4;0;Estadio Hernán Ramírez Villegas
+Feb 22 2015 - 11:00pm;Deportivo Pasto;Atlético Nacional;2;1;3;2;6;2;0;3;1;Estadio Departamental Libertad
+Feb 23 2015 - 1:00am;Atlético Huila;Deportes Tolima;1;1;2;6;5;2;0;2;0;Estadio Guillermo Plazas Alcid
+Feb 24 2015 - 11:00pm;Boyacá Chicó;Envigado;1;1;2;1;8;1;0;1;0;Estadio de La Independencia
+Feb 25 2015 - 1:00am;Cortuluá;Cúcuta Deportivo;0;0;0;6;2;2;0;3;0;Estadio Doce de Octubre
+Feb 25 2015 - 9:00pm;Jaguares de Córdoba;Once Caldas;1;2;3;-1;-1;5;1;5;0;Estadio de Fútbol Jaraguay de Montería
+Feb 25 2015 - 9:00pm;Alianza Petrolera;Atlético Huila;1;1;2;-1;-1;2;0;3;0;Estadio Daniel Villa Zapata
+Feb 25 2015 - 11:00pm;La Equidad;Junior;1;0;1;5;1;3;1;2;0;Estadio Metropolitano de Techo
+Feb 26 2015 - 1:00am;Deportes Tolima;Millonarios;1;0;1;2;5;4;1;4;1;Estadio Manuel Murillo Toro
+Feb 26 2015 - 1:00am;Uniautónoma;Deportivo Pasto;1;0;1;2;2;3;0;3;0;Estadio Metropolitano Roberto Meléndez
+Feb 26 2015 - 11:00pm;Rionegro Águilas;Deportivo Cali;2;1;3;4;0;3;0;3;1;Estadio Hernán Ramírez Villegas
+Feb 27 2015 - 1:00am;Atlético Nacional;Patriotas Boyacá;2;0;2;5;5;4;0;2;0;Estadio Atanasio Girardot
+Feb 28 2015 - 7:00pm;Deportivo Pasto;Independiente Medellín;0;3;3;6;4;2;0;4;0;Estadio Departamental Libertad
+Feb 28 2015 - 9:00pm;Deportes Tolima;La Equidad;1;0;1;4;3;2;0;2;0;Estadio Manuel Murillo Toro
+Feb 28 2015 - 11:00pm;Junior;Envigado;0;0;0;6;2;3;0;5;0;Estadio Metropolitano Roberto Meléndez
+Feb 28 2015 - 11:00pm;Once Caldas;Boyacá Chicó;2;2;4;10;2;3;1;4;0;Estadio Palogrande
+Mar 01 2015 - 1:00am;Atlético Huila;Cúcuta Deportivo;3;0;3;-1;-1;3;0;2;1;Estadio Guillermo Plazas Alcid
+Mar 01 2015 - 7:00pm;Patriotas Boyacá;Rionegro Águilas;1;0;1;2;5;2;1;3;0;Estadio de La Independencia
+Mar 01 2015 - 9:00pm;Jaguares de Córdoba;Alianza Petrolera;2;0;2;-1;-1;4;1;3;0;Estadio de Fútbol Jaraguay de Montería
+Mar 01 2015 - 10:00pm;Atlético Nacional;Uniautónoma;4;0;4;8;3;2;0;2;1;Estadio Atanasio Girardot
+Mar 01 2015 - 11:00pm;Deportivo Cali;Millonarios;5;1;6;8;6;1;0;3;0;Estadio Deportivo Cali
+Mar 02 2015 - 1:00am;Santa Fe;Cortuluá;3;0;3;5;6;3;0;4;0;Estadio Nemesio Camacho El Campín
+Mar 07 2015 - 7:00pm;Envigado;Rionegro Águilas;1;0;1;3;7;3;0;1;0;Estadio Polideportivo Sur
+Mar 07 2015 - 9:00pm;Millonarios;La Equidad;1;1;2;4;5;1;0;4;0;Estadio Nemesio Camacho El Campín
+Mar 07 2015 - 11:00pm;Atlético Huila;Santa Fe;2;2;4;9;1;2;0;4;0;Estadio Guillermo Plazas Alcid
+Mar 07 2015 - 11:00pm;Deportivo Pasto;Alianza Petrolera;0;0;0;10;2;3;0;1;0;Estadio Departamental Libertad
+Mar 08 2015 - 1:00am;Independiente Medellín;Boyacá Chicó;1;1;2;2;3;2;1;4;1;Estadio Atanasio Girardot
+Mar 08 2015 - 7:00pm;Cortuluá;Jaguares de Córdoba;1;2;3;7;6;4;1;5;0;Estadio Doce de Octubre
+Mar 08 2015 - 9:00pm;Junior;Uniautónoma;2;1;3;7;3;3;0;4;2;Estadio Metropolitano Roberto Meléndez
+Mar 08 2015 - 10:00pm;Once Caldas;Atlético Nacional;3;3;6;8;8;3;0;2;0;Estadio Palogrande
+Mar 08 2015 - 11:00pm;Cúcuta Deportivo;Deportivo Cali;2;4;6;5;6;2;1;3;0;Estadio General Santander
+Mar 09 2015 - 1:00am;Patriotas Boyacá;Deportes Tolima;1;0;1;6;2;3;1;3;1;Estadio de La Independencia
+Mar 10 2015 - 11:00pm;Envigado;Deportivo Pasto;2;1;3;1;2;3;0;2;1;Estadio Polideportivo Sur
+Mar 11 2015 - 1:00am;Rionegro Águilas;Millonarios;0;0;0;4;6;1;0;1;0;Estadio Hernán Ramírez Villegas
+Mar 11 2015 - 9:00pm;Alianza Petrolera;Cortuluá;1;1;2;-1;-1;3;0;4;0;Estadio Álvaro Gómez Hurtado
+Mar 11 2015 - 11:00pm;Cúcuta Deportivo;Deportes Tolima;1;1;2;2;1;2;0;4;0;Estadio General Santander
+Mar 11 2015 - 11:00pm;Uniautónoma;Jaguares de Córdoba;1;1;2;3;9;2;0;2;0;Estadio Metropolitano Roberto Meléndez
+Mar 12 2015 - 1:00am;Santa Fe;Once Caldas;0;1;1;5;2;3;0;4;0;Estadio Nemesio Camacho El Campín
+Mar 12 2015 - 1:00am;Independiente Medellín;Atlético Huila;2;0;2;3;6;2;0;5;0;Estadio Atanasio Girardot
+Mar 12 2015 - 11:00pm;Boyacá Chicó;Patriotas Boyacá;1;1;2;6;3;6;0;3;0;Estadio de La Independencia
+Mar 13 2015 - 1:00am;Deportivo Cali;Junior;3;2;5;-1;-1;5;1;4;3;Estadio Deportivo Cali
+Mar 14 2015 - 7:00pm;Once Caldas;Rionegro Águilas;1;1;2;5;7;4;0;3;0;Estadio Palogrande
+Mar 14 2015 - 9:00pm;Jaguares de Córdoba;Envigado;2;1;3;-1;-1;2;0;3;0;Estadio de Fútbol Jaraguay de Montería
+Mar 14 2015 - 9:00pm;Alianza Petrolera;Cúcuta Deportivo;3;2;5;-1;-1;2;0;1;0;Estadio Álvaro Gómez Hurtado
+Mar 14 2015 - 11:00pm;Millonarios;Santa Fe;0;0;0;5;5;2;0;3;0;Estadio Nemesio Camacho El Campín
+Mar 15 2015 - 1:00am;Deportes Tolima;Atlético Huila;3;1;4;5;9;0;0;2;0;Estadio Manuel Murillo Toro
+Mar 15 2015 - 7:00pm;La Equidad;Deportivo Pasto;1;1;2;8;3;1;0;1;0;Estadio Metropolitano de Techo
+Mar 15 2015 - 9:00pm;Patriotas Boyacá;Boyacá Chicó;1;1;2;-1;-1;4;0;4;0;Estadio de La Independencia
+Mar 15 2015 - 10:00pm;Atlético Nacional;Independiente Medellín;3;1;4;1;4;3;0;4;0;Estadio Atanasio Girardot
+Mar 15 2015 - 11:00pm;Cortuluá;Deportivo Cali;2;1;3;4;8;4;1;4;1;Estadio Doce de Octubre
+Mar 16 2015 - 1:00am;Uniautónoma;Junior;0;2;2;3;5;1;0;1;0;Estadio Metropolitano Roberto Meléndez
+Mar 21 2015 - 7:00pm;Boyacá Chicó;La Equidad;1;2;3;1;9;3;0;5;1;Estadio de La Independencia
+Mar 21 2015 - 9:00pm;Independiente Medellín;Cortuluá;2;1;3;4;4;1;0;5;0;Estadio Atanasio Girardot
+Mar 21 2015 - 11:00pm;Envigado;Jaguares de Córdoba;2;0;2;7;0;2;0;3;0;Estadio Polideportivo Sur
+Mar 22 2015 - 1:00am;Santa Fe;Uniautónoma;4;1;5;6;2;0;0;3;0;Estadio Nemesio Camacho El Campín
+Mar 22 2015 - 8:15pm;Atlético Huila;Once Caldas;1;0;1;5;0;3;0;4;1;Estadio Guillermo Plazas Alcid
+Mar 22 2015 - 8:15pm;Junior;Millonarios;2;0;2;4;4;0;0;2;0;Estadio Metropolitano Roberto Meléndez
+Mar 22 2015 - 10:00pm;Deportivo Cali;Atlético Nacional;3;1;4;8;6;1;0;3;0;Estadio Deportivo Cali
+Mar 22 2015 - 10:30pm;Rionegro Águilas;Deportes Tolima;0;0;0;2;3;1;0;5;0;Estadio Alberto Grisales
+Mar 23 2015 - 12:30am;Deportivo Pasto;Patriotas Boyacá;1;3;4;6;5;2;0;3;0;Estadio Departamental Libertad
+Mar 23 2015 - 9:00pm;Cúcuta Deportivo;Alianza Petrolera;0;0;0;2;6;4;1;4;0;Estadio General Santander
+Mar 25 2015 - 1:00am;Santa Fe;Independiente Medellín;3;1;4;1;4;1;0;3;0;Estadio Nemesio Camacho El Campín
+Mar 25 2015 - 11:00pm;Junior;Patriotas Boyacá;2;0;2;2;2;2;0;5;1;Estadio Metropolitano Roberto Meléndez
+Mar 26 2015 - 1:00am;Millonarios;Deportivo Pasto;5;1;6;8;1;1;0;3;0;Estadio Nemesio Camacho El Campín
+Mar 28 2015 - 12:45am;Cortuluá;Uniautónoma;0;1;1;6;6;4;0;3;0;Estadio Doce de Octubre
+Mar 28 2015 - 7:00pm;Patriotas Boyacá;Santa Fe;0;0;0;5;4;3;0;3;0;Estadio de La Independencia
+Mar 28 2015 - 9:00pm;Jaguares de Córdoba;La Equidad;1;1;2;-1;-1;5;2;5;0;Estadio de Fútbol Jaraguay de Montería
+Mar 28 2015 - 11:00pm;Deportivo Pasto;Deportivo Cali;1;4;5;7;5;1;0;1;0;Estadio Departamental Libertad
+Mar 29 2015 - 1:00am;Atlético Nacional;Deportes Tolima;2;0;2;1;5;3;0;3;0;Estadio Atanasio Girardot
+Mar 29 2015 - 8:15pm;Atlético Huila;Envigado;2;1;3;7;4;4;0;4;1;Estadio Guillermo Plazas Alcid
+Mar 29 2015 - 8:15pm;Junior;Rionegro Águilas;1;1;2;7;1;1;0;2;0;Estadio Metropolitano Roberto Meléndez
+Mar 29 2015 - 10:00pm;Cúcuta Deportivo;Independiente Medellín;1;2;3;12;4;3;0;3;0;Estadio General Santander
+Mar 29 2015 - 10:30pm;Once Caldas;Alianza Petrolera;2;2;4;10;1;2;0;3;0;Estadio Palogrande
+Mar 30 2015 - 12:30am;Millonarios;Boyacá Chicó;3;1;4;10;2;3;0;3;1;Estadio Nemesio Camacho El Campín
+Apr 01 2015 - 1:00am;Santa Fe;Deportes Tolima;1;0;1;10;4;4;0;2;0;Estadio Nemesio Camacho El Campín
+Apr 01 2015 - 10:00pm;Once Caldas;Millonarios;1;2;3;6;4;2;1;2;0;Estadio Palogrande
+Apr 02 2015 - 12:00am;Boyacá Chicó;Atlético Nacional;3;2;5;9;3;2;0;3;1;Estadio de La Independencia
+Apr 04 2015 - 7:00pm;La Equidad;Patriotas Boyacá;0;0;0;2;2;1;0;1;0;Estadio Metropolitano de Techo
+Apr 04 2015 - 9:00pm;Jaguares de Córdoba;Cúcuta Deportivo;1;1;2;-1;-1;4;0;6;0;Estadio de Fútbol Jaraguay de Montería
+Apr 04 2015 - 10:00pm;Santa Fe;Deportivo Pasto;4;0;4;1;3;1;0;2;0;Estadio Nemesio Camacho El Campín
+Apr 04 2015 - 11:00pm;Atlético Nacional;Cortuluá;1;3;4;9;3;2;0;5;0;Estadio Atanasio Girardot
+Apr 05 2015 - 1:00am;Boyacá Chicó;Atlético Huila;0;1;1;-1;-1;5;0;7;1;Estadio de La Independencia
+Apr 05 2015 - 1:00am;Deportivo Cali;Envigado;0;2;2;10;1;3;0;4;0;Estadio Deportivo Cali
+Apr 05 2015 - 7:00pm;Rionegro Águilas;Independiente Medellín;0;1;1;5;8;0;1;2;0;Estadio Alberto Grisales
+Apr 05 2015 - 9:00pm;Alianza Petrolera;Junior;0;0;0;-1;-1;4;0;2;0;Estadio Álvaro Gómez Hurtado
+Apr 05 2015 - 11:00pm;Uniautónoma;Millonarios;2;1;3;4;19;2;0;2;1;Estadio Metropolitano Roberto Meléndez
+Apr 06 2015 - 1:00am;Deportes Tolima;Once Caldas;1;1;2;9;2;3;0;3;0;Estadio Manuel Murillo Toro
+Apr 08 2015 - 12:45am;Deportivo Cali;Cortuluá;1;1;2;6;2;2;0;3;0;Estadio Deportivo Cali
+Apr 08 2015 - 8:30pm;Rionegro Águilas;Jaguares de Córdoba;1;0;1;7;1;0;0;3;0;Estadio Alberto Grisales
+Apr 08 2015 - 8:30pm;Atlético Huila;Millonarios;2;2;4;7;4;1;0;6;1;Estadio Guillermo Plazas Alcid
+Apr 08 2015 - 11:00pm;Uniautónoma;Cúcuta Deportivo;0;0;0;4;4;2;0;4;1;Estadio Metropolitano Roberto Meléndez
+Apr 09 2015 - 1:00am;Independiente Medellín;Patriotas Boyacá;1;0;1;4;8;1;0;2;0;Estadio Atanasio Girardot
+Apr 09 2015 - 9:00pm;Alianza Petrolera;La Equidad;2;2;4;-1;-1;2;0;5;0;Estadio Álvaro Gómez Hurtado
+Apr 09 2015 - 11:00pm;Envigado;Once Caldas;2;1;3;5;4;4;1;5;1;Estadio Polideportivo Sur
+Apr 10 2015 - 1:00am;Deportivo Pasto;Junior;0;0;0;5;0;3;1;4;1;Estadio Departamental Libertad
+Apr 11 2015 - 8:15pm;Atlético Huila;Rionegro Águilas;3;3;6;9;2;2;0;2;0;Estadio Guillermo Plazas Alcid
+Apr 11 2015 - 8:30pm;Cortuluá;Deportes Tolima;1;1;2;4;6;1;0;2;1;Estadio Doce de Octubre
+Apr 11 2015 - 10:30pm;Patriotas Boyacá;Uniautónoma;1;0;1;-1;-1;4;1;2;0;Estadio de La Independencia
+Apr 12 2015 - 12:45am;Independiente Medellín;Deportivo Cali;2;2;4;5;3;2;1;1;0;Estadio Atanasio Girardot
+Apr 12 2015 - 7:00pm;Deportivo Pasto;Boyacá Chicó;0;1;1;12;1;2;1;4;1;Estadio Departamental Libertad
+Apr 12 2015 - 9:00pm;Jaguares de Córdoba;Atlético Nacional;0;1;1;-1;-1;3;0;3;0;Estadio de Fútbol Jaraguay de Montería
+Apr 12 2015 - 10:00pm;Junior;Santa Fe;3;1;4;5;12;1;0;2;0;Estadio Metropolitano Roberto Meléndez
+Apr 12 2015 - 11:00pm;Once Caldas;La Equidad;2;2;4;7;0;1;0;3;0;Estadio Palogrande
+Apr 13 2015 - 1:00am;Cúcuta Deportivo;Envigado;0;0;0;-1;-1;4;1;1;0;Estadio General Santander
+Apr 16 2015 - 1:00am;Millonarios;Alianza Petrolera;3;1;4;5;3;2;0;3;0;Estadio Nemesio Camacho El Campín
+Apr 18 2015 - 7:00pm;La Equidad;Atlético Huila;1;2;3;3;4;4;1;3;0;Estadio Metropolitano de Techo
+Apr 18 2015 - 9:00pm;Alianza Petrolera;Envigado;1;2;3;-1;-1;3;0;3;0;Estadio Álvaro Gómez Hurtado
+Apr 18 2015 - 11:00pm;Uniautónoma;Independiente Medellín;1;1;2;3;7;2;0;3;0;Estadio Metropolitano Roberto Meléndez
+Apr 19 2015 - 1:00am;Atlético Nacional;Junior;2;2;4;3;7;4;0;3;0;Estadio Atanasio Girardot
+Apr 19 2015 - 7:00pm;Deportes Tolima;Deportivo Pasto;2;1;3;11;1;1;0;6;1;Estadio Metropolitano de Techo
+Apr 19 2015 - 9:00pm;Jaguares de Córdoba;Millonarios;3;3;6;-1;-1;3;0;2;0;Estadio de Fútbol Jaraguay de Montería
+Apr 19 2015 - 10:00pm;Santa Fe;Deportivo Cali;0;1;1;12;1;5;0;5;0;Estadio Nemesio Camacho El Campín
+Apr 19 2015 - 11:45pm;Cortuluá;Patriotas Boyacá;2;0;2;4;10;3;0;3;0;Estadio Doce de Octubre
+Apr 20 2015 - 1:45am;Cúcuta Deportivo;Once Caldas;1;2;3;-1;-1;4;2;3;1;Estadio General Santander
+Apr 21 2015 - 1:00am;Boyacá Chicó;Rionegro Águilas;0;1;1;5;4;5;0;2;0;Estadio de La Independencia
+Apr 25 2015 - 1:00am;Boyacá Chicó;Cortuluá;2;1;3;-1;-1;2;0;3;0;Estadio de La Independencia
+Apr 25 2015 - 7:00pm;La Equidad;Cúcuta Deportivo;3;1;4;4;1;0;0;1;0;Estadio Metropolitano de Techo
+Apr 25 2015 - 9:00pm;Atlético Huila;Deportivo Pasto;3;1;4;2;3;1;0;4;1;Estadio Guillermo Plazas Alcid
+Apr 25 2015 - 11:00pm;Independiente Medellín;Junior;1;2;3;3;5;2;0;2;0;Estadio Atanasio Girardot
+Apr 26 2015 - 1:00am;Santa Fe;Jaguares de Córdoba;3;0;3;3;2;3;1;4;1;Estadio Nemesio Camacho El Campín
+Apr 26 2015 - 7:00pm;Rionegro Águilas;Once Caldas;2;1;3;4;6;1;0;2;0;Estadio Alberto Grisales
+Apr 26 2015 - 9:00pm;Alianza Petrolera;Atlético Nacional;0;1;1;-1;-1;5;0;2;0;Estadio Daniel Villa Zapata
+Apr 26 2015 - 10:00pm;Deportivo Cali;Patriotas Boyacá;0;0;0;4;4;1;0;4;0;Estadio Deportivo Cali
+Apr 26 2015 - 11:00pm;Envigado;Millonarios;0;0;0;1;8;2;0;0;0;Estadio Polideportivo Sur
+Apr 27 2015 - 1:00am;Uniautónoma;Deportes Tolima;0;2;2;5;6;3;1;3;0;Estadio Metropolitano Roberto Meléndez
+Apr 30 2015 - 12:45am;La Equidad;Atlético Nacional;2;0;2;-1;-1;6;0;3;0;Estadio Nemesio Camacho El Campín
+May 02 2015 - 1:00am;Envigado;Santa Fe;0;0;0;5;8;1;0;0;0;Estadio Polideportivo Sur
+May 02 2015 - 7:00pm;Once Caldas;Cortuluá;3;2;5;3;3;3;1;1;1;Estadio Palogrande
+May 02 2015 - 9:00pm;Cúcuta Deportivo;Rionegro Águilas;2;1;3;3;2;1;0;4;0;Estadio General Santander
+May 02 2015 - 11:00pm;Junior;Deportes Tolima;1;1;2;4;5;4;0;1;0;Estadio Metropolitano Roberto Meléndez
+May 03 2015 - 1:00am;Patriotas Boyacá;Jaguares de Córdoba;2;1;3;2;1;2;0;3;1;Estadio de La Independencia
+May 03 2015 - 8:15pm;Atlético Huila;Uniautónoma;3;1;4;-1;-1;3;2;4;0;Estadio Guillermo Plazas Alcid
+May 03 2015 - 8:15pm;Deportivo Pasto;La Equidad;1;2;3;5;5;4;0;2;0;Estadio Departamental Libertad
+May 03 2015 - 10:00pm;Millonarios;Atlético Nacional;0;0;0;6;3;2;0;1;0;Estadio Nemesio Camacho El Campín
+May 03 2015 - 10:30pm;Independiente Medellín;Alianza Petrolera;2;2;4;5;2;2;0;6;0;Estadio Atanasio Girardot
+May 04 2015 - 12:30am;Deportivo Cali;Boyacá Chicó;3;0;3;8;1;6;0;4;2;Estadio Deportivo Cali
+May 09 2015 - 7:00pm;La Equidad;Uniautónoma;1;0;1;3;2;4;0;3;0;Estadio Metropolitano de Techo
+May 09 2015 - 9:00pm;Jaguares de Córdoba;Boyacá Chicó;2;0;2;-1;-1;3;1;4;0;Estadio de Fútbol Jaraguay de Montería
+May 09 2015 - 11:00pm;Deportivo Pasto;Cúcuta Deportivo;1;0;1;10;4;4;0;3;0;Estadio Departamental Libertad
+May 10 2015 - 1:00am;Millonarios;Independiente Medellín;3;1;4;5;2;6;0;2;0;Estadio Nemesio Camacho El Campín
+May 10 2015 - 3:00pm;Atlético Nacional;Santa Fe;2;0;2;4;4;3;0;2;0;Estadio Atanasio Girardot
+May 10 2015 - 7:00pm;Rionegro Águilas;Cortuluá;1;0;1;3;5;1;0;5;0;Estadio Alberto Grisales
+May 10 2015 - 9:00pm;Junior;Atlético Huila;0;1;1;9;1;2;0;8;0;Estadio Metropolitano Roberto Meléndez
+May 10 2015 - 10:00pm;Once Caldas;Deportivo Cali;2;3;5;2;9;5;1;6;0;Estadio Palogrande
+May 10 2015 - 11:00pm;Deportes Tolima;Alianza Petrolera;1;0;1;9;4;2;0;4;1;Estadio Metropolitano de Techo
+May 11 2015 - 1:00am;Patriotas Boyacá;Envigado;0;1;1;8;0;4;0;6;1;Estadio de La Independencia
+May 16 2015 - 1:00am;Uniautónoma;Once Caldas;2;2;4;4;4;4;0;3;0;Estadio Metropolitano Roberto Meléndez
+May 16 2015 - 8:15pm;Cortuluá;La Equidad;0;0;0;5;7;1;0;3;1;Estadio Doce de Octubre
+May 16 2015 - 10:30pm;Atlético Nacional;Cúcuta Deportivo;2;2;4;6;2;0;0;4;0;Estadio Atanasio Girardot
+May 17 2015 - 12:45am;Deportivo Cali;Atlético Huila;0;1;1;3;1;3;0;3;0;Estadio Deportivo Cali
+May 17 2015 - 9:00pm;Deportes Tolima;Jaguares de Córdoba;5;0;5;1;2;1;0;2;0;Estadio Metropolitano de Techo
+May 17 2015 - 9:00pm;Alianza Petrolera;Patriotas Boyacá;2;1;3;-1;-1;2;0;0;0;Estadio Daniel Villa Zapata
+May 17 2015 - 9:00pm;Santa Fe;Millonarios;1;3;4;-1;-1;2;0;5;0;Estadio Nemesio Camacho El Campín
+May 17 2015 - 9:00pm;Boyacá Chicó;Junior;0;2;2;-1;-1;5;0;2;0;Estadio de La Independencia
+May 17 2015 - 9:00pm;Rionegro Águilas;Deportivo Pasto;6;0;6;2;1;1;0;2;0;Estadio Alberto Grisales
+May 17 2015 - 9:00pm;Envigado;Independiente Medellín;0;2;2;2;6;2;0;2;0;Estadio Polideportivo Sur
+May 20 2015 - 11:30pm;Atlético Nacional;Deportivo Cali;3;3;6;3;4;2;0;3;0;Estadio Atanasio Girardot
+May 21 2015 - 1:30am;Deportes Tolima;Atlético Huila;2;1;3;8;3;3;0;3;1;Estadio Metropolitano de Techo
+May 21 2015 - 11:45pm;Junior;Independiente Medellín;2;2;4;4;5;1;1;3;0;Estadio Metropolitano Roberto Meléndez
+May 22 2015 - 1:45am;Millonarios;Envigado;4;0;4;11;3;2;0;3;0;Estadio Nemesio Camacho El Campín
+May 24 2015 - 12:45am;Deportivo Cali;Atlético Nacional;1;0;1;4;1;1;0;3;0;Estadio Deportivo Cali
+May 24 2015 - 8:15pm;Independiente Medellín;Junior;1;0;1;3;5;6;1;2;0;Estadio Atanasio Girardot
+May 24 2015 - 10:30pm;Atlético Huila;Deportes Tolima;2;3;5;6;2;4;1;3;1;Estadio Centenario (Armenia)
+May 25 2015 - 12:30am;Envigado;Millonarios;3;2;5;9;1;4;0;2;0;Estadio Polideportivo Sur
+May 28 2015 - 12:45am;Deportes Tolima;Independiente Medellín;0;0;0;8;1;1;0;2;0;Estadio Metropolitano de Techo
+May 29 2015 - 12:00am;Millonarios;Deportivo Cali;3;2;5;7;1;3;0;2;1;Estadio Nemesio Camacho El Campín
+May 31 2015 - 10:00pm;Independiente Medellín;Deportes Tolima;3;1;4;5;5;3;0;6;0;Estadio Atanasio Girardot
+Jun 01 2015 - 12:30am;Deportivo Cali;Millonarios;1;0;1;12;5;4;0;3;1;Estadio Deportivo Cali
+Jun 04 2015 - 12:00am;Deportivo Cali;Independiente Medellín;1;0;1;9;3;3;0;1;0;Estadio Deportivo Cali
+Jun 08 2015 - 12:00am;Independiente Medellín;Deportivo Cali;1;1;2;4;4;1;0;6;0;Estadio Atanasio Girardot
+Jul 11 2015 - 12:45am;Alianza Petrolera;Uniautónoma;2;0;2;10;4;1;0;5;0;Estadio Daniel Villa Zapata
+Jul 11 2015 - 8:15pm;Envigado;Cortuluá;1;2;3;3;6;4;0;2;0;Estadio Polideportivo Sur
+Jul 11 2015 - 10:30pm;Junior;Cúcuta Deportivo;2;0;2;6;6;0;0;4;0;Estadio Metropolitano Roberto Meléndez
+Jul 12 2015 - 12:45am;Independiente Medellín;Once Caldas;0;0;0;-1;-1;2;0;3;0;Estadio Atanasio Girardot
+Jul 12 2015 - 6:30pm;Atlético Huila;Patriotas Boyacá;0;2;2;-1;-1;3;2;3;0;Estadio Centenario (Armenia)
+Jul 12 2015 - 8:30pm;Rionegro Águilas;Atlético Nacional;0;2;2;-1;-1;2;0;1;0;Estadio Atanasio Girardot
+Jul 12 2015 - 10:00pm;Santa Fe;La Equidad;4;0;4;5;3;3;0;2;1;Estadio Nemesio Camacho El Campín
+Jul 12 2015 - 10:30pm;Deportivo Pasto;Millonarios;0;0;0;5;2;1;0;4;0;Estadio Departamental Libertad
+Jul 13 2015 - 12:30am;Deportivo Cali;Jaguares de Córdoba;0;3;3;9;0;5;0;3;0;Estadio Deportivo Cali
+Jul 18 2015 - 7:00pm;La Equidad;Deportivo Cali;1;2;3;9;3;1;0;3;0;Estadio Metropolitano de Techo
+Jul 18 2015 - 9:00pm;Uniautónoma;Rionegro Águilas;0;0;0;3;4;2;1;2;0;Estadio Metropolitano Roberto Meléndez
+Jul 18 2015 - 11:00pm;Atlético Nacional;Independiente Medellín;0;0;0;8;2;3;0;2;0;Estadio Atanasio Girardot
+Jul 19 2015 - 1:00am;Cortuluá;Deportivo Pasto;5;1;6;2;8;3;0;4;0;Estadio Doce de Octubre
+Jul 19 2015 - 7:00pm;Deportes Tolima;Envigado;0;2;2;8;4;1;0;2;0;Estadio Metropolitano de Techo
+Jul 19 2015 - 9:00pm;Jaguares de Córdoba;Atlético Huila;1;1;2;-1;-1;3;0;4;0;Estadio de Fútbol Jaraguay de Montería
+Jul 19 2015 - 10:00pm;Once Caldas;Junior;1;1;2;7;6;5;1;2;0;Estadio Palogrande
+Jul 19 2015 - 11:00pm;Alianza Petrolera;Boyacá Chicó;1;0;1;14;6;1;0;1;0;Estadio Daniel Villa Zapata
+Jul 20 2015 - 1:00am;Santa Fe;Cúcuta Deportivo;5;0;5;-1;-1;1;0;1;0;Estadio Nemesio Camacho El Campín
+Jul 24 2015 - 12:45am;Deportivo Cali;Uniautónoma;5;1;6;9;3;3;1;4;0;Estadio Deportivo Cali
+Jul 25 2015 - 1:00am;Envigado;La Equidad;0;2;2;8;2;4;0;5;0;Estadio Polideportivo Sur
+Jul 25 2015 - 7:00pm;Deportivo Pasto;Jaguares de Córdoba;2;0;2;8;3;3;0;3;0;Estadio Departamental Libertad
+Jul 25 2015 - 9:00pm;Boyacá Chicó;Santa Fe;0;1;1;1;7;3;0;4;0;Estadio Metropolitano de Techo
+Jul 25 2015 - 11:00pm;Atlético Huila;Atlético Nacional;0;2;2;1;4;0;0;0;0;Estadio Centenario (Armenia)
+Jul 26 2015 - 1:00am;Independiente Medellín;Deportes Tolima;1;0;1;11;2;1;0;5;0;Estadio Atanasio Girardot
+Jul 26 2015 - 8:15pm;Rionegro Águilas;Alianza Petrolera;0;0;0;6;4;3;0;3;0;Estadio Alberto Grisales
+Jul 26 2015 - 10:00pm;Millonarios;Once Caldas;0;0;0;7;6;1;0;3;0;Estadio Nemesio Camacho El Campín
+Jul 26 2015 - 10:30pm;Junior;Cortuluá;1;2;3;9;3;0;0;1;1;Estadio Metropolitano Roberto Meléndez
+Jul 27 2015 - 12:30am;Cúcuta Deportivo;Patriotas Boyacá;1;0;1;-1;-1;2;0;4;1;Estadio General Santander
+Aug 01 2015 - 1:00am;Cúcuta Deportivo;Millonarios;1;1;2;-1;-1;1;0;3;0;Estadio General Santander
+Aug 01 2015 - 7:00pm;Atlético Huila;Cortuluá;1;0;1;0;4;3;0;2;0;Estadio Centenario (Armenia)
+Aug 01 2015 - 9:00pm;Rionegro Águilas;La Equidad;2;1;3;4;3;4;0;3;0;Estadio Alberto Grisales
+Aug 01 2015 - 11:00pm;Uniautónoma;Boyacá Chicó;0;1;1;-1;-1;2;0;5;0;Estadio Metropolitano Roberto Meléndez
+Aug 02 2015 - 1:00am;Santa Fe;Alianza Petrolera;1;1;2;7;4;3;0;3;0;Estadio Nemesio Camacho El Campín
+Aug 02 2015 - 7:00pm;Deportivo Pasto;Once Caldas;2;1;3;3;1;1;0;4;2;Estadio Departamental Libertad
+Aug 02 2015 - 9:00pm;Jaguares de Córdoba;Independiente Medellín;1;2;3;-1;-1;1;0;2;0;Estadio de Fútbol Jaraguay de Montería
+Aug 02 2015 - 10:00pm;Atlético Nacional;Envigado;1;0;1;5;3;2;0;3;0;Estadio Atanasio Girardot
+Aug 02 2015 - 11:00pm;Deportivo Cali;Deportes Tolima;1;1;2;7;0;3;1;3;1;Estadio Deportivo Cali
+Aug 03 2015 - 1:00am;Patriotas Boyacá;Junior;1;0;1;4;2;2;0;1;1;Estadio Metropolitano de Techo
+Aug 06 2015 - 12:45am;Atlético Nacional;Deportivo Pasto;4;0;4;9;6;0;0;3;0;Estadio Atanasio Girardot
+Aug 07 2015 - 12:45am;Patriotas Boyacá;Millonarios;2;3;5;-1;-1;5;1;4;0;Estadio Metropolitano de Techo
+Aug 08 2015 - 1:00am;La Equidad;Independiente Medellín;2;0;2;3;2;4;0;0;0;Estadio Metropolitano de Techo
+Aug 08 2015 - 8:15pm;Jaguares de Córdoba;Junior;0;1;1;-1;-1;4;0;2;0;Estadio de Fútbol Jaraguay de Montería
+Aug 08 2015 - 10:30pm;Deportes Tolima;Atlético Huila;2;1;3;2;4;1;0;2;0;Estadio Metropolitano de Techo
+Aug 09 2015 - 12:45am;Santa Fe;Rionegro Águilas;0;0;0;7;5;2;0;3;0;Estadio Nemesio Camacho El Campín
+Aug 09 2015 - 8:15pm;Uniautónoma;Envigado;0;0;0;8;3;2;0;3;1;Estadio Metropolitano Roberto Meléndez
+Aug 09 2015 - 10:00pm;Cortuluá;Millonarios;2;0;2;4;1;3;0;3;0;Estadio Doce de Octubre
+Aug 09 2015 - 10:30pm;Once Caldas;Patriotas Boyacá;1;3;4;5;1;3;0;2;0;Estadio Palogrande
+Aug 10 2015 - 12:30am;Alianza Petrolera;Deportivo Cali;3;2;5;-1;-1;2;0;3;0;Estadio Daniel Villa Zapata
+Aug 15 2015 - 1:00am;Envigado;Boyacá Chicó;0;0;0;5;2;3;0;5;0;Estadio Polideportivo Sur
+Aug 15 2015 - 8:15pm;Independiente Medellín;Santa Fe;1;1;2;4;7;2;0;6;1;Estadio Atanasio Girardot
+Aug 15 2015 - 10:30pm;Atlético Huila;Alianza Petrolera;1;0;1;10;8;2;0;4;0;Estadio Centenario (Armenia)
+Aug 16 2015 - 12:45am;Junior;La Equidad;1;1;2;6;2;1;0;3;0;Estadio Metropolitano Roberto Meléndez
+Aug 16 2015 - 8:15pm;Deportivo Pasto;Uniautónoma;3;0;3;4;3;4;0;3;0;Estadio Departamental Libertad
+Aug 16 2015 - 10:00pm;Deportivo Cali;Rionegro Águilas;0;0;0;7;4;3;0;3;0;Estadio Deportivo Cali
+Aug 16 2015 - 10:30pm;Cúcuta Deportivo;Cortuluá;0;0;0;-1;-1;2;0;3;0;Estadio General Santander
+Aug 17 2015 - 12:30am;Once Caldas;Jaguares de Córdoba;1;1;2;3;4;3;1;3;0;Estadio Palogrande
+Aug 19 2015 - 11:00pm;Alianza Petrolera;Jaguares de Córdoba;1;0;1;9;3;4;0;2;0;Estadio Daniel Villa Zapata
+Aug 19 2015 - 11:00pm;Uniautónoma;Atlético Nacional;1;1;2;0;9;4;0;2;0;Estadio Metropolitano Roberto Meléndez
+Aug 20 2015 - 1:00am;Millonarios;Deportivo Cali;1;1;2;5;4;2;0;4;0;Estadio Nemesio Camacho El Campín
+Aug 20 2015 - 11:00pm;Cúcuta Deportivo;Atlético Huila;0;1;1;-1;-1;2;1;5;1;Estadio General Santander
+Aug 21 2015 - 1:00am;Independiente Medellín;Deportivo Pasto;1;0;1;5;2;2;0;1;0;Estadio Atanasio Girardot
+Aug 21 2015 - 1:00am;Boyacá Chicó;Once Caldas;0;1;1;9;6;3;0;1;0;Estadio Metropolitano de Techo
+Aug 22 2015 - 8:15pm;Jaguares de Córdoba;Cortuluá;0;0;0;-1;-1;4;0;2;0;Estadio de Fútbol Jaraguay de Montería
+Aug 22 2015 - 10:30pm;Uniautónoma;Junior;2;3;5;1;5;4;0;2;0;Estadio Metropolitano Roberto Meléndez
+Aug 23 2015 - 12:45am;La Equidad;Millonarios;2;1;3;3;13;3;0;3;0;Estadio Metropolitano de Techo
+Aug 23 2015 - 7:00pm;Deportes Tolima;Patriotas Boyacá;1;0;1;4;5;3;0;3;0;Estadio Metropolitano de Techo
+Aug 23 2015 - 9:00pm;Rionegro Águilas;Envigado;1;2;3;4;2;3;0;5;0;Estadio Alberto Grisales
+Aug 23 2015 - 9:00pm;Alianza Petrolera;Deportivo Pasto;1;0;1;4;4;5;0;5;0;Estadio Daniel Villa Zapata
+Aug 23 2015 - 10:00pm;Santa Fe;Atlético Huila;2;1;3;3;2;1;0;0;0;Estadio Nemesio Camacho El Campín
+Aug 23 2015 - 11:00pm;Atlético Nacional;Once Caldas;1;2;3;2;6;0;0;4;0;Estadio Atanasio Girardot
+Aug 24 2015 - 1:00am;Deportivo Cali;Cúcuta Deportivo;2;0;2;3;4;2;0;3;0;Estadio Deportivo Cali
+Aug 29 2015 - 1:00am;Patriotas Boyacá;Boyacá Chicó;0;0;0;-1;-1;2;0;4;1;Estadio Metropolitano de Techo
+Aug 29 2015 - 8:15pm;Atlético Huila;Independiente Medellín;0;2;2;6;1;3;0;2;1;Estadio Centenario (Armenia)
+Aug 29 2015 - 10:30pm;Cortuluá;Alianza Petrolera;0;0;0;4;5;1;0;6;0;Estadio Doce de Octubre
+Aug 30 2015 - 12:45am;Atlético Nacional;La Equidad;2;0;2;6;3;3;0;2;0;Estadio Atanasio Girardot
+Aug 30 2015 - 7:00pm;Deportes Tolima;Cúcuta Deportivo;3;0;3;-1;-1;1;0;2;0;Estadio Metropolitano de Techo
+Aug 30 2015 - 9:00pm;Jaguares de Córdoba;Uniautónoma;1;2;3;-1;-1;4;0;5;0;Estadio de Fútbol Jaraguay de Montería
+Aug 30 2015 - 10:00pm;Once Caldas;Santa Fe;1;0;1;6;2;2;1;4;1;Estadio Palogrande
+Aug 30 2015 - 11:00pm;Junior;Deportivo Cali;3;1;4;11;7;0;0;3;0;Estadio Metropolitano Roberto Meléndez
+Aug 31 2015 - 1:00am;Millonarios;Rionegro Águilas;2;0;2;6;5;0;0;2;0;Estadio Nemesio Camacho El Campín
+Sep 01 2015 - 1:00am;Deportivo Pasto;Envigado;2;0;2;6;1;1;0;4;0;Estadio Departamental Libertad
+Sep 02 2015 - 11:00pm;Rionegro Águilas;Patriotas Boyacá;1;1;2;9;4;2;0;4;0;Estadio Alberto Grisales
+Sep 05 2015 - 1:00am;Deportivo Pasto;La Equidad;1;2;3;12;1;2;0;3;0;Estadio Departamental Libertad
+Sep 05 2015 - 8:30pm;Envigado;Jaguares de Córdoba;1;0;1;8;4;4;0;5;0;Estadio Polideportivo Sur
+Sep 05 2015 - 11:00pm;Independiente Medellín;Atlético Nacional;1;0;1;2;4;1;0;5;0;Estadio Atanasio Girardot
+Sep 06 2015 - 1:00am;Junior;Uniautónoma;0;2;2;15;2;5;0;1;0;Estadio Metropolitano Roberto Meléndez
+Sep 06 2015 - 7:00pm;Rionegro Águilas;Once Caldas;2;1;3;4;3;2;0;2;0;Estadio Alberto Grisales
+Sep 06 2015 - 9:00pm;Atlético Huila;Deportes Tolima;1;3;4;2;3;4;0;1;0;Estadio Luis Antonio Duque Peña
+Sep 06 2015 - 10:00pm;Santa Fe;Millonarios;1;1;2;4;11;5;0;5;0;Estadio Nemesio Camacho El Campín
+Sep 06 2015 - 11:00pm;Cúcuta Deportivo;Alianza Petrolera;1;2;3;-1;-1;2;0;2;0;Estadio General Santander
+Sep 07 2015 - 1:00am;Deportivo Cali;Cortuluá;1;0;1;7;2;4;0;2;0;Estadio Deportivo Cali
+Sep 09 2015 - 9:00pm;Deportes Tolima;Rionegro Águilas;1;1;2;-1;-1;3;1;0;0;Estadio Metropolitano de Techo
+Sep 09 2015 - 11:00pm;Uniautónoma;Santa Fe;0;1;1;6;4;2;0;4;0;Estadio Metropolitano Roberto Meléndez
+Sep 09 2015 - 11:00pm;Cortuluá;Independiente Medellín;3;1;4;4;13;4;0;2;0;Estadio Doce de Octubre
+Sep 10 2015 - 1:00am;Alianza Petrolera;Cúcuta Deportivo;1;0;1;4;2;1;0;2;0;Estadio Daniel Villa Zapata
+Sep 10 2015 - 1:00am;Millonarios;Junior;1;2;3;8;5;0;1;1;0;Estadio Nemesio Camacho El Campín
+Sep 10 2015 - 9:00pm;Jaguares de Córdoba;Envigado;1;3;4;-1;-1;4;0;3;0;Estadio de Fútbol Jaraguay de Montería
+Sep 10 2015 - 11:00pm;La Equidad;Boyacá Chicó;1;0;1;2;4;4;1;1;1;Estadio Metropolitano de Techo
+Sep 10 2015 - 11:00pm;Once Caldas;Atlético Huila;4;0;4;2;3;3;0;3;0;Estadio Palogrande
+Sep 11 2015 - 1:00am;Atlético Nacional;Deportivo Cali;3;0;3;4;2;1;0;5;0;Estadio Atanasio Girardot
+Sep 12 2015 - 7:00pm;Santa Fe;Patriotas Boyacá;0;0;0;5;6;1;0;3;0;Estadio Nemesio Camacho El Campín
+Sep 12 2015 - 9:00pm;Rionegro Águilas;Junior;0;2;2;6;2;4;1;1;0;Estadio Alberto Grisales
+Sep 12 2015 - 11:00pm;Uniautónoma;Cortuluá;1;0;1;5;5;2;0;2;0;Estadio Metropolitano de Techo
+Sep 13 2015 - 1:00am;Independiente Medellín;Cúcuta Deportivo;4;1;5;6;6;3;0;4;0;Estadio Atanasio Girardot
+Sep 13 2015 - 7:00pm;La Equidad;Jaguares de Córdoba;4;3;7;6;2;3;0;5;0;Estadio Metropolitano de Techo
+Sep 13 2015 - 9:00pm;Alianza Petrolera;Once Caldas;0;0;0;7;2;3;0;5;0;Estadio Daniel Villa Zapata
+Sep 13 2015 - 10:00pm;Deportivo Cali;Deportivo Pasto;2;2;4;11;2;4;0;6;0;Estadio Deportivo Cali
+Sep 13 2015 - 11:00pm;Envigado;Atlético Huila;0;0;0;6;2;2;0;3;1;Estadio Polideportivo Sur
+Sep 14 2015 - 1:00am;Boyacá Chicó;Millonarios;0;3;3;5;1;2;0;4;0;Estadio de La Independencia
+Sep 15 2015 - 1:00am;Deportes Tolima;Atlético Nacional;0;1;1;-1;-1;4;0;3;0;Estadio Nemesio Camacho El Campín
+Sep 17 2015 - 1:00am;Boyacá Chicó;Patriotas Boyacá;0;1;1;6;5;2;0;3;0;Estadio de La Independencia
+Sep 19 2015 - 1:00am;Envigado;Deportivo Cali;1;1;2;5;2;3;0;2;0;Estadio Polideportivo Sur
+Sep 19 2015 - 7:00pm;Patriotas Boyacá;La Equidad;1;2;3;1;1;3;0;6;0;Estadio de La Independencia
+Sep 19 2015 - 9:00pm;Atlético Huila;Boyacá Chicó;0;0;0;5;1;2;0;4;0;Estadio Luis Antonio Duque Peña
+Sep 19 2015 - 11:00pm;Deportivo Pasto;Santa Fe;3;1;4;9;5;1;0;3;1;Estadio Departamental Libertad
+Sep 20 2015 - 1:00am;Independiente Medellín;Rionegro Águilas;0;0;0;5;6;2;0;2;0;Estadio Atanasio Girardot
+Sep 20 2015 - 7:00pm;Once Caldas;Deportes Tolima;0;0;0;7;1;1;0;1;0;Estadio Palogrande
+Sep 20 2015 - 9:00pm;Cúcuta Deportivo;Jaguares de Córdoba;4;0;4;-1;-1;5;0;1;0;Estadio General Santander
+Sep 20 2015 - 10:00pm;Millonarios;Uniautónoma;2;0;2;4;3;2;0;4;0;Estadio Nemesio Camacho El Campín
+Sep 20 2015 - 11:00pm;Junior;Alianza Petrolera;2;1;3;10;1;1;0;4;0;Estadio Metropolitano Roberto Meléndez
+Sep 21 2015 - 1:00am;Cortuluá;Atlético Nacional;0;0;0;5;2;1;1;3;0;Estadio Doce de Octubre
+Sep 23 2015 - 11:00pm;Boyacá Chicó;Cúcuta Deportivo;3;2;5;-1;-1;2;0;2;1;Estadio de La Independencia
+Sep 25 2015 - 12:45am;Patriotas Boyacá;Deportivo Pasto;1;3;4;-1;-1;2;0;3;0;Estadio de La Independencia
+Sep 26 2015 - 1:00am;La Equidad;Alianza Petrolera;0;0;0;10;3;2;0;5;0;Estadio Metropolitano de Techo
+Sep 26 2015 - 7:00pm;Once Caldas;Envigado;1;1;2;8;4;2;0;4;0;Estadio Palogrande
+Sep 26 2015 - 9:00pm;Cortuluá;Deportivo Cali;1;2;3;6;2;2;0;3;1;Estadio Doce de Octubre
+Sep 26 2015 - 11:00pm;Cúcuta Deportivo;Uniautónoma;2;1;3;-1;-1;3;0;5;0;Estadio General Santander
+Sep 27 2015 - 1:00am;Deportes Tolima;Santa Fe;1;0;1;3;5;3;0;3;0;Estadio Metropolitano de Techo
+Sep 27 2015 - 7:00pm;Millonarios;Atlético Huila;0;0;0;8;1;3;0;2;0;Estadio Nemesio Camacho El Campín
+Sep 27 2015 - 9:00pm;Jaguares de Córdoba;Rionegro Águilas;2;1;3;-1;-1;3;1;0;0;Estadio de Fútbol Jaraguay de Montería
+Sep 27 2015 - 10:00pm;Atlético Nacional;Boyacá Chicó;6;1;7;3;0;0;0;3;0;Estadio Atanasio Girardot
+Sep 27 2015 - 11:00pm;Junior;Deportivo Pasto;2;0;2;5;6;2;0;0;0;Estadio Metropolitano Roberto Meléndez
+Sep 28 2015 - 1:00am;Patriotas Boyacá;Independiente Medellín;3;1;4;2;6;3;0;2;0;Estadio de La Independencia
+Oct 03 2015 - 1:00am;La Equidad;Once Caldas;1;2;3;1;5;5;0;3;0;Estadio Metropolitano de Techo
+Oct 03 2015 - 7:00pm;Deportes Tolima;Cortuluá;2;0;2;-1;-1;1;0;1;0;Estadio Metropolitano de Techo
+Oct 03 2015 - 9:00pm;Deportivo Cali;Independiente Medellín;4;2;6;7;4;2;0;6;1;Estadio Deportivo Cali
+Oct 03 2015 - 11:00pm;Santa Fe;Junior;3;0;3;-1;-1;4;0;2;0;Estadio Nemesio Camacho El Campín
+Oct 04 2015 - 1:00am;Atlético Nacional;Jaguares de Córdoba;1;0;1;7;0;0;0;3;1;Estadio Atanasio Girardot
+Oct 04 2015 - 8:15pm;Rionegro Águilas;Atlético Huila;3;0;3;5;3;0;0;4;2;Estadio Alberto Grisales
+Oct 04 2015 - 10:00pm;Alianza Petrolera;Millonarios;1;0;1;4;2;1;0;3;0;Estadio Daniel Villa Zapata
+Oct 04 2015 - 10:30pm;Boyacá Chicó;Deportivo Pasto;1;0;1;5;8;2;0;4;1;Estadio de La Independencia
+Oct 05 2015 - 12:45am;Envigado;Cúcuta Deportivo;4;1;5;1;4;4;0;3;0;Estadio Polideportivo Sur
+Oct 08 2015 - 12:00am;Millonarios;Deportes Tolima;1;0;1;6;2;3;0;3;0;Estadio Nemesio Camacho El Campín
+Oct 10 2015 - 10:30pm;Uniautónoma;Patriotas Boyacá;2;1;3;1;8;2;0;4;0;Estadio Metropolitano Roberto Meléndez
+Oct 11 2015 - 12:45am;Envigado;Junior;0;1;1;6;3;3;0;0;0;Estadio Polideportivo Sur
+Oct 11 2015 - 10:10pm;Cortuluá;Santa Fe;1;2;3;5;4;6;0;7;0;Estadio Doce de Octubre
+Oct 12 2015 - 12:10am;Boyacá Chicó;Deportes Tolima;0;0;0;2;7;2;0;4;1;Estadio de La Independencia
+Oct 14 2015 - 9:00pm;La Equidad;Deportes Tolima;0;2;2;-1;-1;0;0;2;0;Estadio Metropolitano de Techo
+Oct 15 2015 - 1:00am;Boyacá Chicó;Independiente Medellín;0;1;1;-1;-1;1;1;1;0;Estadio de La Independencia
+Oct 17 2015 - 1:00am;Patriotas Boyacá;Cortuluá;2;2;4;-1;-1;2;0;3;0;Estadio de La Independencia
+Oct 17 2015 - 7:00pm;Rionegro Águilas;Boyacá Chicó;1;1;2;5;5;2;0;3;1;Estadio Alberto Grisales
+Oct 17 2015 - 9:00pm;Atlético Huila;La Equidad;1;1;2;-1;-1;5;0;5;0;Estadio Luis Antonio Duque Peña
+Oct 17 2015 - 11:00pm;Millonarios;Jaguares de Córdoba;3;1;4;8;2;1;0;1;0;Estadio Nemesio Camacho El Campín
+Oct 18 2015 - 1:00am;Junior;Atlético Nacional;0;4;4;3;0;2;1;2;0;Estadio Metropolitano Roberto Meléndez
+Oct 18 2015 - 7:00pm;Envigado;Alianza Petrolera;2;1;3;-1;-1;2;0;0;0;Estadio Polideportivo Sur
+Oct 18 2015 - 9:00pm;Independiente Medellín;Uniautónoma;1;0;1;6;4;4;0;3;1;Estadio Atanasio Girardot
+Oct 18 2015 - 10:00pm;Deportivo Cali;Santa Fe;1;0;1;5;4;2;2;4;0;Estadio Deportivo Cali
+Oct 18 2015 - 11:00pm;Once Caldas;Cúcuta Deportivo;1;0;1;4;0;2;0;3;0;Estadio Palogrande
+Oct 19 2015 - 1:00am;Deportivo Pasto;Deportes Tolima;0;0;0;6;3;3;0;4;0;Estadio Departamental Libertad
+Oct 23 2015 - 12:45am;Patriotas Boyacá;Atlético Nacional;0;1;1;-1;-1;4;0;1;0;Estadio de La Independencia
+Oct 27 2015 - 11:00pm;Patriotas Boyacá;Deportivo Cali;2;1;3;-1;-1;3;0;2;1;Estadio de La Independencia
+Oct 28 2015 - 1:00am;Cortuluá;Boyacá Chicó;2;1;3;1;4;3;0;6;0;Estadio Doce de Octubre
+Oct 28 2015 - 1:00am;Millonarios;Envigado;0;0;0;9;3;2;0;2;0;Estadio Nemesio Camacho El Campín
+Oct 28 2015 - 11:00pm;Deportes Tolima;Uniautónoma;3;2;5;10;7;1;1;1;1;Estadio Metropolitano de Techo
+Oct 29 2015 - 1:00am;Atlético Nacional;Alianza Petrolera;1;0;1;5;1;2;0;3;1;Estadio Atanasio Girardot
+Oct 29 2015 - 1:00am;Once Caldas;Rionegro Águilas;1;0;1;5;4;2;0;2;1;Estadio Palogrande
+Oct 29 2015 - 9:00pm;Cúcuta Deportivo;La Equidad;1;1;2;-1;-1;2;0;4;0;Estadio General Santander
+Oct 29 2015 - 11:00pm;Deportivo Pasto;Atlético Huila;3;2;5;7;3;5;1;3;0;Estadio Departamental Libertad
+Oct 30 2015 - 1:00am;Junior;Independiente Medellín;2;0;2;8;4;2;0;5;1;Estadio Metropolitano Roberto Meléndez
+Oct 31 2015 - 8:15pm;Jaguares de Córdoba;Patriotas Boyacá;0;2;2;-1;-1;2;0;3;0;Estadio de Fútbol Jaraguay de Montería
+Oct 31 2015 - 10:30pm;Cortuluá;Once Caldas;0;3;3;3;6;2;0;3;0;Estadio Doce de Octubre
+Nov 01 2015 - 12:45am;Atlético Nacional;Millonarios;1;0;1;3;4;3;0;3;0;Estadio Atanasio Girardot
+Nov 01 2015 - 7:00pm;Rionegro Águilas;Cúcuta Deportivo;2;0;2;7;5;1;0;1;0;Estadio Alberto Grisales
+Nov 01 2015 - 9:00pm;Uniautónoma;Atlético Huila;0;0;0;-1;-1;5;0;2;0;Estadio Metropolitano Roberto Meléndez
+Nov 01 2015 - 10:00pm;Santa Fe;Envigado;1;1;2;3;6;1;1;3;1;Estadio Nemesio Camacho El Campín
+Nov 01 2015 - 11:00pm;Deportes Tolima;Junior;2;0;2;6;3;3;0;4;0;Estadio Metropolitano de Techo
+Nov 02 2015 - 1:00am;Boyacá Chicó;Deportivo Cali;0;2;2;-1;-1;2;0;5;0;Estadio de La Independencia
+Nov 02 2015 - 7:00pm;La Equidad;Deportivo Pasto;0;1;1;9;1;4;0;6;1;Estadio Metropolitano de Techo
+Nov 02 2015 - 11:00pm;Alianza Petrolera;Independiente Medellín;1;1;2;8;2;1;0;3;1;Estadio Daniel Villa Zapata
+Nov 07 2015 - 12:45am;Deportivo Cali;Once Caldas;1;4;5;4;4;4;0;6;0;Estadio Deportivo Cali
+Nov 07 2015 - 7:00pm;Atlético Huila;Junior;2;2;4;1;6;3;1;6;0;Estadio Centenario (Armenia)
+Nov 07 2015 - 9:00pm;Independiente Medellín;Millonarios;2;0;2;7;6;2;1;2;0;Estadio Atanasio Girardot
+Nov 07 2015 - 10:00pm;Santa Fe;Atlético Nacional;1;0;1;-1;-1;3;0;7;0;Estadio Nemesio Camacho El Campín
+Nov 07 2015 - 11:00pm;Cúcuta Deportivo;Deportivo Pasto;0;2;2;-1;-1;3;2;2;0;Estadio General Santander
+Nov 08 2015 - 1:00am;Alianza Petrolera;Deportes Tolima;2;0;2;1;2;4;0;3;0;Estadio Daniel Villa Zapata
+Nov 08 2015 - 7:00pm;Envigado;Patriotas Boyacá;0;1;1;5;4;3;1;4;0;Estadio Polideportivo Sur
+Nov 08 2015 - 9:00pm;Cortuluá;Rionegro Águilas;0;0;0;3;3;5;0;3;0;Estadio Doce de Octubre
+Nov 08 2015 - 11:00pm;Uniautónoma;La Equidad;3;0;3;1;3;3;0;2;1;Estadio Metropolitano Roberto Meléndez
+Nov 09 2015 - 1:00am;Boyacá Chicó;Jaguares de Córdoba;2;1;3;13;1;5;0;3;0;Estadio de La Independencia
+Nov 15 2015 - 9:00pm;Jaguares de Córdoba;Santa Fe;2;2;4;-1;-1;5;1;1;0;Estadio de Fútbol Jaraguay de Montería
+Nov 21 2015 - 10:30pm;La Equidad;Cortuluá;1;0;1;6;4;1;0;2;0;Estadio Metropolitano de Techo
+Nov 22 2015 - 12:45am;Cúcuta Deportivo;Atlético Nacional;1;2;3;2;2;1;0;1;0;Estadio General Santander
+Nov 22 2015 - 10:00pm;Jaguares de Córdoba;Deportes Tolima;1;2;3;-1;-1;7;0;3;0;Estadio Olímpico Jaime Morón León
+Nov 22 2015 - 10:00pm;Once Caldas;Uniautónoma;0;1;1;-1;-1;3;0;3;0;Estadio Palogrande
+Nov 22 2015 - 10:00pm;Patriotas Boyacá;Alianza Petrolera;1;0;1;5;3;3;0;3;0;Estadio de La Independencia
+Nov 22 2015 - 10:00pm;Millonarios;Santa Fe;1;0;1;2;8;5;1;5;0;Estadio Nemesio Camacho El Campín
+Nov 22 2015 - 10:00pm;Junior;Boyacá Chicó;6;0;6;-1;-1;1;0;2;1;Estadio Metropolitano Roberto Meléndez
+Nov 22 2015 - 10:00pm;Deportivo Pasto;Rionegro Águilas;0;3;3;5;0;3;1;5;0;Estadio Departamental Libertad
+Nov 22 2015 - 10:00pm;Atlético Huila;Deportivo Cali;0;1;1;4;13;2;0;2;1;Estadio Centenario (Armenia)
+Nov 22 2015 - 10:00pm;Independiente Medellín;Envigado;2;0;2;0;4;1;0;3;1;Estadio Atanasio Girardot
+Nov 28 2015 - 10:30pm;Once Caldas;Deportes Tolima;1;0;1;5;5;5;0;1;0;Estadio Palogrande
+Nov 29 2015 - 12:45am;Santa Fe;Junior;2;1;3;8;9;1;0;2;0;Estadio Nemesio Camacho El Campín
+Nov 29 2015 - 10:00pm;Deportivo Cali;Atlético Nacional;0;0;0;-1;-1;5;0;1;0;Estadio Deportivo Cali
+Nov 30 2015 - 12:30am;Alianza Petrolera;Independiente Medellín;0;2;2;5;1;5;1;5;0;Estadio Daniel Villa Zapata
+Dec 05 2015 - 10:30pm;Deportes Tolima;Once Caldas;3;1;4;6;4;3;0;4;1;Estadio Manuel Murillo Toro
+Dec 06 2015 - 1:00am;Atlético Nacional;Deportivo Cali;3;1;4;3;4;3;0;5;0;Estadio Atanasio Girardot
+Dec 06 2015 - 10:00pm;Junior;Santa Fe;3;1;4;3;2;4;1;6;2;Estadio Metropolitano Roberto Meléndez
+Dec 07 2015 - 12:30am;Independiente Medellín;Alianza Petrolera;4;0;4;3;11;1;0;4;1;Estadio Atanasio Girardot
+Dec 10 2015 - 11:30pm;Deportes Tolima;Junior;0;1;1;12;2;2;0;3;0;Estadio Manuel Murillo Toro
+Dec 11 2015 - 1:30am;Independiente Medellín;Atlético Nacional;1;0;1;7;3;1;0;1;0;Estadio Atanasio Girardot
+Dec 13 2015 - 10:00pm;Atlético Nacional;Independiente Medellín;2;0;2;4;5;3;0;3;1;Estadio Atanasio Girardot
+Dec 14 2015 - 12:30am;Junior;Deportes Tolima;1;0;1;3;7;2;1;5;0;Estadio Metropolitano Roberto Meléndez
+Dec 17 2015 - 12:00am;Junior;Atlético Nacional;2;1;3;7;1;0;0;3;0;Estadio Metropolitano Roberto Meléndez
+Dec 20 2015 - 11:00pm;Atlético Nacional;Junior;1;0;1;11;3;5;0;3;0;Estadio Atanasio Girardot
