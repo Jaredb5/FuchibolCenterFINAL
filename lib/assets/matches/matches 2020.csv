@@ -1,0 +1,377 @@
+﻿date_GMT;home_team_name;away_team_name;home_team_goal_count;away_team_goal_count;total_goal_count;home_team_corner_count;away_team_corner_count;home_team_yellow_cards;home_team_red_cards;away_team_yellow_cards;away_team_red_cards;home_team_shots;away_team_shots;home_team_shots_on_target;away_team_shots_on_target;home_team_fouls;away_team_fouls;home_team_possession;away_team_possession;stadium_name
+Jan 24 2020 - 12:45am;Deportes Tolima;Independiente Medellín;2;2;4;7;3;5;0;1;0;11;4;5;3;14;20;50;50;Estadio Manuel Murillo Toro (Ibagué)
+Jan 24 2020 - 11:00pm;Rionegro Águilas;Jaguares de Córdoba;2;0;2;1;5;2;0;1;0;12;6;4;3;15;19;50;50;Estadio Alberto Grisales (Rionegro- Antioquia)
+Jan 25 2020 - 1:05am;Once Caldas;Santa Fe;0;0;0;6;5;3;0;3;0;18;11;9;5;13;16;49;51;Estadio Palogrande (Manizales)
+Jan 25 2020 - 7:00pm;Envigado;Boyacá Chicó;1;0;1;5;1;2;0;1;1;7;7;4;3;24;18;47;53;Estadio Polideportivo Sur (Envigado)
+Jan 25 2020 - 9:05pm;Atlético Bucaramanga;Deportivo Cali;0;2;2;9;4;3;0;4;0;7;7;4;3;24;18;45;55;Estadio Daniel Villa Zapata (Barrancabermeja)
+Jan 25 2020 - 11:10pm;Junior;La Equidad;2;0;2;3;2;3;0;4;0;7;7;2;3;16;10;50;50;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Jan 26 2020 - 1:15am;América de Cali;Alianza Petrolera;3;1;4;1;5;2;0;1;0;15;6;10;4;25;12;47;53;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Jan 26 2020 - 8:15pm;Patriotas Boyacá;Cúcuta Deportivo;1;1;2;3;2;1;0;1;0;12;14;4;5;22;15;48;52;Estadio de La Independencia (Tunja)
+Jan 26 2020 - 10:20pm;Atlético Nacional;Deportivo Pereira;2;0;2;7;4;3;0;3;0;14;6;7;3;20;13;47;53;Estadio Atanasio Girardot (Medellín)
+Jan 27 2020 - 12:30am;Millonarios;Deportivo Pasto;1;2;3;6;4;2;0;3;0;14;11;8;6;11;12;46;54;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Jan 28 2020 - 9:00pm;Once Caldas;Atlético Bucaramanga;1;1;2;10;2;3;0;3;0;10;11;3;5;13;8;46;54;Estadio Palogrande (Manizales)
+Jan 28 2020 - 11:05pm;Independiente Medellín;Rionegro Águilas;2;1;3;2;3;4;0;2;0;8;11;0;6;17;19;46;54;Estadio Atanasio Girardot (Medellín)
+Jan 29 2020 - 1:10am;Deportivo Cali;Junior;0;0;0;9;4;4;0;5;1;18;4;9;2;15;16;45;55;Estadio Deportivo Cali (Palmira)
+Jan 29 2020 - 9:05pm;Jaguares de Córdoba;América de Cali;2;2;4;1;3;8;0;5;0;16;10;10;2;12;12;45;55;Estadio de Fútbol Jaraguay de Montería (Montería)
+Jan 29 2020 - 11:10pm;Boyacá Chicó;Patriotas Boyacá;1;0;1;5;3;1;0;3;0;8;12;6;4;9;10;45;55;Estadio de La Independencia (Tunja)
+Jan 30 2020 - 1:15am;La Equidad;Atlético Nacional;3;4;7;9;2;3;0;1;0;16;10;14;8;22;16;44;56;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Jan 30 2020 - 9:00pm;Alianza Petrolera;Deportivo Pereira;1;0;1;6;6;3;0;3;0;14;10;8;2;16;10;44;56;Estadio Daniel Villa Zapata (Barrancabermeja)
+Jan 30 2020 - 11:05pm;Santa Fe;Envigado;1;1;2;8;0;1;0;3;0;12;13;4;7;22;13;50;50;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Jan 30 2020 - 11:05pm;Cúcuta Deportivo;Millonarios;1;1;2;0;9;3;0;2;0;13;15;6;9;18;21;48;52;Estadio General Santander (Cúcuta)
+Feb 01 2020 - 9:05pm;Atlético Bucaramanga;Deportes Tolima;0;0;0;7;5;5;0;3;0;17;3;7;0;16;15;52;48;Estadio Daniel Villa Zapata (Barrancabermeja)
+Feb 01 2020 - 11:10pm;Junior;Independiente Medellín;1;0;1;4;6;1;0;4;0;23;9;12;3;11;28;50;50;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Feb 02 2020 - 1:15am;Atlético Nacional;Jaguares de Córdoba;1;2;3;10;1;1;0;3;0;11;12;7;4;17;17;51;49;Estadio Atanasio Girardot (Medellín)
+Feb 02 2020 - 8:15pm;Deportivo Pereira;Cúcuta Deportivo;2;0;2;6;5;1;0;3;1;15;12;4;6;10;6;47;53;Estadio Hernán Ramírez Villegas (Pereira)
+Feb 02 2020 - 10:20pm;Millonarios;La Equidad;2;2;4;5;6;2;0;5;0;11;11;2;4;16;21;49;51;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Feb 03 2020 - 12:30am;América de Cali;Boyacá Chicó;1;0;1;3;12;1;0;2;0;25;11;6;5;12;11;51;49;Estadio Centenario (Armenia)
+Feb 03 2020 - 9:00pm;Alianza Petrolera;Deportivo Pasto;0;1;1;8;5;2;0;4;0;16;7;12;4;20;24;53;47;Estadio Daniel Villa Zapata (Barrancabermeja)
+Feb 03 2020 - 11:00pm;Rionegro Águilas;Santa Fe;1;0;1;5;9;4;0;2;0;10;12;4;3;12;19;52;48;Estadio Alberto Grisales (Rionegro- Antioquia)
+Feb 04 2020 - 11:00pm;Envigado;Once Caldas;0;1;1;1;9;3;0;1;0;22;6;14;2;13;12;49;51;Estadio Polideportivo Sur (Envigado)
+Feb 05 2020 - 1:05am;Patriotas Boyacá;Deportivo Cali;0;0;0;6;3;4;0;0;0;9;6;7;3;10;26;49;51;Estadio de La Independencia (Tunja)
+Feb 07 2020 - 9:00pm;Independiente Medellín;Patriotas Boyacá;3;1;4;7;9;3;0;1;0;14;16;6;9;9;11;53;47;Estadio Atanasio Girardot (Medellín)
+Feb 07 2020 - 11:05pm;Deportivo Pasto;Atlético Bucaramanga;4;0;4;1;5;1;0;1;0;14;16;6;9;9;11;53;47;Estadio Departamental Libertad (San Juan de Pasto)
+Feb 08 2020 - 1:10am;Deportes Tolima;Envigado;3;0;3;6;6;1;0;3;0;11;9;5;4;18;13;52;48;Estadio Manuel Murillo Toro (Ibagué)
+Feb 08 2020 - 9:05pm;Cúcuta Deportivo;Alianza Petrolera;0;2;2;5;4;1;0;4;1;13;16;9;8;24;14;50;50;Estadio General Santander (Cúcuta)
+Feb 08 2020 - 11:10pm;Deportivo Cali;América de Cali;2;1;3;8;6;3;0;4;2;12;8;9;4;23;14;49;51;Estadio Deportivo Cali (Palmira)
+Feb 09 2020 - 1:15am;Santa Fe;Junior;3;1;4;7;3;3;0;3;0;15;7;5;4;17;16;53;47;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Feb 09 2020 - 7:00pm;La Equidad;Deportivo Pereira;3;3;6;7;1;6;0;4;1;14;9;4;4;15;17;-1;-1;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Feb 09 2020 - 9:00pm;Jaguares de Córdoba;Millonarios;4;1;5;6;9;1;0;0;0;8;12;6;4;9;10;53;47;Estadio de Fútbol Jaraguay de Montería (Montería)
+Feb 11 2020 - 12:40am;Once Caldas;Rionegro Águilas;1;1;2;13;2;4;0;3;0;16;10;14;8;22;16;52;48;Estadio Palogrande (Manizales)
+Feb 12 2020 - 1:05am;Boyacá Chicó;Atlético Nacional;0;3;3;6;6;6;0;3;0;14;10;8;2;16;10;49;51;Estadio de La Independencia (Tunja)
+Feb 14 2020 - 11:00pm;Rionegro Águilas;Deportes Tolima;1;1;2;10;2;4;0;3;0;12;13;4;7;22;13;51;49;Estadio Alberto Grisales (Rionegro- Antioquia)
+Feb 15 2020 - 1:05am;Alianza Petrolera;La Equidad;1;0;1;0;3;4;0;6;0;13;15;6;9;18;21;52;48;Estadio Daniel Villa Zapata (Barrancabermeja)
+Feb 15 2020 - 9:05pm;América de Cali;Independiente Medellín;2;0;2;8;4;0;0;5;1;17;3;7;0;16;15;52;48;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Feb 15 2020 - 11:10pm;Millonarios;Boyacá Chicó;2;1;3;4;1;4;0;4;0;23;9;12;3;11;28;50;50;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Feb 16 2020 - 1:15am;Atlético Nacional;Deportivo Cali;2;2;4;3;4;3;0;4;0;11;12;7;4;17;17;53;47;Estadio Atanasio Girardot (Medellín)
+Feb 16 2020 - 7:00pm;Patriotas Boyacá;Santa Fe;0;2;2;5;6;3;1;4;0;15;12;4;6;10;6;50;50;Estadio de La Independencia (Tunja)
+Feb 16 2020 - 9:05pm;Envigado;Atlético Bucaramanga;4;0;4;3;3;0;0;3;0;11;11;2;4;16;21;48;52;Estadio Polideportivo Sur (Envigado)
+Feb 16 2020 - 11:10pm;Junior;Once Caldas;0;0;0;4;1;4;0;5;0;25;11;6;5;12;11;50;50;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Feb 17 2020 - 1:15am;Cúcuta Deportivo;Deportivo Pasto;0;0;0;1;3;3;0;1;0;16;7;12;4;20;24;48;52;Estadio General Santander (Cúcuta)
+Feb 19 2020 - 12:40am;Deportivo Pereira;Jaguares de Córdoba;1;0;1;6;3;1;0;3;0;10;12;4;3;12;19;50;50;Estadio Hernán Ramírez Villegas (Pereira)
+Feb 21 2020 - 11:05pm;Deportivo Pasto;Envigado;1;0;1;8;2;3;0;2;0;22;6;14;2;13;12;51;49;Estadio Departamental Libertad (San Juan de Pasto)
+Feb 22 2020 - 1:10am;Santa Fe;América de Cali;2;0;2;5;6;2;0;1;0;9;6;7;3;10;26;52;48;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Feb 22 2020 - 8:15pm;Boyacá Chicó;Deportivo Pereira;0;1;1;12;2;4;0;3;0;14;16;6;9;9;11;50;50;Estadio de La Independencia (Tunja)
+Feb 22 2020 - 10:20pm;Independiente Medellín;Atlético Nacional;1;3;4;6;10;3;0;2;0;14;16;6;9;9;11;49;51;Estadio Atanasio Girardot (Medellín)
+Feb 23 2020 - 2:30pm;Deportes Tolima;Junior;0;0;0;7;5;3;0;3;1;11;9;5;4;18;13;50;50;Estadio Manuel Murillo Toro (Ibagué)
+Feb 23 2020 - 8:15pm;La Equidad;Cúcuta Deportivo;4;1;5;6;1;3;0;4;0;13;16;9;8;24;14;51;49;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Feb 23 2020 - 10:20pm;Atlético Bucaramanga;Rionegro Águilas;2;0;2;4;4;3;1;4;0;12;8;9;4;23;14;49;51;Estadio Alfonso López (Bucaramanga)
+Feb 24 2020 - 12:30am;Once Caldas;Patriotas Boyacá;0;0;0;9;0;4;0;5;1;15;7;5;4;17;16;49;51;Estadio Palogrande (Manizales)
+Feb 25 2020 - 1:05am;Jaguares de Córdoba;Alianza Petrolera;1;3;4;2;1;4;0;3;0;14;9;4;4;15;17;47;53;Estadio de Fútbol Jaraguay de Montería (Montería)
+Feb 29 2020 - 12:40am;Junior;Jaguares de Córdoba;3;2;5;5;5;0;0;3;0;17;3;7;0;16;15;49;51;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Feb 29 2020 - 7:30pm;Patriotas Boyacá;Boyacá Chicó;1;1;2;6;3;2;0;3;1;23;9;12;3;11;28;48;52;Estadio de La Independencia (Tunja)
+Feb 29 2020 - 9:05pm;Atlético Nacional;Independiente Medellín;1;1;2;6;2;3;1;3;1;11;12;7;4;17;17;51;49;Estadio Atanasio Girardot (Medellín)
+Feb 29 2020 - 11:10pm;América de Cali;Deportivo Cali;1;1;2;8;4;3;0;0;1;15;12;4;6;10;6;51;49;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Mar 01 2020 - 1:15am;Alianza Petrolera;Deportes Tolima;0;1;1;5;4;1;0;5;0;11;11;2;4;16;21;52;48;Estadio Daniel Villa Zapata (Barrancabermeja)
+Mar 01 2020 - 7:00pm;Deportivo Pasto;La Equidad;1;2;3;2;10;5;0;4;1;25;11;6;5;12;11;53;47;Estadio Departamental Libertad (San Juan de Pasto)
+Mar 01 2020 - 9:05pm;Rionegro Águilas;Envigado;1;1;2;2;4;1;0;1;0;16;7;12;4;20;24;53;47;Estadio Alberto Grisales (Rionegro- Antioquia)
+Mar 01 2020 - 11:10pm;Cúcuta Deportivo;Atlético Bucaramanga;0;1;1;1;3;4;0;3;0;10;12;4;3;12;19;47;53;Estadio General Santander (Cúcuta)
+Mar 02 2020 - 1:15am;Deportivo Pereira;Once Caldas;1;3;4;9;2;3;0;5;0;22;6;14;2;13;12;51;49;Estadio Hernán Ramírez Villegas (Pereira)
+Mar 04 2020 - 12:40am;Millonarios;Santa Fe;0;0;0;10;3;3;0;4;0;9;6;7;3;10;26;53;47;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Mar 07 2020 - 12:40am;Deportivo Cali;Deportivo Pereira;2;2;4;7;5;3;1;5;0;14;16;6;9;9;11;49;51;Estadio Deportivo Cali (Palmira)
+Mar 07 2020 - 9:40pm;Once Caldas;América de Cali;1;1;2;3;3;3;0;1;0;14;16;6;9;9;11;48;52;Estadio Palogrande (Manizales)
+Mar 07 2020 - 11:30pm;Independiente Medellín;Millonarios;1;0;1;3;6;3;0;4;0;11;9;5;4;18;13;48;52;Estadio Atanasio Girardot (Medellín)
+Mar 08 2020 - 1:30am;Atlético Bucaramanga;Junior;1;1;2;9;5;2;0;0;0;13;16;9;8;24;14;51;49;Estadio Alfonso López (Bucaramanga)
+Mar 08 2020 - 7:00pm;Boyacá Chicó;Alianza Petrolera;2;2;4;1;3;3;1;5;0;12;8;9;4;23;14;53;47;Estadio de La Independencia (Tunja)
+Mar 08 2020 - 9:05pm;Envigado;Rionegro Águilas;2;2;4;2;4;3;0;4;0;15;7;5;4;17;16;48;52;Estadio Polideportivo Sur (Envigado)
+Mar 08 2020 - 11:10pm;Santa Fe;Atlético Nacional;2;2;4;2;4;3;1;1;0;14;9;4;4;15;17;53;47;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Mar 09 2020 - 1:15am;Deportes Tolima;Patriotas Boyacá;1;0;1;5;3;2;0;4;1;10;6;6;4;15;24;47;53;Estadio Manuel Murillo Toro (Ibagué)
+Mar 10 2020 - 11:00pm;Jaguares de Córdoba;Cúcuta Deportivo;0;3;3;9;1;3;0;2;0;18;5;9;3;19;18;53;47;Estadio de Fútbol Jaraguay de Montería (Montería)
+Mar 11 2020 - 1:05am;La Equidad;Deportivo Pasto;1;1;2;6;1;3;0;2;0;13;12;8;6;20;21;48;52;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Sep 12 2020 - 11:00pm;Deportivo Cali;Millonarios;1;1;2;7;7;2;0;3;1;19;5;4;2;23;16;49;51;Estadio Deportivo Cali (Palmira)
+Sep 14 2020 - 12:30am;Deportivo Pasto;Deportes Tolima;1;3;4;4;5;1;0;5;0;17;9;8;3;17;23;47;53;Estadio Departamental Libertad (San Juan de Pasto)
+Sep 18 2020 - 11:00pm;La Equidad;Boyacá Chicó;4;0;4;4;4;5;1;3;0;9;15;3;11;14;18;53;47;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Sep 19 2020 - 7:00pm;Patriotas Boyacá;Envigado;0;1;1;9;2;3;0;2;1;8;11;3;6;16;19;50;50;Estadio de La Independencia (Tunja)
+Sep 19 2020 - 9:00pm;Deportivo Pereira;Santa Fe;1;2;3;5;4;3;0;4;0;14;10;7;6;16;17;53;47;Estadio Hernán Ramírez Villegas (Pereira)
+Sep 19 2020 - 11:05pm;Alianza Petrolera;Independiente Medellín;1;0;1;3;2;3;0;2;0;6;8;2;3;10;19;48;52;Estadio Daniel Villa Zapata (Barrancabermeja)
+Sep 20 2020 - 1:10am;Millonarios;Once Caldas;1;3;4;8;2;2;0;3;0;10;22;7;8;20;20;49;51;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Sep 20 2020 - 8:15pm;Deportivo Pasto;Jaguares de Córdoba;2;0;2;9;4;2;0;2;0;23;13;10;4;13;6;53;47;Estadio Departamental Libertad (San Juan de Pasto)
+Sep 20 2020 - 10:30pm;América de Cali;Atlético Bucaramanga;2;1;3;7;5;2;0;3;0;12;2;8;2;11;14;50;50;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Sep 21 2020 - 12:45am;Junior;Rionegro Águilas;2;1;3;2;2;4;0;3;0;24;10;13;5;16;17;47;53;Estadio Romelio Martínez (Barranquilla)
+Sep 23 2020 - 12:40am;Cúcuta Deportivo;Deportivo Cali;3;3;6;1;8;3;0;5;1;14;10;7;6;19;20;53;47;Estadio Centenario (Armenia)
+Sep 25 2020 - 11:00pm;Jaguares de Córdoba;La Equidad;2;0;2;6;6;3;0;3;0;14;9;4;0;15;22;52;48;Estadio de Fútbol Jaraguay de Montería (Montería)
+Sep 26 2020 - 1:05am;Once Caldas;Atlético Nacional;2;0;2;1;12;2;1;0;0;10;14;6;6;15;11;53;47;Estadio Palogrande (Manizales)
+Sep 26 2020 - 9:00pm;Atlético Bucaramanga;Patriotas Boyacá;1;1;2;8;6;2;0;2;0;4;6;2;3;20;25;47;53;Estadio Alfonso López (Bucaramanga)
+Sep 26 2020 - 11:05pm;Envigado;Junior;1;0;1;4;8;3;0;2;0;14;7;5;3;18;18;48;52;Estadio Polideportivo Sur (Envigado)
+Sep 27 2020 - 1:10am;Deportes Tolima;América de Cali;1;0;1;6;7;2;1;3;0;9;7;4;0;16;19;49;51;Estadio Manuel Murillo Toro (Ibagué)
+Sep 27 2020 - 7:00pm;Boyacá Chicó;Cúcuta Deportivo;0;2;2;11;4;1;1;1;0;8;3;3;3;22;14;51;49;Estadio de La Independencia (Tunja)
+Sep 27 2020 - 9:00pm;Deportivo Cali;Alianza Petrolera;2;0;2;3;4;2;1;2;0;19;6;10;3;13;14;50;50;Estadio Deportivo Cali (Palmira)
+Sep 27 2020 - 11:05pm;Independiente Medellín;Deportivo Pereira;1;1;2;10;4;5;0;3;0;9;5;6;0;29;13;50;50;Estadio Atanasio Girardot (Medellín)
+Sep 28 2020 - 1:10am;Santa Fe;Millonarios;1;1;2;4;2;3;1;2;0;14;16;6;9;9;11;48;52;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Sep 30 2020 - 12:40am;Rionegro Águilas;Deportivo Pasto;1;1;2;2;7;2;0;4;0;14;16;6;9;9;11;49;51;Estadio Alberto Grisales (Rionegro- Antioquia)
+Oct 01 2020 - 1:10am;Atlético Nacional;Deportes Tolima;1;2;3;10;10;3;0;2;0;11;9;5;4;18;13;50;50;Estadio Atanasio Girardot (Medellín)
+Oct 02 2020 - 9:00pm;Alianza Petrolera;Once Caldas;1;1;2;7;1;1;0;2;1;13;16;9;8;24;14;53;47;Estadio Daniel Villa Zapata (Barrancabermeja)
+Oct 02 2020 - 11:05pm;Cúcuta Deportivo;Santa Fe;2;3;5;1;8;2;0;5;0;12;8;9;4;23;14;47;53;Estadio Centenario (Armenia)
+Oct 03 2020 - 1:10am;Millonarios;Atlético Bucaramanga;0;0;0;7;3;3;1;4;0;15;7;5;4;17;16;51;49;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Oct 03 2020 - 7:00pm;Deportivo Pasto;Boyacá Chicó;2;1;3;3;5;4;1;4;0;14;9;4;4;15;17;49;51;Estadio Departamental Libertad (San Juan de Pasto)
+Oct 03 2020 - 9:00pm;Jaguares de Córdoba;Deportivo Cali;0;0;0;8;8;5;0;2;1;8;12;6;4;9;10;47;53;Estadio de Fútbol Jaraguay de Montería (Montería)
+Oct 03 2020 - 11:05pm;Deportivo Pereira;Deportes Tolima;0;0;0;7;3;3;0;2;0;16;10;14;8;22;16;51;49;Estadio Hernán Ramírez Villegas (Pereira)
+Oct 04 2020 - 1:10am;Atlético Nacional;Envigado;3;2;5;3;6;1;0;2;0;14;10;8;2;16;10;49;51;Estadio Atanasio Girardot (Medellín)
+Oct 04 2020 - 9:00pm;Patriotas Boyacá;Junior;0;0;0;1;3;2;0;1;0;12;13;4;7;22;13;49;51;Estadio de La Independencia (Tunja)
+Oct 04 2020 - 11:05pm;América de Cali;Rionegro Águilas;3;1;4;3;3;3;0;3;0;13;15;6;9;18;21;52;48;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Oct 05 2020 - 1:10am;La Equidad;Independiente Medellín;1;0;1;8;1;2;0;2;0;17;3;7;0;16;15;53;47;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Oct 06 2020 - 7:00pm;Santa Fe;Alianza Petrolera;4;1;5;6;6;4;0;2;0;23;9;12;3;11;28;49;51;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Oct 06 2020 - 9:00pm;Once Caldas;Deportivo Pereira;2;2;4;12;3;4;0;3;0;11;12;7;4;17;17;50;50;Estadio Palogrande (Manizales)
+Oct 06 2020 - 11:05pm;Deportes Tolima;Millonarios;2;2;4;2;9;3;0;4;0;15;12;4;6;10;6;50;50;Estadio Manuel Murillo Toro (Ibagué)
+Oct 07 2020 - 1:10am;Atlético Bucaramanga;Atlético Nacional;1;2;3;8;6;2;1;2;1;11;11;2;4;16;21;51;49;Estadio Alfonso López (Bucaramanga)
+Oct 07 2020 - 9:00pm;Deportivo Cali;La Equidad;1;0;1;10;3;3;0;1;0;25;11;6;5;12;11;50;50;Estadio Deportivo Cali (Palmira)
+Oct 07 2020 - 11:05pm;Envigado;América de Cali;1;1;2;2;3;4;0;2;0;16;7;12;4;20;24;50;50;Estadio Polideportivo Sur (Envigado)
+Oct 08 2020 - 1:10am;Junior;Deportivo Pasto;0;1;1;8;2;4;0;3;1;10;12;4;3;12;19;50;50;Estadio Romelio Martínez (Barranquilla)
+Oct 08 2020 - 7:00pm;Rionegro Águilas;Patriotas Boyacá;3;0;3;2;2;1;0;0;0;22;6;14;2;13;12;51;49;Estadio Alberto Grisales (Rionegro- Antioquia)
+Oct 08 2020 - 11:05pm;Boyacá Chicó;Jaguares de Córdoba;1;0;1;2;3;5;0;2;0;9;6;7;3;10;26;48;52;Estadio de La Independencia (Tunja)
+Oct 09 2020 - 1:10am;Independiente Medellín;Cúcuta Deportivo;4;1;5;4;1;1;0;5;1;14;16;6;9;9;11;47;53;Estadio Atanasio Girardot (Medellín)
+Oct 10 2020 - 7:00pm;La Equidad;Once Caldas;2;0;2;9;4;3;0;4;0;14;16;6;9;9;11;52;48;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Oct 10 2020 - 9:00pm;Deportivo Pereira;Envigado;1;1;2;4;1;0;0;1;1;11;9;5;4;18;13;49;51;Estadio Hernán Ramírez Villegas (Pereira)
+Oct 10 2020 - 11:05pm;Deportivo Pasto;Deportivo Cali;1;1;2;5;3;1;0;2;0;13;16;9;8;24;14;50;50;Estadio Departamental Libertad (San Juan de Pasto)
+Oct 11 2020 - 1:10am;Atlético Nacional;Junior;2;2;4;8;8;2;0;3;0;12;8;9;4;23;14;53;47;Estadio Atanasio Girardot (Medellín)
+Oct 11 2020 - 7:00pm;Cúcuta Deportivo;Deportes Tolima;0;3;3;4;8;1;2;3;0;15;7;5;4;17;16;52;48;Estadio Centenario (Armenia)
+Oct 11 2020 - 9:00pm;Boyacá Chicó;Independiente Medellín;1;0;1;5;1;3;0;3;0;14;9;4;4;15;17;47;53;Estadio de La Independencia (Tunja)
+Oct 11 2020 - 11:05pm;América de Cali;Patriotas Boyacá;3;0;3;3;1;1;0;2;0;17;3;7;0;16;15;50;50;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Oct 12 2020 - 1:10am;Millonarios;Rionegro Águilas;0;0;0;9;3;1;0;3;0;23;9;12;3;11;28;48;52;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Oct 12 2020 - 11:05pm;Alianza Petrolera;Atlético Bucaramanga;1;2;3;4;0;3;0;4;0;11;12;7;4;17;17;47;53;Estadio Daniel Villa Zapata (Barrancabermeja)
+Oct 13 2020 - 1:10am;Jaguares de Córdoba;Santa Fe;1;1;2;4;3;3;0;6;0;15;12;4;6;10;6;52;48;Estadio de Fútbol Jaraguay de Montería (Montería)
+Oct 14 2020 - 4:00pm;Patriotas Boyacá;Deportivo Pasto;1;1;2;6;4;3;0;4;1;11;11;2;4;16;21;49;51;Estadio de La Independencia (Tunja)
+Oct 14 2020 - 7:00pm;Deportivo Cali;Boyacá Chicó;3;1;4;5;9;4;0;5;0;25;11;6;5;12;11;50;50;Estadio Deportivo Cali (Palmira)
+Oct 14 2020 - 9:00pm;Once Caldas;Cúcuta Deportivo;1;1;2;8;2;4;0;5;0;16;7;12;4;20;24;53;47;Estadio Palogrande (Manizales)
+Oct 14 2020 - 11:05pm;Envigado;Millonarios;1;2;3;4;6;4;0;4;0;10;12;4;3;12;19;52;48;Estadio Polideportivo Sur (Envigado)
+Oct 15 2020 - 1:10am;Junior;América de Cali;1;1;2;7;1;2;0;3;0;22;6;14;2;13;12;47;53;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Oct 15 2020 - 4:00pm;Santa Fe;La Equidad;1;0;1;9;3;1;0;3;0;9;6;7;3;10;26;50;50;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Oct 15 2020 - 7:00pm;Independiente Medellín;Jaguares de Córdoba;1;1;2;7;5;2;0;3;0;14;16;6;9;9;11;48;52;Estadio Atanasio Girardot (Medellín)
+Oct 15 2020 - 9:00pm;Deportes Tolima;Alianza Petrolera;3;1;4;2;4;2;0;2;0;14;16;6;9;9;11;47;53;Estadio Manuel Murillo Toro (Ibagué)
+Oct 15 2020 - 11:05pm;Rionegro Águilas;Atlético Nacional;2;3;5;3;2;1;0;3;0;11;9;5;4;18;13;52;48;Estadio Alberto Grisales (Rionegro- Antioquia)
+Oct 16 2020 - 1:10am;Atlético Bucaramanga;Deportivo Pereira;1;0;1;9;9;4;0;2;0;13;16;9;8;24;14;49;51;Estadio Alfonso López (Bucaramanga)
+Oct 17 2020 - 9:00pm;Boyacá Chicó;Once Caldas;1;1;2;6;4;2;0;3;0;12;8;9;4;23;14;50;50;Estadio de La Independencia (Tunja)
+Oct 17 2020 - 11:05pm;Cúcuta Deportivo;Envigado;1;0;1;4;3;4;0;2;0;15;7;5;4;17;16;53;47;Estadio Centenario (Armenia)
+Oct 18 2020 - 1:10am;Millonarios;Patriotas Boyacá;1;0;1;5;2;2;0;2;1;14;9;4;4;15;17;52;48;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Oct 18 2020 - 4:00pm;La Equidad;Atlético Bucaramanga;2;1;3;9;2;2;0;3;0;10;6;6;4;15;24;47;53;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Oct 18 2020 - 7:00pm;Deportivo Pereira;Junior;0;2;2;2;4;2;0;2;0;18;5;9;3;19;18;50;50;Estadio Hernán Ramírez Villegas (Pereira)
+Oct 18 2020 - 9:00pm;Jaguares de Córdoba;Deportes Tolima;1;1;2;10;3;4;0;2;1;13;12;8;6;20;21;50;50;Estadio de Fútbol Jaraguay de Montería (Montería)
+Oct 18 2020 - 11:05pm;Atlético Nacional;América de Cali;2;2;4;7;0;0;0;4;0;19;5;4;2;23;16;49;51;Estadio Atanasio Girardot (Medellín)
+Oct 19 2020 - 1:10am;Deportivo Pasto;Independiente Medellín;2;1;3;5;5;2;0;1;1;17;9;8;3;17;23;47;53;Estadio Departamental Libertad (San Juan de Pasto)
+Oct 19 2020 - 11:00pm;Alianza Petrolera;Rionegro Águilas;0;1;1;3;1;1;0;4;0;9;15;3;11;14;18;45;55;Estadio Daniel Villa Zapata (Barrancabermeja)
+Oct 20 2020 - 1:00am;Deportivo Cali;Santa Fe;3;2;5;10;1;1;0;5;1;8;11;3;6;16;19;50;50;Estadio Deportivo Cali (Palmira)
+Oct 24 2020 - 9:00pm;Once Caldas;Jaguares de Córdoba;2;1;3;2;3;1;0;3;0;14;10;7;6;16;17;47;53;Estadio Palogrande (Manizales)
+Oct 24 2020 - 11:05pm;Deportes Tolima;La Equidad;1;2;3;3;7;3;0;3;0;6;8;2;3;10;19;48;52;Estadio Manuel Murillo Toro (Ibagué)
+Oct 25 2020 - 1:10am;Junior;Millonarios;1;1;2;4;4;2;0;1;0;10;22;7;8;20;20;49;51;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Oct 25 2020 - 4:30pm;Envigado;Alianza Petrolera;3;3;6;5;2;5;0;3;1;23;13;10;4;13;6;47;53;Estadio Polideportivo Sur (Envigado)
+Oct 25 2020 - 7:00pm;Patriotas Boyacá;Atlético Nacional;2;1;3;2;7;3;0;2;0;12;2;8;2;11;14;50;50;Estadio de La Independencia (Tunja)
+Oct 25 2020 - 9:00pm;Santa Fe;Boyacá Chicó;3;1;4;4;2;4;0;3;0;24;10;13;5;16;17;52;48;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Oct 25 2020 - 11:05pm;América de Cali;Deportivo Pasto;3;2;5;4;7;4;0;3;0;14;10;7;6;19;20;51;49;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Oct 26 2020 - 1:10am;Independiente Medellín;Deportivo Cali;2;3;5;12;3;3;0;2;0;14;9;4;0;15;22;53;47;Estadio Atanasio Girardot (Medellín)
+Oct 26 2020 - 11:00pm;Rionegro Águilas;Deportivo Pereira;1;0;1;3;3;2;0;1;0;10;14;6;6;15;11;50;50;Estadio Alberto Grisales (Rionegro- Antioquia)
+Oct 27 2020 - 1:00am;Atlético Bucaramanga;Cúcuta Deportivo;1;0;1;6;6;4;0;3;0;4;6;2;3;20;25;52;48;Estadio Alfonso López (Bucaramanga)
+Oct 31 2020 - 8:30pm;Jaguares de Córdoba;Envigado;0;0;0;13;2;1;0;3;0;14;7;5;3;18;18;53;47;Estadio de Fútbol Jaraguay de Montería (Montería)
+Oct 31 2020 - 11:00pm;Millonarios;Atlético Nacional;3;0;3;3;2;2;1;3;0;9;7;4;0;16;19;48;52;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Nov 01 2020 - 1:10am;Deportivo Cali;Deportes Tolima;1;2;3;7;10;2;0;5;0;13;15;6;9;18;21;48;52;Estadio Deportivo Cali (Palmira)
+Nov 01 2020 - 7:00pm;La Equidad;Rionegro Águilas;0;0;0;4;5;2;0;1;0;17;3;7;0;16;15;52;48;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Nov 01 2020 - 9:00pm;Cúcuta Deportivo;Junior;1;4;5;3;9;7;1;7;0;23;9;12;3;11;28;49;51;Estadio Centenario (Armenia)
+Nov 01 2020 - 11:05pm;Deportivo Pasto;Santa Fe;1;1;2;2;6;4;0;2;0;16;11;7;9;16;18;47;53;Estadio Departamental Libertad (San Juan de Pasto)
+Nov 02 2020 - 1:10am;Independiente Medellín;Once Caldas;1;1;2;8;4;3;0;2;1;8;12;3;5;21;19;52;48;Estadio Atanasio Girardot (Medellín)
+Nov 02 2020 - 11:10pm;Boyacá Chicó;Atlético Bucaramanga;1;0;1;2;3;2;1;4;1;6;11;3;6;18;10;51;49;Estadio de La Independencia (Tunja)
+Nov 03 2020 - 1:15am;Deportivo Pereira;América de Cali;0;1;1;2;1;4;0;3;1;19;13;9;5;19;16;48;52;Estadio Hernán Ramírez Villegas (Pereira)
+Nov 04 2020 - 12:40am;Alianza Petrolera;Patriotas Boyacá;0;0;0;6;5;3;0;4;1;11;6;2;4;15;22;48;52;Estadio Daniel Villa Zapata (Barrancabermeja)
+Nov 06 2020 - 12:40am;Santa Fe;Independiente Medellín;3;0;3;6;4;1;0;1;0;9;12;5;6;25;17;50;50;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Nov 06 2020 - 11:00pm;Envigado;La Equidad;1;1;2;4;6;1;0;1;0;14;12;3;5;24;20;50;50;Estadio Polideportivo Sur (Envigado)
+Nov 07 2020 - 1:00am;Rionegro Águilas;Cúcuta Deportivo;2;1;3;7;4;3;1;6;0;16;7;6;4;17;19;48;52;Estadio Alberto Grisales (Rionegro- Antioquia)
+Nov 07 2020 - 7:30pm;Patriotas Boyacá;Deportivo Pereira;1;0;1;2;6;2;1;1;1;11;12;7;4;17;17;52;48;Estadio de La Independencia (Tunja)
+Nov 07 2020 - 9:30pm;Atlético Bucaramanga;Jaguares de Córdoba;2;2;4;9;4;1;0;0;0;15;12;4;6;10;6;50;50;Estadio Alfonso López (Bucaramanga)
+Nov 07 2020 - 11:30pm;Deportes Tolima;Boyacá Chicó;2;0;2;5;2;5;1;1;0;11;11;2;4;16;21;51;49;Estadio Manuel Murillo Toro (Ibagué)
+Nov 08 2020 - 1:30am;América de Cali;Millonarios;0;2;2;4;1;3;0;2;0;25;11;6;5;12;11;47;53;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Nov 08 2020 - 9:00pm;Once Caldas;Deportivo Cali;1;1;2;5;6;4;0;3;0;16;7;12;4;20;24;49;51;Estadio Palogrande (Manizales)
+Nov 08 2020 - 11:05pm;Junior;Alianza Petrolera;2;1;3;3;1;5;0;1;0;10;12;4;3;12;19;51;49;Estadio Romelio Martínez (Barranquilla)
+Nov 09 2020 - 1:10am;Atlético Nacional;Deportivo Pasto;1;0;1;4;3;1;0;4;0;22;6;14;2;13;12;53;47;Estadio Atanasio Girardot (Medellín)
+Nov 10 2020 - 7:00pm;La Equidad;Patriotas Boyacá;1;0;1;8;2;3;0;3;0;9;6;7;3;10;26;52;48;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Nov 10 2020 - 9:00pm;Independiente Medellín;Atlético Bucaramanga;1;0;1;6;7;3;0;1;1;14;16;6;9;9;11;49;51;Estadio Atanasio Girardot (Medellín)
+Nov 10 2020 - 11:05pm;Deportivo Pereira;Millonarios;0;2;2;4;4;4;0;2;0;-1;-1;-1;-1;-1;-1;49;51;Estadio Hernán Ramírez Villegas (Pereira)
+Nov 11 2020 - 1:10am;Santa Fe;Deportes Tolima;1;0;1;4;3;5;1;3;0;11;9;5;4;18;13;53;47;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Nov 11 2020 - 7:00pm;Deportivo Cali;Envigado;3;0;3;8;4;1;0;3;0;13;16;9;8;24;14;53;47;Estadio Deportivo Cali (Palmira)
+Nov 11 2020 - 9:00pm;Jaguares de Córdoba;Junior;2;2;4;5;4;5;0;2;0;12;8;9;4;23;14;52;48;Estadio de Fútbol Jaraguay de Montería (Montería)
+Nov 11 2020 - 11:05pm;Boyacá Chicó;Rionegro Águilas;1;2;3;2;3;4;0;2;0;15;7;5;4;17;16;50;50;Estadio de La Independencia (Tunja)
+Nov 12 2020 - 1:10am;Alianza Petrolera;Atlético Nacional;2;3;5;6;4;5;1;3;0;14;9;4;4;15;17;49;51;Estadio Daniel Villa Zapata (Barrancabermeja)
+Nov 12 2020 - 11:00pm;Deportivo Pasto;Once Caldas;2;1;3;6;2;4;0;4;0;4;10;3;8;24;18;53;47;Estadio Departamental Libertad (San Juan de Pasto)
+Nov 13 2020 - 1:00am;Cúcuta Deportivo;América de Cali;0;3;3;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;Estadio Centenario (Armenia)
+Nov 14 2020 - 6:30pm;Patriotas Boyacá;Jaguares de Córdoba;2;0;2;3;5;0;0;2;0;16;10;6;6;23;15;53;47;Estadio de La Independencia (Tunja)
+Nov 14 2020 - 11:00pm;Envigado;Independiente Medellín;2;1;3;2;7;5;1;3;0;12;18;5;10;16;16;52;48;Estadio Polideportivo Sur (Envigado)
+Nov 15 2020 - 1:00am;Atlético Bucaramanga;Santa Fe;1;2;3;4;5;2;0;3;0;9;7;6;3;19;18;49;51;Estadio Alfonso López (Bucaramanga)
+Nov 15 2020 - 11:00pm;Deportivo Pereira;Deportivo Pasto;1;1;2;3;2;4;0;3;0;19;9;6;6;14;15;51;49;Estadio Hernán Ramírez Villegas (Pereira)
+Nov 15 2020 - 11:00pm;Millonarios;Alianza Petrolera;6;1;7;2;1;1;0;1;0;16;14;7;5;27;8;52;48;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Nov 15 2020 - 11:00pm;Atlético Nacional;Cúcuta Deportivo;3;0;3;-1;-1;-1;-1;-1;-1;15;9;6;5;24;20;52;48;Estadio Atanasio Girardot (Medellín)
+Nov 15 2020 - 11:00pm;América de Cali;La Equidad;1;2;3;6;3;2;1;5;1;10;8;3;2;24;25;50;50;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Nov 15 2020 - 11:00pm;Junior;Boyacá Chicó;3;0;3;5;0;0;0;3;0;12;8;7;2;13;29;53;47;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Nov 15 2020 - 11:00pm;Rionegro Águilas;Deportivo Cali;4;1;5;5;6;0;0;2;0;17;6;7;2;14;17;50;50;Estadio Alberto Grisales (Rionegro- Antioquia)
+Nov 15 2020 - 11:00pm;Deportes Tolima;Once Caldas;2;3;5;1;7;1;1;2;0;16;6;7;2;13;21;48;52;Estadio Manuel Murillo Toro (Ibagué)
+Nov 21 2020 - 10:30pm;La Equidad;Deportivo Cali;1;1;2;10;5;0;0;1;0;7;7;5;3;23;22;50;50;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Nov 22 2020 - 1:00am;América de Cali;Atlético Nacional;1;2;3;3;0;2;1;1;0;16;9;9;4;13;13;48;52;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Nov 22 2020 - 11:05pm;Junior;Deportes Tolima;1;0;1;5;4;3;0;3;0;15;5;8;3;23;19;50;50;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Nov 23 2020 - 1:10am;Deportivo Pasto;Santa Fe;1;0;1;6;11;3;0;7;0;18;7;6;2;19;20;51;49;Estadio Departamental Libertad (San Juan de Pasto)
+Nov 26 2020 - 11:00pm;Rionegro Águilas;Envigado;1;1;2;4;3;1;0;2;0;11;11;6;5;14;15;52;48;Estadio Alberto Grisales (Rionegro- Antioquia)
+Nov 27 2020 - 1:00am;Atlético Bucaramanga;Alianza Petrolera;3;2;5;5;3;5;0;6;0;23;8;9;2;18;11;50;50;Estadio Alfonso López (Bucaramanga)
+Nov 27 2020 - 11:00pm;Independiente Medellín;Deportivo Pereira;1;2;3;9;7;1;0;1;0;15;9;5;5;14;29;49;51;Estadio Atanasio Girardot (Medellín)
+Nov 28 2020 - 1:00am;Millonarios;Once Caldas;5;2;7;5;4;0;0;1;0;12;7;7;3;18;21;50;50;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Nov 28 2020 - 10:30pm;Deportivo Cali;La Equidad;0;1;1;5;6;0;1;1;2;10;6;6;4;15;24;51;49;Estadio Deportivo Cali (Palmira)
+Nov 29 2020 - 1:00am;Atlético Nacional;América de Cali;0;3;3;8;2;3;1;2;1;18;5;9;3;19;18;49;51;Estadio Atanasio Girardot (Medellín)
+Nov 29 2020 - 10:30pm;Santa Fe;Deportivo Pasto;2;0;2;5;3;2;0;3;0;13;12;8;6;20;21;49;51;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Nov 30 2020 - 1:00am;Deportes Tolima;Junior;0;1;1;9;3;2;2;1;0;19;5;4;2;23;16;47;53;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Nov 30 2020 - 9:00pm;Boyacá Chicó;Patriotas Boyacá;1;3;4;6;9;7;1;3;0;17;9;8;3;17;23;49;51;Estadio de La Independencia (Tunja)
+Dec 02 2020 - 12:40am;Deportivo Pereira;Rionegro Águilas;2;2;4;5;5;1;0;5;0;9;15;3;11;14;18;48;52;Estadio Hernán Ramírez Villegas (Pereira)
+Dec 03 2020 - 1:00am;Envigado;Independiente Medellín;0;3;3;4;4;2;0;3;1;8;11;3;6;16;19;51;49;Estadio Polideportivo Sur (Envigado)
+Dec 04 2020 - 1:00am;Jaguares de Córdoba;Atlético Bucaramanga;0;0;0;4;6;2;0;1;0;14;10;7;6;16;17;51;49;Estadio de Fútbol Jaraguay de Montería (Montería)
+Dec 05 2020 - 12:40am;Patriotas Boyacá;Millonarios;2;3;5;3;3;1;0;0;0;6;8;2;3;10;19;52;48;Estadio de La Independencia (Tunja)
+Dec 05 2020 - 8:00pm;Once Caldas;Boyacá Chicó;1;0;1;9;8;4;0;2;0;10;22;7;8;20;20;53;47;Estadio Palogrande (Manizales)
+Dec 06 2020 - 1:00am;La Equidad;Santa Fe;1;1;2;1;6;1;0;3;1;23;13;10;4;13;6;53;47;Estadio Metropolitano de Techo (Bogotá- D.C.)
+Dec 07 2020 - 1:00am;América de Cali;Junior;0;0;0;0;4;4;0;3;0;12;2;8;2;11;14;47;53;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Dec 10 2020 - 12:40am;Envigado;Deportivo Pereira;0;1;1;3;2;6;0;0;0;24;10;13;5;16;17;51;49;Estadio Polideportivo Sur (Envigado)
+Dec 10 2020 - 12:40am;Rionegro Águilas;Independiente Medellín;2;1;3;8;6;2;0;1;0;14;10;7;6;19;20;53;47;Estadio Alberto Grisales (Rionegro- Antioquia)
+Dec 10 2020 - 12:40am;Millonarios;Boyacá Chicó;2;0;2;4;8;0;0;2;0;14;9;4;0;15;22;49;51;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Dec 10 2020 - 12:40am;Once Caldas;Patriotas Boyacá;2;0;2;7;5;4;0;0;0;10;14;6;6;15;11;48;52;Estadio Palogrande (Manizales)
+Dec 10 2020 - 12:40am;Alianza Petrolera;Jaguares de Córdoba;2;2;4;3;5;4;1;4;0;4;6;2;3;20;25;48;52;Estadio Daniel Villa Zapata (Barrancabermeja)
+Dec 13 2020 - 12:30am;Santa Fe;La Equidad;2;1;3;9;5;1;0;2;0;14;7;5;3;18;18;51;49;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Dec 14 2020 - 1:00am;Junior;América de Cali;1;2;3;6;1;2;0;2;0;9;7;4;0;16;19;53;47;Estadio Metropolitano Roberto Meléndez (Barranquilla)
+Dec 17 2020 - 12:40am;Deportivo Pereira;Atlético Bucaramanga;1;1;2;2;6;2;0;3;0;8;3;3;3;22;14;48;52;Estadio Hernán Ramírez Villegas (Pereira)
+Dec 18 2020 - 12:40am;Millonarios;Once Caldas;0;0;0;6;2;1;0;1;0;19;6;10;3;13;14;53;47;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Dec 20 2020 - 11:00pm;América de Cali;Santa Fe;3;0;3;1;0;1;0;2;0;9;5;6;0;29;13;47;53;Estadio Olímpico Pascual Guerrero (Santiago de Cali)
+Dec 23 2020 - 1:00am;Millonarios;Deportivo Pereira;1;0;1;3;5;3;1;0;0;11;13;6;4;13;16;53;47;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Dec 27 2020 - 11:00pm;Santa Fe;América de Cali;2;0;2;5;5;2;0;6;0;11;10;6;3;23;9;48;52;Estadio Nemesio Camacho El Campín (Bogotá- D.C.)
+Dec 29 2020 - 11:30pm;Deportivo Cali;Millonarios;1;1;2;7;6;2;0;3;0;9;19;3;9;18;16;49;51;Estadio Deportivo Cali (Palmira)
+;;;;;;;;;;;;14;6;5;5;15;17;47;53;
+;;;;;;;;;;;;19;10;9;7;10;15;53;47;
+;;;;;;;;;;;;12;16;8;7;11;22;50;50;
+;;;;;;;;;;;;17;11;10;2;19;19;53;47;
+;;;;;;;;;;;;8;7;4;4;21;26;48;52;
+;;;;;;;;;;;;6;9;2;5;19;17;49;51;
+;;;;;;;;;;;;19;19;11;9;17;18;53;47;
+;;;;;;;;;;;;15;7;5;4;10;15;50;50;
+;;;;;;;;;;;;13;12;7;5;14;12;47;53;
+;;;;;;;;;;;;16;10;3;3;16;7;53;47;
+;;;;;;;;;;;;12;7;5;2;19;16;52;48;
+;;;;;;;;;;;;24;4;12;4;11;24;53;47;
+;;;;;;;;;;;;19;15;3;8;19;14;47;53;
+;;;;;;;;;;;;14;8;4;4;13;18;48;52;
+;;;;;;;;;;;;10;16;5;7;10;20;49;51;
+;;;;;;;;;;;;16;12;6;7;19;27;51;49;
+;;;;;;;;;;;;9;10;4;4;16;12;50;50;
+;;;;;;;;;;;;19;5;7;0;8;17;50;50;
+;;;;;;;;;;;;11;11;6;5;13;24;48;52;
+;;;;;;;;;;;;15;4;5;4;11;13;49;51;
+;;;;;;;;;;;;12;4;6;2;14;16;50;50;
+;;;;;;;;;;;;9;7;6;4;22;21;53;47;
+;;;;;;;;;;;;23;8;7;3;16;11;47;53;
+;;;;;;;;;;;;15;13;8;6;17;11;51;49;
+;;;;;;;;;;;;5;14;2;4;15;12;49;51;
+;;;;;;;;;;;;10;11;3;6;13;22;47;53;
+;;;;;;;;;;;;12;12;4;5;11;18;51;49;
+;;;;;;;;;;;;8;10;5;2;15;13;49;51;
+;;;;;;;;;;;;9;11;6;6;16;23;49;51;
+;;;;;;;;;;;;9;8;6;5;18;16;52;48;
+;;;;;;;;;;;;9;14;5;5;13;17;53;47;
+;;;;;;;;;;;;20;10;8;2;16;19;49;51;
+;;;;;;;;;;;;10;13;2;8;19;21;50;50;
+;;;;;;;;;;;;25;8;11;6;20;15;50;50;
+;;;;;;;;;;;;6;10;2;4;19;17;51;49;
+;;;;;;;;;;;;9;10;6;3;24;18;50;50;
+;;;;;;;;;;;;13;11;4;5;14;17;50;50;
+;;;;;;;;;;;;7;14;3;6;14;17;50;50;
+;;;;;;;;;;;;14;6;7;5;17;17;51;49;
+;;;;;;;;;;;;11;10;3;3;18;18;48;52;
+;;;;;;;;;;;;9;4;4;3;17;12;47;53;
+;;;;;;;;;;;;13;5;8;3;16;29;52;48;
+;;;;;;;;;;;;15;6;11;2;21;10;49;51;
+;;;;;;;;;;;;11;12;5;3;12;13;50;50;
+;;;;;;;;;;;;4;7;2;4;15;15;53;47;
+;;;;;;;;;;;;8;10;4;5;25;21;52;48;
+;;;;;;;;;;;;17;9;8;5;15;16;47;53;
+;;;;;;;;;;;;11;12;6;7;13;22;50;50;
+;;;;;;;;;;;;15;9;6;4;21;20;51;49;
+;;;;;;;;;;;;12;9;9;5;21;15;48;52;
+;;;;;;;;;;;;14;6;4;4;15;12;48;52;
+;;;;;;;;;;;;13;8;5;6;13;10;50;50;
+;;;;;;;;;;;;11;19;6;13;19;18;52;48;
+;;;;;;;;;;;;4;13;2;8;19;13;52;48;
+;;;;;;;;;;;;12;10;5;4;26;15;48;52;
+;;;;;;;;;;;;22;9;11;4;15;14;52;48;
+;;;;;;;;;;;;15;5;7;4;18;7;48;52;
+;;;;;;;;;;;;9;15;6;5;8;20;47;53;
+;;;;;;;;;;;;12;12;7;8;11;15;47;53;
+;;;;;;;;;;;;12;13;7;4;15;19;51;49;
+;;;;;;;;;;;;4;12;2;8;12;14;53;47;
+;;;;;;;;;;;;14;8;6;5;17;23;50;50;
+;;;;;;;;;;;;16;8;7;4;11;20;51;49;
+;;;;;;;;;;;;12;13;7;7;9;14;48;52;
+;;;;;;;;;;;;10;7;2;3;20;11;51;49;
+;;;;;;;;;;;;10;11;7;5;23;15;50;50;
+;;;;;;;;;;;;13;11;4;5;25;29;53;47;
+;;;;;;;;;;;;11;11;5;7;15;10;51;49;
+;;;;;;;;;;;;6;8;4;3;20;12;48;52;
+;;;;;;;;;;;;14;12;4;4;11;13;47;53;
+;;;;;;;;;;;;12;11;5;5;19;16;52;48;
+;;;;;;;;;;;;13;8;5;6;22;22;51;49;
+;;;;;;;;;;;;11;7;5;2;17;14;50;50;
+;;;;;;;;;;;;11;7;3;5;30;9;49;51;
+;;;;;;;;;;;;10;11;5;10;15;23;50;50;
+;;;;;;;;;;;;16;10;10;7;9;22;53;47;
+;;;;;;;;;;;;8;8;3;4;14;16;52;48;
+;;;;;;;;;;;;17;13;11;4;15;19;48;52;
+;;;;;;;;;;;;10;17;6;10;15;15;47;53;
+;;;;;;;;;;;;7;14;3;6;11;6;47;53;
+;;;;;;;;;;;;16;10;8;8;18;21;51;49;
+;;;;;;;;;;;;13;10;8;2;18;14;53;47;
+;;;;;;;;;;;;10;12;4;9;22;11;53;47;
+;;;;;;;;;;;;10;17;4;12;21;14;51;49;
+;;;;;;;;;;;;19;14;11;5;9;17;52;48;
+;;;;;;;;;;;;10;12;6;5;18;13;50;50;
+;;;;;;;;;;;;7;10;3;4;23;21;49;51;
+;;;;;;;;;;;;11;11;3;3;24;17;52;48;
+;;;;;;;;;;;;9;6;6;2;10;15;52;48;
+;;;;;;;;;;;;12;11;7;8;14;20;48;52;
+;;;;;;;;;;;;14;12;6;6;16;17;48;52;
+;;;;;;;;;;;;10;10;6;3;19;16;53;47;
+;;;;;;;;;;;;14;11;8;7;23;16;50;50;
+;;;;;;;;;;;;10;13;7;6;16;20;53;47;
+;;;;;;;;;;;;11;19;9;10;12;22;52;48;
+;;;;;;;;;;;;14;15;8;9;11;15;49;51;
+;;;;;;;;;;;;15;11;6;4;11;17;49;51;
+;;;;;;;;;;;;16;4;7;3;9;16;52;48;
+;;;;;;;;;;;;17;15;7;8;16;17;47;53;
+;;;;;;;;;;;;-1;-1;-1;-1;-1;-1;-1;-1;
+;;;;;;;;;;;;19;5;8;4;16;10;43;57;
+;;;;;;;;;;;;12;12;8;5;10;12;61;39;
+;;;;;;;;;;;;15;7;6;2;9;12;54;46;
+;;;;;;;;;;;;15;10;3;4;22;11;57;43;
+;;;;;;;;;;;;13;18;8;8;13;17;48;52;
+;;;;;;;;;;;;8;7;4;4;19;19;58;42;
+;;;;;;;;;;;;14;6;7;3;12;25;57;43;
+;;;;;;;;;;;;11;4;3;2;22;15;45;55;
+;;;;;;;;;;;;17;10;10;3;22;19;50;50;
+;;;;;;;;;;;;6;10;3;5;16;14;53;47;
+;;;;;;;;;;;;12;8;8;5;15;8;62;38;
+;;;;;;;;;;;;15;13;10;8;15;10;50;50;
+;;;;;;;;;;;;8;20;6;11;21;15;42;58;
+;;;;;;;;;;;;7;13;4;6;12;15;48;52;
+;;;;;;;;;;;;10;6;5;4;19;17;55;45;
+;;;;;;;;;;;;22;4;7;2;12;17;54;46;
+;;;;;;;;;;;;8;5;5;3;10;16;57;43;
+;;;;;;;;;;;;6;8;2;2;19;19;54;46;
+;;;;;;;;;;;;19;12;8;5;14;24;52;48;
+;;;;;;;;;;;;24;9;8;2;4;13;62;38;
+;;;;;;;;;;;;8;17;4;6;15;21;49;51;
+;;;;;;;;;;;;8;5;5;4;15;14;58;42;
+;;;;;;;;;;;;15;11;7;4;14;18;54;46;
+;;;;;;;;;;;;21;9;6;6;14;9;59;41;
+;;;;;;;;;;;;16;12;8;8;17;11;48;52;
+;;;;;;;;;;;;14;7;5;2;21;23;66;34;
+;;;;;;;;;;;;13;11;8;7;20;23;53;47;
+;;;;;;;;;;;;7;12;3;8;8;11;42;58;
+;;;;;;;;;;;;6;9;3;6;13;15;41;59;
+;;;;;;;;;;;;11;10;8;4;16;10;46;54;
+;;;;;;;;;;;;23;7;9;3;11;11;61;39;
+;;;;;;;;;;;;16;9;4;4;21;16;57;43;
+;;;;;;;;;;;;12;14;6;6;25;15;46;54;
+;;;;;;;;;;;;10;18;4;8;19;12;51;49;
+;;;;;;;;;;;;19;15;8;3;16;13;50;50;
+;;;;;;;;;;;;16;17;5;11;19;17;47;53;
+;;;;;;;;;;;;8;7;4;4;15;21;54;46;
+;;;;;;;;;;;;19;9;6;5;17;19;54;46;
+;;;;;;;;;;;;5;12;2;7;17;22;52;48;
+;;;;;;;;;;;;2;12;2;5;16;14;48;52;
+;;;;;;;;;;;;9;14;2;7;20;12;45;55;
+;;;;;;;;;;;;15;8;4;5;15;20;52;48;
+;;;;;;;;;;;;9;11;5;4;22;10;53;47;

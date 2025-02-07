@@ -1,0 +1,377 @@
+﻿date_GMT;home_team_name;away_team_name;home_team_goal_count;away_team_goal_count;total_goal_count;home_team_corner_count;away_team_corner_count;home_team_yellow_cards;home_team_red_cards;away_team_yellow_cards;away_team_red_cards;home_team_shots;away_team_shots;home_team_shots_on_target;away_team_shots_on_target;home_team_fouls;away_team_fouls;home_team_possession;away_team_possession;stadium_name
+Feb 02 2013 - 12:45am;Deportes Quindío;Deportivo Pasto;0;1;1;4;0;4;0;5;0;11;4;5;3;14;20;50;50;Estadio Centenario (Armenia)
+Feb 02 2013 - 8:15pm;Alianza Petrolera;Santa Fe;0;3;3;4;0;4;0;2;0;12;6;4;3;15;19;50;50;Estadio Santiago de las Atalayas (Yopal)
+Feb 02 2013 - 10:30pm;Patriotas Boyacá;Boyacá Chicó;1;1;2;4;1;4;1;1;0;18;11;9;5;13;16;49;51;Estadio de La Independencia
+Feb 02 2013 - 10:30pm;Deportivo Cali;Once Caldas;2;1;3;3;0;3;0;4;1;7;7;4;3;24;18;47;53;Estadio Olímpico Pascual Guerrero
+Feb 03 2013 - 12:45am;Atlético Nacional;Atlético Huila;3;0;3;4;0;4;0;4;0;7;7;4;3;24;18;45;55;Estadio Atanasio Girardot
+Feb 03 2013 - 8:15pm;Junior;Envigado;4;0;4;3;0;3;0;2;0;7;7;2;3;16;10;50;50;Estadio Metropolitano Roberto Meléndez
+Feb 03 2013 - 10:30pm;Millonarios;La Equidad;3;1;4;2;0;2;0;5;0;15;6;10;4;25;12;47;53;Estadio Nemesio Camacho El Campín
+Feb 04 2013 - 12:52am;Deportes Tolima;Independiente Medellín;1;0;1;4;1;4;1;6;2;12;14;4;5;22;15;48;52;Estadio Manuel Murillo Toro
+Feb 04 2013 - 8:00pm;Rionegro Águilas;Cúcuta Deportivo;0;0;0;4;0;4;0;5;0;14;6;7;3;20;13;47;53;Estadio Metropolitano de Itagüí (Itagüí)
+Feb 09 2013 - 12:00am;La Equidad;Alianza Petrolera;0;1;1;3;0;3;0;6;0;14;11;8;6;11;12;46;54;Estadio Metropolitano de Techo
+Feb 09 2013 - 1:00am;Deportivo Pasto;Patriotas Boyacá;3;2;5;2;0;2;0;3;0;10;11;3;5;13;8;46;54;Estadio Departamental Libertad
+Feb 09 2013 - 8:20pm;Atlético Huila;Rionegro Águilas;1;1;2;2;0;2;0;2;0;8;11;0;6;17;19;46;54;Estadio Guillermo Plazas Alcid
+Feb 09 2013 - 10:30pm;Boyacá Chicó;Deportivo Cali;1;2;3;3;0;3;0;4;0;18;4;9;2;15;16;45;55;Estadio de La Independencia
+Feb 09 2013 - 10:40pm;Santa Fe;Atlético Nacional;2;2;4;4;0;4;0;1;0;16;10;10;2;12;12;45;55;Estadio Nemesio Camacho El Campín
+Feb 10 2013 - 12:50am;Once Caldas;Junior;2;1;3;5;0;5;0;6;0;8;12;6;4;9;10;45;55;Estadio Palogrande
+Feb 10 2013 - 8:15pm;Envigado;Deportes Tolima;2;2;4;2;0;2;0;4;0;16;10;14;8;22;16;44;56;Estadio Polideportivo Sur
+Feb 10 2013 - 10:30pm;Independiente Medellín;Millonarios;0;0;0;3;0;3;0;4;0;14;10;8;2;16;10;44;56;Estadio Atanasio Girardot
+Feb 11 2013 - 12:45am;Cúcuta Deportivo;Deportes Quindío;2;0;2;3;0;3;0;4;1;12;13;4;7;22;13;50;50;Estadio General Santander
+Feb 16 2013 - 12:45am;Deportes Quindío;Atlético Huila;0;0;0;1;0;1;0;3;0;13;15;6;9;18;21;48;52;Estadio Centenario (Armenia)
+Feb 16 2013 - 8:15pm;Patriotas Boyacá;Cúcuta Deportivo;1;3;4;1;0;1;0;2;0;17;3;7;0;16;15;52;48;Estadio de La Independencia
+Feb 16 2013 - 10:30pm;Junior;Boyacá Chicó;2;2;4;2;0;2;0;6;0;23;9;12;3;11;28;50;50;Estadio Metropolitano Roberto Meléndez
+Feb 16 2013 - 10:30pm;Millonarios;Envigado;1;0;1;2;0;2;0;2;0;11;12;7;4;17;17;51;49;Estadio Nemesio Camacho El Campín
+Feb 17 2013 - 12:45am;Atlético Nacional;Alianza Petrolera;4;0;4;2;0;2;0;2;0;15;12;4;6;10;6;47;53;Estadio Atanasio Girardot
+Feb 17 2013 - 8:15pm;Rionegro Águilas;Santa Fe;4;0;4;3;0;3;0;4;0;11;11;2;4;16;21;49;51;Estadio Metropolitano de Itagüí (Itagüí)
+Feb 17 2013 - 10:30pm;Deportes Tolima;Once Caldas;2;2;4;2;0;2;0;3;0;25;11;6;5;12;11;51;49;Estadio Manuel Murillo Toro
+Feb 17 2013 - 10:30pm;La Equidad;Independiente Medellín;1;0;1;2;0;2;0;4;0;16;7;12;4;20;24;53;47;Estadio Metropolitano de Techo
+Feb 18 2013 - 12:45am;Deportivo Cali;Deportivo Pasto;2;2;4;4;0;4;0;2;1;10;12;4;3;12;19;52;48;Estadio Olímpico Pascual Guerrero
+Feb 23 2013 - 12:45am;Envigado;La Equidad;1;0;1;4;1;4;1;5;0;22;6;14;2;13;12;49;51;Estadio Polideportivo Sur
+Feb 23 2013 - 8:15pm;Atlético Huila;Patriotas Boyacá;1;0;1;3;0;3;0;3;0;9;6;7;3;10;26;49;51;Estadio Guillermo Plazas Alcid
+Feb 23 2013 - 10:30pm;Once Caldas;Millonarios;1;0;1;3;0;3;0;5;0;14;16;6;9;9;11;53;47;Estadio Palogrande
+Feb 23 2013 - 10:30pm;Boyacá Chicó;Deportes Tolima;3;0;3;1;0;1;0;5;2;14;16;6;9;9;11;53;47;Estadio de La Independencia
+Feb 24 2013 - 12:45am;Atlético Nacional;Rionegro Águilas;1;1;2;2;1;2;1;4;1;11;9;5;4;18;13;52;48;Estadio Atanasio Girardot
+Feb 24 2013 - 8:15pm;Alianza Petrolera;Independiente Medellín;0;1;1;3;0;3;0;4;0;13;16;9;8;24;14;50;50;Estadio Santiago de las Atalayas (Yopal)
+Feb 24 2013 - 10:30pm;Deportivo Pasto;Junior;1;0;1;3;0;3;0;9;1;12;8;9;4;23;14;49;51;Estadio Departamental Libertad
+Feb 24 2013 - 10:30pm;Cúcuta Deportivo;Deportivo Cali;0;0;0;6;0;6;0;3;0;15;7;5;4;17;16;53;47;Estadio General Santander
+Feb 25 2013 - 12:45am;Santa Fe;Deportes Quindío;2;0;2;2;1;2;1;5;0;14;9;4;4;15;17;-1;-1;Estadio Nemesio Camacho El Campín
+Feb 28 2013 - 12:45am;Santa Fe;La Equidad;3;1;4;3;1;3;1;3;0;8;12;6;4;9;10;53;47;Estadio Nemesio Camacho El Campín
+Mar 02 2013 - 12:45am;Deportivo Cali;Atlético Huila;0;1;1;4;0;4;0;7;0;16;10;14;8;22;16;52;48;Estadio Olímpico Pascual Guerrero
+Mar 02 2013 - 8:15pm;Rionegro Águilas;Alianza Petrolera;3;0;3;4;0;4;0;6;0;14;10;8;2;16;10;49;51;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 02 2013 - 10:30pm;Patriotas Boyacá;Santa Fe;1;1;2;2;0;2;0;3;0;12;13;4;7;22;13;51;49;Estadio de La Independencia
+Mar 02 2013 - 10:30pm;Millonarios;Boyacá Chicó;2;1;3;6;0;6;0;5;0;13;15;6;9;18;21;52;48;Estadio Nemesio Camacho El Campín
+Mar 03 2013 - 12:45am;La Equidad;Once Caldas;0;0;0;1;0;1;0;1;0;17;3;7;0;16;15;52;48;Estadio Metropolitano de Techo
+Mar 03 2013 - 8:15pm;Deportes Tolima;Deportivo Pasto;3;0;3;1;0;1;0;4;0;23;9;12;3;11;28;50;50;Estadio Manuel Murillo Toro
+Mar 03 2013 - 10:30pm;Junior;Cúcuta Deportivo;0;2;2;4;1;4;1;5;0;11;12;7;4;17;17;53;47;Estadio Metropolitano Roberto Meléndez
+Mar 03 2013 - 10:30pm;Independiente Medellín;Envigado;0;1;1;3;0;3;0;6;1;15;12;4;6;10;6;50;50;Estadio Atanasio Girardot
+Mar 04 2013 - 12:45am;Deportes Quindío;Atlético Nacional;0;0;0;2;0;2;0;1;0;11;11;2;4;16;21;48;52;Estadio Centenario (Armenia)
+Mar 09 2013 - 12:45am;Boyacá Chicó;La Equidad;2;2;4;2;0;2;0;5;1;25;11;6;5;12;11;50;50;Estadio de La Independencia
+Mar 09 2013 - 8:15pm;Rionegro Águilas;Deportes Quindío;1;1;2;3;1;3;1;3;0;16;7;12;4;20;24;48;52;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 10 2013 - 12:45am;Cúcuta Deportivo;Deportes Tolima;2;1;3;2;0;2;0;4;0;10;12;4;3;12;19;50;50;Estadio General Santander
+Mar 10 2013 - 8:15pm;Alianza Petrolera;Envigado;1;2;3;5;0;5;0;5;0;22;6;14;2;13;12;51;49;Estadio Santiago de las Atalayas (Yopal)
+Mar 10 2013 - 8:15pm;Atlético Huila;Junior;1;1;2;3;0;3;0;3;0;9;6;7;3;10;26;52;48;Estadio Guillermo Plazas Alcid
+Mar 10 2013 - 10:30pm;Santa Fe;Deportivo Cali;3;1;4;4;0;4;0;2;0;14;16;6;9;9;11;50;50;Estadio Nemesio Camacho El Campín
+Mar 10 2013 - 10:30pm;Atlético Nacional;Patriotas Boyacá;3;3;6;3;1;3;1;4;0;14;16;6;9;9;11;49;51;Estadio Atanasio Girardot
+Mar 11 2013 - 12:45am;Once Caldas;Independiente Medellín;2;1;3;2;0;2;0;3;0;11;9;5;4;18;13;50;50;Estadio Palogrande
+Mar 16 2013 - 12:45am;La Equidad;Deportivo Pasto;0;0;0;3;0;3;0;2;0;13;16;9;8;24;14;51;49;Estadio Metropolitano de Techo
+Mar 16 2013 - 8:15pm;Patriotas Boyacá;Rionegro Águilas;0;0;0;3;0;3;0;3;0;12;8;9;4;23;14;49;51;Estadio de La Independencia
+Mar 16 2013 - 10:30pm;Deportivo Cali;Atlético Nacional;1;1;2;2;0;2;0;3;0;15;7;5;4;17;16;49;51;Estadio Olímpico Pascual Guerrero
+Mar 16 2013 - 10:30pm;Deportes Tolima;Atlético Huila;2;0;2;2;0;2;0;3;0;14;9;4;4;15;17;47;53;Estadio Manuel Murillo Toro
+Mar 17 2013 - 12:45am;Independiente Medellín;Boyacá Chicó;3;1;4;2;0;2;0;3;0;17;3;7;0;16;15;49;51;Estadio Atanasio Girardot
+Mar 17 2013 - 8:15pm;Junior;Santa Fe;2;3;5;2;0;2;0;4;0;23;9;12;3;11;28;48;52;Estadio Metropolitano Roberto Meléndez
+Mar 17 2013 - 10:30pm;Deportes Quindío;Alianza Petrolera;2;3;5;0;0;0;0;1;0;11;12;7;4;17;17;51;49;Estadio Centenario (Armenia)
+Mar 17 2013 - 10:30pm;Millonarios;Cúcuta Deportivo;2;1;3;4;0;4;0;3;0;15;12;4;6;10;6;51;49;Estadio Nemesio Camacho El Campín
+Mar 18 2013 - 12:45am;Envigado;Once Caldas;0;2;2;4;0;4;0;2;0;11;11;2;4;16;21;52;48;Estadio Polideportivo Sur
+Mar 24 2013 - 8:15pm;Rionegro Águilas;Deportes Tolima;3;2;5;1;0;1;0;5;0;25;11;6;5;12;11;53;47;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 24 2013 - 10:30pm;Deportivo Pasto;Millonarios;2;1;3;2;0;2;0;2;0;16;7;12;4;20;24;53;47;Estadio Departamental Libertad
+Mar 30 2013 - 8:15pm;Rionegro Águilas;Deportivo Cali;0;3;3;2;1;2;1;3;0;10;12;4;3;12;19;47;53;Estadio Metropolitano de Itagüí (Itagüí)
+Mar 30 2013 - 10:30pm;Deportivo Pasto;Independiente Medellín;1;0;1;3;0;3;0;4;0;22;6;14;2;13;12;51;49;Estadio Departamental Libertad
+Mar 30 2013 - 10:30pm;Atlético Huila;Millonarios;0;0;0;2;1;2;1;1;0;9;6;7;3;10;26;53;47;Estadio Guillermo Plazas Alcid
+Mar 31 2013 - 12:45am;Boyacá Chicó;Envigado;2;0;2;3;1;3;1;2;0;14;16;6;9;9;11;49;51;Estadio de La Independencia
+Mar 31 2013 - 8:15pm;Alianza Petrolera;Once Caldas;1;1;2;3;1;3;1;1;0;14;16;6;9;9;11;48;52;Estadio Santiago de las Atalayas (Yopal)
+Mar 31 2013 - 10:30pm;Cúcuta Deportivo;La Equidad;0;1;1;2;0;2;0;6;0;11;9;5;4;18;13;48;52;Estadio General Santander
+Mar 31 2013 - 10:30pm;Atlético Nacional;Junior;2;1;3;5;0;5;0;3;1;13;16;9;8;24;14;51;49;Estadio Atanasio Girardot
+Apr 01 2013 - 12:45am;Deportes Quindío;Patriotas Boyacá;0;0;0;1;1;1;1;1;0;12;8;9;4;23;14;53;47;Estadio Centenario (Armenia)
+Apr 06 2013 - 12:45am;Atlético Huila;Deportes Tolima;2;2;4;1;0;1;0;3;1;15;7;5;4;17;16;48;52;Estadio Guillermo Plazas Alcid
+Apr 06 2013 - 8:15pm;Boyacá Chicó;Patriotas Boyacá;0;0;0;1;0;1;0;4;0;14;9;4;4;15;17;53;47;Estadio de La Independencia
+Apr 06 2013 - 10:30pm;Deportivo Pasto;Deportivo Cali;1;2;3;7;0;7;0;1;0;10;6;6;4;15;24;47;53;Estadio Departamental Libertad
+Apr 06 2013 - 10:30pm;Santa Fe;Millonarios;1;3;4;5;1;5;1;7;0;18;5;9;3;19;18;53;47;Estadio Nemesio Camacho El Campín
+Apr 07 2013 - 12:45am;Independiente Medellín;Atlético Nacional;0;0;0;2;0;2;0;3;0;13;12;8;6;20;21;48;52;Estadio Atanasio Girardot
+Apr 07 2013 - 8:15pm;Alianza Petrolera;La Equidad;0;0;0;2;0;2;0;1;0;19;5;4;2;23;16;49;51;Estadio Santiago de las Atalayas (Yopal)
+Apr 07 2013 - 10:30pm;Envigado;Rionegro Águilas;1;2;3;4;0;4;0;2;0;17;9;8;3;17;23;47;53;Estadio Polideportivo Sur
+Apr 07 2013 - 10:30pm;Cúcuta Deportivo;Junior;1;2;3;6;0;6;0;2;0;9;15;3;11;14;18;53;47;Estadio General Santander
+Apr 08 2013 - 12:45am;Once Caldas;Deportes Quindío;1;2;3;2;1;2;1;1;0;8;11;3;6;16;19;50;50;Estadio Palogrande
+Apr 13 2013 - 12:45am;Deportes Tolima;Atlético Nacional;4;0;4;1;0;1;0;2;0;14;10;7;6;16;17;53;47;Estadio Manuel Murillo Toro
+Apr 13 2013 - 8:15pm;Envigado;Deportivo Pasto;1;1;2;3;0;3;0;2;0;6;8;2;3;10;19;48;52;Estadio Polideportivo Sur
+Apr 13 2013 - 10:30pm;Millonarios;Santa Fe;0;1;1;3;0;3;0;6;1;10;22;7;8;20;20;49;51;Estadio Nemesio Camacho El Campín
+Apr 13 2013 - 10:30pm;La Equidad;Atlético Huila;4;0;4;2;0;2;0;5;1;23;13;10;4;13;6;53;47;Estadio Metropolitano de Techo
+Apr 14 2013 - 12:45am;Junior;Rionegro Águilas;3;2;5;3;0;3;0;2;1;12;2;8;2;11;14;50;50;Estadio Metropolitano Roberto Meléndez
+Apr 14 2013 - 8:15pm;Once Caldas;Boyacá Chicó;2;2;4;0;0;0;0;3;0;24;10;13;5;16;17;47;53;Estadio Palogrande
+Apr 14 2013 - 10:30pm;Deportivo Cali;Deportes Quindío;4;0;4;2;0;2;0;2;1;14;10;7;6;19;20;53;47;Estadio Olímpico Pascual Guerrero
+Apr 14 2013 - 10:30pm;Independiente Medellín;Cúcuta Deportivo;1;1;2;4;1;4;1;4;0;14;9;4;0;15;22;52;48;Estadio Atanasio Girardot
+Apr 15 2013 - 12:45am;Patriotas Boyacá;Alianza Petrolera;0;0;0;1;0;1;0;4;0;10;14;6;6;15;11;53;47;Estadio de La Independencia
+Apr 17 2013 - 1:10am;Atlético Nacional;Millonarios;2;1;3;3;0;3;0;3;2;4;6;2;3;20;25;47;53;Estadio Atanasio Girardot
+Apr 17 2013 - 8:15pm;Alianza Petrolera;Boyacá Chicó;3;1;4;3;0;3;0;4;0;14;7;5;3;18;18;48;52;Estadio Santiago de las Atalayas (Yopal)
+Apr 17 2013 - 11:00pm;Atlético Huila;Independiente Medellín;3;2;5;4;0;4;0;6;0;9;7;4;0;16;19;49;51;Estadio Guillermo Plazas Alcid
+Apr 18 2013 - 12:45am;Patriotas Boyacá;Deportivo Cali;1;1;2;5;1;5;1;2;1;8;3;3;3;22;14;51;49;Estadio de La Independencia
+Apr 18 2013 - 1:00am;Deportes Quindío;Junior;0;1;1;1;0;1;0;2;0;19;6;10;3;13;14;50;50;Estadio Centenario (Armenia)
+Apr 18 2013 - 11:00pm;Deportivo Pasto;Once Caldas;1;1;2;5;0;5;0;3;0;9;5;6;0;29;13;50;50;Estadio Departamental Libertad
+Apr 19 2013 - 1:10am;Cúcuta Deportivo;Envigado;3;0;3;4;2;4;2;5;1;14;16;6;9;9;11;48;52;Estadio General Santander
+Apr 20 2013 - 12:45am;Millonarios;Rionegro Águilas;1;2;3;1;0;1;0;5;1;14;16;6;9;9;11;49;51;Estadio Nemesio Camacho El Campín
+Apr 20 2013 - 8:15pm;Deportes Tolima;Deportes Quindío;2;0;2;0;0;0;0;4;0;11;9;5;4;18;13;50;50;Estadio Manuel Murillo Toro
+Apr 20 2013 - 10:30pm;La Equidad;Atlético Nacional;0;2;2;3;0;3;0;4;1;13;16;9;8;24;14;53;47;Estadio Metropolitano de Techo
+Apr 21 2013 - 12:45am;Deportivo Cali;Alianza Petrolera;2;2;4;5;2;5;2;5;0;12;8;9;4;23;14;47;53;Estadio Olímpico Pascual Guerrero
+Apr 21 2013 - 12:45am;Independiente Medellín;Santa Fe;2;2;4;3;0;3;0;3;0;15;7;5;4;17;16;51;49;Estadio Atanasio Girardot
+Apr 21 2013 - 8:15pm;Once Caldas;Cúcuta Deportivo;2;0;2;1;0;1;0;4;2;14;9;4;4;15;17;49;51;Estadio Palogrande
+Apr 21 2013 - 10:30pm;Junior;Patriotas Boyacá;2;0;2;3;0;3;0;2;0;8;12;6;4;9;10;47;53;Estadio Metropolitano Roberto Meléndez
+Apr 21 2013 - 10:30pm;Envigado;Atlético Huila;1;1;2;0;0;0;0;3;0;16;10;14;8;22;16;51;49;Estadio Polideportivo Sur
+Apr 22 2013 - 12:45am;Boyacá Chicó;Deportivo Pasto;2;2;4;2;0;2;0;3;0;14;10;8;2;16;10;49;51;Estadio de La Independencia
+Apr 25 2013 - 12:45am;Santa Fe;Deportes Tolima;1;2;3;2;0;2;0;3;1;12;13;4;7;22;13;49;51;Estadio Nemesio Camacho El Campín
+Apr 27 2013 - 6:00pm;Rionegro Águilas;La Equidad;1;0;1;2;0;2;0;3;0;13;15;6;9;18;21;52;48;Estadio Metropolitano de Itagüí (Itagüí)
+Apr 27 2013 - 8:15pm;Santa Fe;Envigado;1;0;1;1;0;1;0;4;0;17;3;7;0;16;15;53;47;Estadio Nemesio Camacho El Campín
+Apr 27 2013 - 10:30pm;Deportes Quindío;Millonarios;0;0;0;3;0;3;0;1;0;23;9;12;3;11;28;49;51;Estadio Centenario (Armenia)
+Apr 28 2013 - 12:45am;Cúcuta Deportivo;Boyacá Chicó;0;1;1;2;0;2;0;4;1;11;12;7;4;17;17;50;50;Estadio General Santander
+Apr 28 2013 - 12:45am;Deportivo Cali;Junior;2;2;4;3;0;3;0;1;0;15;12;4;6;10;6;50;50;Estadio Olímpico Pascual Guerrero
+Apr 28 2013 - 6:00pm;Patriotas Boyacá;Deportes Tolima;1;1;2;2;0;2;0;1;0;11;11;2;4;16;21;51;49;Estadio de La Independencia
+Apr 28 2013 - 8:15pm;Alianza Petrolera;Deportivo Pasto;1;1;2;3;0;3;0;2;0;25;11;6;5;12;11;50;50;Estadio Santiago de las Atalayas (Yopal)
+Apr 28 2013 - 10:30pm;Atlético Nacional;Independiente Medellín;2;2;4;4;0;4;0;3;1;16;7;12;4;20;24;50;50;Estadio Atanasio Girardot
+Apr 29 2013 - 12:45am;Atlético Huila;Once Caldas;0;1;1;2;0;2;0;0;0;10;12;4;3;12;19;50;50;Estadio Guillermo Plazas Alcid
+May 04 2013 - 12:45am;Junior;Alianza Petrolera;2;1;3;1;0;1;0;3;0;22;6;14;2;13;12;51;49;Estadio Metropolitano Roberto Meléndez
+May 04 2013 - 8:15pm;La Equidad;Deportes Quindío;3;0;3;1;0;1;0;2;0;9;6;7;3;10;26;48;52;Estadio Metropolitano de Techo
+May 04 2013 - 10:30pm;Independiente Medellín;Rionegro Águilas;1;0;1;3;0;3;0;5;0;14;16;6;9;9;11;47;53;Estadio Atanasio Girardot
+May 05 2013 - 12:45am;Deportes Tolima;Deportivo Cali;2;2;4;2;0;2;0;4;0;14;16;6;9;9;11;52;48;Estadio Manuel Murillo Toro
+May 05 2013 - 12:45am;Boyacá Chicó;Atlético Huila;2;1;3;2;0;2;0;3;0;11;9;5;4;18;13;49;51;Estadio de La Independencia
+May 05 2013 - 6:00pm;Deportivo Pasto;Cúcuta Deportivo;2;1;3;4;0;4;0;6;1;13;16;9;8;24;14;50;50;Estadio Departamental Libertad
+May 05 2013 - 8:15pm;Millonarios;Patriotas Boyacá;4;1;5;0;0;0;0;2;0;12;8;9;4;23;14;53;47;Estadio Nemesio Camacho El Campín
+May 05 2013 - 10:30pm;Once Caldas;Santa Fe;0;0;0;3;0;3;0;4;0;15;7;5;4;17;16;52;48;Estadio Palogrande
+May 06 2013 - 12:45am;Envigado;Atlético Nacional;3;0;3;4;0;4;0;1;0;14;9;4;4;15;17;47;53;Estadio Polideportivo Sur
+May 11 2013 - 1:15am;Deportes Quindío;Independiente Medellín;0;2;2;3;0;3;0;2;0;17;3;7;0;16;15;50;50;Estadio Centenario (Armenia)
+May 11 2013 - 8:15pm;Rionegro Águilas;Envigado;1;1;2;4;0;4;0;8;2;23;9;12;3;11;28;48;52;Estadio Metropolitano de Itagüí (Itagüí)
+May 11 2013 - 10:30pm;Santa Fe;Boyacá Chicó;4;3;7;4;0;4;0;5;0;11;12;7;4;17;17;47;53;Estadio Nemesio Camacho El Campín
+May 12 2013 - 12:45am;Deportivo Cali;Millonarios;2;2;4;3;0;3;0;2;1;15;12;4;6;10;6;52;48;Estadio Olímpico Pascual Guerrero
+May 12 2013 - 12:45am;Junior;Deportes Tolima;1;2;3;4;0;4;0;4;0;11;11;2;4;16;21;49;51;Estadio Metropolitano Roberto Meléndez
+May 12 2013 - 6:00pm;Patriotas Boyacá;La Equidad;1;1;2;4;0;4;0;3;1;25;11;6;5;12;11;50;50;Estadio de La Independencia
+May 12 2013 - 8:15pm;Alianza Petrolera;Cúcuta Deportivo;2;3;5;3;0;3;0;6;0;16;7;12;4;20;24;53;47;Estadio Santiago de las Atalayas (Yopal)
+May 12 2013 - 10:30pm;Atlético Huila;Deportivo Pasto;6;1;7;3;0;3;0;2;1;10;12;4;3;12;19;52;48;Estadio Guillermo Plazas Alcid
+May 13 2013 - 10:30pm;Atlético Nacional;Once Caldas;2;1;3;1;0;1;0;4;0;22;6;14;2;13;12;47;53;Estadio Atanasio Girardot
+May 17 2013 - 11:00pm;Envigado;Deportes Quindío;0;1;1;2;0;2;0;5;1;9;6;7;3;10;26;50;50;Estadio Polideportivo Sur
+May 18 2013 - 1:10am;Cúcuta Deportivo;Atlético Huila;1;1;2;2;0;2;0;2;0;14;16;6;9;9;11;48;52;Estadio General Santander
+May 18 2013 - 8:15pm;La Equidad;Deportivo Cali;1;1;2;2;0;2;0;1;0;14;16;6;9;9;11;47;53;Estadio Metropolitano de Techo
+May 18 2013 - 10:30pm;Boyacá Chicó;Atlético Nacional;2;3;5;3;0;3;0;2;0;11;9;5;4;18;13;52;48;Estadio de La Independencia
+May 19 2013 - 12:45am;Deportes Tolima;Alianza Petrolera;2;1;3;3;0;3;0;3;0;13;16;9;8;24;14;49;51;Estadio Manuel Murillo Toro
+May 19 2013 - 12:45am;Millonarios;Junior;3;0;3;2;0;2;0;3;0;12;8;9;4;23;14;50;50;Estadio Nemesio Camacho El Campín
+May 19 2013 - 8:15pm;Independiente Medellín;Patriotas Boyacá;2;1;3;3;0;3;0;4;0;15;7;5;4;17;16;53;47;Estadio Atanasio Girardot
+May 19 2013 - 10:30pm;Once Caldas;Rionegro Águilas;1;2;3;2;0;2;0;4;0;14;9;4;4;15;17;52;48;Estadio Palogrande
+May 20 2013 - 12:45am;Deportivo Pasto;Santa Fe;1;1;2;2;0;2;0;1;0;10;6;6;4;15;24;47;53;Estadio Departamental Libertad
+May 25 2013 - 8:25pm;Rionegro Águilas;Boyacá Chicó;3;0;3;4;4;7;0;2;0;18;5;9;3;19;18;50;50;Estadio Metropolitano de Itagüí (Itagüí)
+May 25 2013 - 10:30pm;Santa Fe;Cúcuta Deportivo;3;2;5;2;5;3;0;2;0;13;12;8;6;20;21;50;50;Estadio Nemesio Camacho El Campín
+May 26 2013 - 12:45am;Junior;La Equidad;0;0;0;4;8;0;0;4;0;19;5;4;2;23;16;49;51;Estadio Metropolitano Roberto Meléndez
+May 26 2013 - 6:00pm;Patriotas Boyacá;Envigado;1;1;2;6;3;5;0;2;0;17;9;8;3;17;23;47;53;Estadio de La Independencia
+May 26 2013 - 8:15pm;Alianza Petrolera;Atlético Huila;1;0;1;-1;-1;3;0;4;0;9;15;3;11;14;18;45;55;Estadio Santiago de las Atalayas (Yopal)
+May 26 2013 - 8:15pm;Deportes Quindío;Once Caldas;1;1;2;5;6;4;0;2;0;8;11;3;6;16;19;50;50;Estadio Centenario (Armenia)
+May 26 2013 - 10:30pm;Atlético Nacional;Deportivo Pasto;1;0;1;5;5;5;0;1;0;14;10;7;6;16;17;47;53;Estadio Atanasio Girardot
+May 26 2013 - 10:30pm;Deportivo Cali;Independiente Medellín;2;0;2;5;7;4;0;7;3;6;8;2;3;10;19;48;52;Estadio Olímpico Pascual Guerrero
+May 26 2013 - 10:30pm;Deportes Tolima;Millonarios;1;2;3;11;0;5;2;7;1;10;22;7;8;20;20;49;51;Estadio Manuel Murillo Toro
+Jun 01 2013 - 8:15pm;Boyacá Chicó;Deportes Quindío;1;1;2;10;5;3;0;3;0;23;13;10;4;13;6;47;53;Estadio de La Independencia
+Jun 01 2013 - 10:30pm;La Equidad;Deportes Tolima;1;0;1;6;10;3;0;0;0;12;2;8;2;11;14;50;50;Estadio Metropolitano de Techo
+Jun 02 2013 - 12:45am;Independiente Medellín;Junior;1;0;1;5;4;1;0;1;0;24;10;13;5;16;17;52;48;Estadio Atanasio Girardot
+Jun 02 2013 - 12:45am;Once Caldas;Patriotas Boyacá;2;0;2;12;4;2;0;1;0;14;10;7;6;19;20;51;49;Estadio Palogrande
+Jun 02 2013 - 12:45am;Deportivo Pasto;Rionegro Águilas;1;1;2;11;3;3;0;0;0;14;9;4;0;15;22;53;47;Estadio Departamental Libertad
+Jun 02 2013 - 12:45am;Cúcuta Deportivo;Atlético Nacional;1;1;2;3;7;0;0;2;0;10;14;6;6;15;11;50;50;Estadio General Santander
+Jun 02 2013 - 8:15pm;Atlético Huila;Santa Fe;1;1;2;4;5;4;1;6;1;4;6;2;3;20;25;52;48;Estadio Guillermo Plazas Alcid
+Jun 02 2013 - 10:30pm;Envigado;Deportivo Cali;1;2;3;6;0;3;0;3;0;14;7;5;3;18;18;53;47;Estadio Polideportivo Sur
+Jun 03 2013 - 8:15pm;Millonarios;Alianza Petrolera;1;2;3;6;11;3;0;2;0;9;7;4;0;16;19;48;52;Estadio Nemesio Camacho El Campín
+Jun 15 2013 - 10:30pm;Millonarios;Once Caldas;4;2;6;3;1;2;0;2;0;13;15;6;9;18;21;48;52;Estadio Nemesio Camacho El Campín
+Jun 16 2013 - 12:45am;Deportivo Cali;Santa Fe;1;1;2;6;3;2;0;2;2;17;3;7;0;16;15;52;48;Estadio Olímpico Pascual Guerrero
+Jun 16 2013 - 8:15pm;Rionegro Águilas;Deportes Tolima;1;3;4;13;2;2;0;3;0;23;9;12;3;11;28;49;51;Estadio Metropolitano de Itagüí (Itagüí)
+Jun 16 2013 - 10:30pm;Deportivo Pasto;Atlético Nacional;2;1;3;2;2;2;0;3;0;16;11;7;9;16;18;47;53;Estadio Departamental Libertad
+Jun 20 2013 - 12:10am;Santa Fe;Millonarios;1;0;1;5;5;1;0;6;1;8;12;3;5;21;19;52;48;Estadio Nemesio Camacho El Campín
+Jun 20 2013 - 1:10am;Once Caldas;Deportivo Cali;1;1;2;1;4;2;0;1;0;6;11;3;6;18;10;51;49;Estadio Palogrande
+Jun 20 2013 - 11:00pm;Deportes Tolima;Deportivo Pasto;2;1;3;7;3;2;0;2;0;19;13;9;5;19;16;48;52;Estadio Manuel Murillo Toro
+Jun 21 2013 - 1:10am;Atlético Nacional;Rionegro Águilas;1;2;3;11;4;1;0;4;0;11;6;2;4;15;22;48;52;Estadio Atanasio Girardot
+Jun 22 2013 - 10:30pm;Santa Fe;Once Caldas;1;0;1;4;4;1;0;3;0;9;12;5;6;25;17;50;50;Estadio Nemesio Camacho El Campín
+Jun 23 2013 - 12:45am;Deportivo Cali;Millonarios;1;0;1;3;5;4;0;4;0;14;12;3;5;24;20;50;50;Estadio Olímpico Pascual Guerrero
+Jun 23 2013 - 8:00pm;Rionegro Águilas;Deportivo Pasto;2;3;5;8;2;4;1;3;1;16;7;6;4;17;19;48;52;Estadio Metropolitano de Itagüí (Itagüí)
+Jun 23 2013 - 10:15pm;Deportes Tolima;Atlético Nacional;1;2;3;6;5;2;0;4;0;11;12;7;4;17;17;52;48;Estadio Manuel Murillo Toro
+Jun 27 2013 - 12:10am;Millonarios;Deportivo Cali;1;1;2;7;8;0;0;2;0;15;12;4;6;10;6;50;50;Estadio Nemesio Camacho El Campín
+Jun 27 2013 - 1:30am;Once Caldas;Santa Fe;1;2;3;6;3;2;2;4;2;11;11;2;4;16;21;51;49;Estadio Palogrande
+Jun 28 2013 - 1:10am;Atlético Nacional;Deportes Tolima;1;1;2;7;3;3;0;3;0;25;11;6;5;12;11;47;53;Estadio Atanasio Girardot
+Jun 29 2013 - 10:30pm;Millonarios;Santa Fe;2;1;3;12;1;2;0;6;1;16;7;12;4;20;24;49;51;Estadio Nemesio Camacho El Campín
+Jun 30 2013 - 12:45am;Deportivo Cali;Once Caldas;1;2;3;11;1;1;0;6;0;10;12;4;3;12;19;51;49;Estadio Olímpico Pascual Guerrero
+Jun 30 2013 - 10:30pm;Deportivo Pasto;Rionegro Águilas;0;1;1;14;2;3;0;4;1;22;6;14;2;13;12;53;47;Estadio Departamental Libertad
+Jul 03 2013 - 8:15pm;Rionegro Águilas;Atlético Nacional;1;2;3;8;4;1;0;3;0;9;6;7;3;10;26;52;48;Estadio Metropolitano de Itagüí (Itagüí)
+Jul 04 2013 - 12:45am;Deportivo Pasto;Deportes Tolima;1;1;2;9;4;2;0;4;0;14;16;6;9;9;11;49;51;Estadio Departamental Libertad
+Jul 05 2013 - 12:45am;Once Caldas;Millonarios;2;3;5;-1;-1;2;0;3;1;-1;-1;-1;-1;-1;-1;49;51;Estadio Palogrande
+Jul 07 2013 - 12:45am;Santa Fe;Deportivo Cali;1;1;2;2;2;3;0;4;0;11;9;5;4;18;13;53;47;Estadio Nemesio Camacho El Campín
+Jul 07 2013 - 10:30pm;Deportes Tolima;Rionegro Águilas;0;1;1;7;5;2;0;2;0;13;16;9;8;24;14;53;47;Estadio Manuel Murillo Toro
+Jul 07 2013 - 10:30pm;Atlético Nacional;Deportivo Pasto;2;1;3;5;6;4;0;3;0;12;8;9;4;23;14;52;48;Estadio Atanasio Girardot
+Jul 14 2013 - 11:00pm;Atlético Nacional;Santa Fe;0;0;0;5;3;3;0;1;0;15;7;5;4;17;16;50;50;Estadio Atanasio Girardot
+Jul 18 2013 - 12:30am;Santa Fe;Atlético Nacional;0;2;2;10;1;4;0;3;0;14;9;4;4;15;17;49;51;Estadio Nemesio Camacho El Campín
+Jul 27 2013 - 1:10am;Atlético Huila;Atlético Nacional;2;3;5;1;6;4;1;1;0;4;10;3;8;24;18;53;47;Estadio Guillermo Plazas Alcid
+Jul 27 2013 - 1:10am;Cúcuta Deportivo;Rionegro Águilas;1;2;3;-1;-1;3;0;3;0;-1;-1;-1;-1;-1;-1;-1;-1;Estadio General Santander
+Jul 27 2013 - 8:15pm;Boyacá Chicó;Patriotas Boyacá;0;0;0;9;3;6;0;2;0;16;10;6;6;23;15;53;47;Estadio de La Independencia
+Jul 27 2013 - 10:30pm;Deportivo Pasto;Deportes Quindío;1;0;1;1;7;2;0;1;0;12;18;5;10;16;16;52;48;Estadio Departamental Libertad
+Jul 28 2013 - 12:45am;La Equidad;Millonarios;1;1;2;3;4;2;0;1;0;9;7;6;3;19;18;49;51;Estadio Metropolitano de Techo
+Jul 28 2013 - 8:15pm;Independiente Medellín;Deportes Tolima;1;1;2;0;9;2;0;3;0;19;9;6;6;14;15;51;49;Estadio Atanasio Girardot
+Jul 28 2013 - 10:30pm;Once Caldas;Deportivo Cali;0;3;3;3;3;3;1;2;0;16;14;7;5;27;8;52;48;Estadio Palogrande
+Jul 29 2013 - 12:45am;Envigado;Junior;0;1;1;2;3;6;0;1;0;15;9;6;5;24;20;52;48;Estadio Polideportivo Sur
+Jul 31 2013 - 12:45am;Santa Fe;Alianza Petrolera;2;2;4;2;0;3;0;4;0;10;8;3;2;24;25;50;50;Estadio Nemesio Camacho El Campín
+Aug 03 2013 - 1:10am;Deportivo Cali;Boyacá Chicó;1;1;2;8;1;3;0;2;0;12;8;7;2;13;29;53;47;Estadio Deportivo Cali
+Aug 03 2013 - 8:15pm;Rionegro Águilas;Atlético Huila;1;0;1;6;2;1;0;6;2;17;6;7;2;14;17;50;50;Estadio Metropolitano de Itagüí (Itagüí)
+Aug 03 2013 - 10:30pm;Patriotas Boyacá;Deportivo Pasto;1;1;2;7;2;4;0;5;0;16;6;7;2;13;21;48;52;Estadio de La Independencia
+Aug 04 2013 - 12:45am;Junior;Once Caldas;1;0;1;1;5;4;0;3;1;7;7;5;3;23;22;50;50;Estadio Metropolitano Roberto Meléndez
+Aug 04 2013 - 12:45am;Atlético Nacional;Santa Fe;1;1;2;5;1;3;0;2;0;16;9;9;4;13;13;48;52;Estadio Atanasio Girardot
+Aug 04 2013 - 8:15pm;Alianza Petrolera;La Equidad;1;2;3;6;1;1;0;4;0;15;5;8;3;23;19;50;50;Estadio Álvaro Gómez Hurtado
+Aug 04 2013 - 8:15pm;Deportes Quindío;Cúcuta Deportivo;0;3;3;7;2;1;0;5;0;18;7;6;2;19;20;51;49;Estadio Centenario (Armenia)
+Aug 04 2013 - 10:30pm;Deportes Tolima;Envigado;1;0;1;7;3;3;0;3;0;11;11;6;5;14;15;52;48;Estadio Manuel Murillo Toro
+Aug 05 2013 - 12:45am;Millonarios;Independiente Medellín;2;2;4;7;3;1;0;5;0;23;8;9;2;18;11;50;50;Estadio Nemesio Camacho El Campín
+Aug 10 2013 - 1:10am;Cúcuta Deportivo;Patriotas Boyacá;2;3;5;6;7;3;1;1;0;15;9;5;5;14;29;49;51;Estadio General Santander
+Aug 10 2013 - 8:15pm;Alianza Petrolera;Atlético Nacional;1;2;3;11;1;4;0;0;0;12;7;7;3;18;21;50;50;Estadio Álvaro Gómez Hurtado
+Aug 10 2013 - 10:30pm;Santa Fe;Rionegro Águilas;2;1;3;5;2;4;0;4;1;10;6;6;4;15;24;51;49;Estadio Nemesio Camacho El Campín
+Aug 11 2013 - 12:45am;Deportivo Pasto;Deportivo Cali;1;1;2;6;1;2;0;4;0;18;5;9;3;19;18;49;51;Estadio Departamental Libertad
+Aug 11 2013 - 12:45am;Once Caldas;Deportes Tolima;4;0;4;8;1;1;0;1;1;13;12;8;6;20;21;49;51;Estadio Palogrande
+Aug 11 2013 - 8:15pm;Boyacá Chicó;Junior;1;1;2;9;1;5;0;5;0;19;5;4;2;23;16;47;53;Estadio de La Independencia
+Aug 11 2013 - 10:30pm;Atlético Huila;Deportes Quindío;1;1;2;9;2;1;0;2;0;17;9;8;3;17;23;49;51;Estadio Guillermo Plazas Alcid
+Aug 11 2013 - 10:30pm;Envigado;Millonarios;2;1;3;4;6;6;0;4;0;9;15;3;11;14;18;48;52;Estadio Polideportivo Sur
+Aug 12 2013 - 12:45am;Independiente Medellín;La Equidad;2;1;3;2;1;1;1;3;0;8;11;3;6;16;19;51;49;Estadio Atanasio Girardot
+Aug 17 2013 - 1:10am;La Equidad;Envigado;0;0;0;6;2;2;0;3;0;14;10;7;6;16;17;51;49;Estadio Metropolitano de Techo
+Aug 17 2013 - 8:15pm;Rionegro Águilas;Atlético Nacional;0;4;4;4;4;2;0;3;0;6;8;2;3;10;19;52;48;Estadio Metropolitano de Itagüí (Itagüí)
+Aug 17 2013 - 10:30pm;Deportes Tolima;Boyacá Chicó;1;1;2;6;7;3;1;4;0;10;22;7;8;20;20;53;47;Estadio Manuel Murillo Toro
+Aug 18 2013 - 12:45am;Millonarios;Once Caldas;3;0;3;7;7;1;0;1;0;23;13;10;4;13;6;53;47;Estadio Nemesio Camacho El Campín
+Aug 18 2013 - 12:45am;Deportes Quindío;Santa Fe;0;2;2;7;2;2;0;3;0;12;2;8;2;11;14;47;53;Estadio Centenario (Armenia)
+Aug 18 2013 - 8:15pm;Junior;Deportivo Pasto;0;1;1;11;3;3;0;4;0;24;10;13;5;16;17;51;49;Estadio Metropolitano Roberto Meléndez
+Aug 18 2013 - 10:30pm;Independiente Medellín;Alianza Petrolera;0;1;1;8;3;4;0;3;0;14;10;7;6;19;20;53;47;Estadio Atanasio Girardot
+Aug 18 2013 - 10:30pm;Deportivo Cali;Cúcuta Deportivo;2;1;3;3;2;4;0;5;0;14;9;4;0;15;22;49;51;Estadio Deportivo Cali
+Aug 19 2013 - 12:45am;Patriotas Boyacá;Atlético Huila;2;1;3;4;9;6;1;4;0;10;14;6;6;15;11;48;52;Estadio de La Independencia
+Aug 21 2013 - 8:15pm;Atlético Huila;Deportivo Cali;1;0;1;2;3;4;0;2;0;4;6;2;3;20;25;48;52;Estadio Guillermo Plazas Alcid
+Aug 21 2013 - 11:00pm;Envigado;Independiente Medellín;0;4;4;4;3;5;0;2;0;14;7;5;3;18;18;51;49;Estadio Polideportivo Sur
+Aug 22 2013 - 1:10am;Santa Fe;Patriotas Boyacá;2;1;3;4;3;3;0;1;1;9;7;4;0;16;19;53;47;Estadio Nemesio Camacho El Campín
+Aug 22 2013 - 1:10am;Cúcuta Deportivo;Junior;1;5;6;3;0;7;1;2;0;8;3;3;3;22;14;48;52;Estadio General Santander
+Aug 23 2013 - 1:10am;Once Caldas;La Equidad;2;2;4;5;2;3;0;2;1;19;6;10;3;13;14;53;47;Estadio Palogrande
+Aug 24 2013 - 8:30pm;Deportes Quindío;Rionegro Águilas;0;2;2;9;1;5;0;4;0;9;5;6;0;29;13;47;53;Estadio Centenario (Armenia)
+Aug 25 2013 - 12:45am;Deportes Tolima;Cúcuta Deportivo;2;1;3;13;1;2;0;4;0;11;13;6;4;13;16;53;47;Estadio Manuel Murillo Toro
+Aug 25 2013 - 12:45am;Deportivo Cali;Santa Fe;2;0;2;5;0;2;0;1;0;11;10;6;3;23;9;48;52;Estadio Deportivo Cali
+Aug 25 2013 - 6:00pm;La Equidad;Boyacá Chicó;5;2;7;1;4;3;0;3;0;9;19;3;9;18;16;49;51;Estadio Metropolitano de Techo
+Aug 25 2013 - 8:15pm;Independiente Medellín;Once Caldas;1;2;3;9;5;3;0;6;1;14;6;5;5;15;17;47;53;Estadio Atanasio Girardot
+Aug 25 2013 - 10:30pm;Millonarios;Deportivo Pasto;4;0;4;6;11;3;0;2;0;19;10;9;7;10;15;53;47;Estadio Nemesio Camacho El Campín
+Aug 25 2013 - 10:30pm;Junior;Atlético Huila;2;1;3;5;3;3;0;4;0;12;16;8;7;11;22;50;50;Estadio Metropolitano Roberto Meléndez
+Aug 26 2013 - 12:45am;Envigado;Alianza Petrolera;0;0;0;9;3;2;0;2;1;17;11;10;2;19;19;53;47;Estadio Polideportivo Sur
+Aug 28 2013 - 8:15pm;Alianza Petrolera;Deportes Quindío;1;1;2;7;4;6;1;3;0;8;7;4;4;21;26;48;52;Estadio Álvaro Gómez Hurtado
+Aug 28 2013 - 11:00pm;Atlético Huila;Deportes Tolima;1;1;2;2;10;4;1;3;0;6;9;2;5;19;17;49;51;Estadio Guillermo Plazas Alcid
+Aug 29 2013 - 1:10am;Santa Fe;Junior;3;0;3;3;6;3;0;4;0;19;19;11;9;17;18;53;47;Estadio Nemesio Camacho El Campín
+Aug 29 2013 - 1:10am;Cúcuta Deportivo;Millonarios;0;1;1;1;3;3;1;2;1;15;7;5;4;10;15;50;50;Estadio General Santander
+Aug 30 2013 - 1:10am;Atlético Nacional;Deportivo Cali;2;0;2;3;5;3;0;2;0;13;12;7;5;14;12;47;53;Estadio Atanasio Girardot
+Aug 30 2013 - 1:10am;Once Caldas;Envigado;2;1;3;5;7;3;0;7;1;16;10;3;3;16;7;53;47;Estadio Palogrande
+Aug 31 2013 - 10:30pm;Millonarios;Atlético Huila;3;2;5;4;2;3;0;1;0;12;7;5;2;19;16;52;48;Estadio Nemesio Camacho El Campín
+Sep 01 2013 - 6:00pm;Envigado;Boyacá Chicó;2;2;4;11;0;3;1;3;2;24;4;12;4;11;24;53;47;Estadio Polideportivo Sur
+Sep 01 2013 - 8:15pm;Independiente Medellín;Deportivo Pasto;0;0;0;6;1;1;0;2;0;19;15;3;8;19;14;47;53;Estadio Atanasio Girardot
+Sep 01 2013 - 8:15pm;Patriotas Boyacá;Deportes Quindío;3;0;3;4;1;1;0;2;1;14;8;4;4;13;18;48;52;Estadio de La Independencia
+Sep 01 2013 - 10:30pm;Junior;Atlético Nacional;0;1;1;4;5;3;0;6;0;10;16;5;7;10;20;49;51;Estadio Metropolitano Roberto Meléndez
+Sep 01 2013 - 10:30pm;Deportivo Cali;Rionegro Águilas;1;0;1;7;2;2;0;4;0;16;12;6;7;19;27;51;49;Estadio Deportivo Cali
+Sep 02 2013 - 12:45am;Once Caldas;Alianza Petrolera;1;1;2;6;2;1;1;3;0;9;10;4;4;16;12;50;50;Estadio Palogrande
+Sep 02 2013 - 11:00pm;La Equidad;Cúcuta Deportivo;0;0;0;5;3;2;0;2;0;19;5;7;0;8;17;50;50;Estadio Metropolitano de Techo
+Sep 05 2013 - 8:15pm;Rionegro Águilas;Patriotas Boyacá;2;0;2;5;3;2;0;4;0;11;11;6;5;13;24;48;52;Estadio Metropolitano de Itagüí (Itagüí)
+Sep 07 2013 - 10:30pm;Boyacá Chicó;Millonarios;1;1;2;7;5;2;0;5;0;15;4;5;4;11;13;49;51;Estadio de La Independencia
+Sep 08 2013 - 12:45am;Atlético Nacional;Deportes Quindío;2;1;3;7;4;2;0;2;0;12;4;6;2;14;16;50;50;Estadio Atanasio Girardot
+Sep 08 2013 - 8:15pm;Alianza Petrolera;Rionegro Águilas;1;0;1;6;6;2;1;4;0;9;7;6;4;22;21;53;47;Estadio Álvaro Gómez Hurtado
+Sep 08 2013 - 10:30pm;Deportivo Pasto;Deportes Tolima;1;1;2;9;3;2;1;1;2;23;8;7;3;16;11;47;53;Estadio Departamental Libertad
+Sep 12 2013 - 1:10am;Boyacá Chicó;Independiente Medellín;3;1;4;6;2;1;0;2;0;15;13;8;6;17;11;51;49;Estadio de La Independencia
+Sep 14 2013 - 6:00pm;La Equidad;Alianza Petrolera;4;0;4;3;7;3;1;5;0;5;14;2;4;15;12;49;51;Estadio Metropolitano de Techo
+Sep 14 2013 - 8:15pm;Deportes Quindío;Once Caldas;2;1;3;2;6;1;0;3;0;10;11;3;6;13;22;47;53;Estadio Centenario (Armenia)
+Sep 14 2013 - 10:00pm;Junior;Cúcuta Deportivo;1;1;2;4;3;2;1;3;0;12;12;4;5;11;18;51;49;Estadio Metropolitano Roberto Meléndez
+Sep 14 2013 - 10:30pm;Atlético Nacional;Independiente Medellín;2;0;2;4;3;3;0;2;1;8;10;5;2;15;13;49;51;Estadio Atanasio Girardot
+Sep 15 2013 - 12:45am;Patriotas Boyacá;Boyacá Chicó;1;0;1;2;10;3;0;2;1;9;11;6;6;16;23;49;51;Estadio de La Independencia
+Sep 15 2013 - 8:15pm;Rionegro Águilas;Envigado;0;1;1;7;2;2;0;4;0;9;8;6;5;18;16;52;48;Estadio Metropolitano de Itagüí (Itagüí)
+Sep 15 2013 - 10:00pm;Millonarios;Santa Fe;0;0;0;2;4;1;0;3;0;9;14;5;5;13;17;53;47;Estadio Nemesio Camacho El Campín
+Sep 15 2013 - 10:30pm;Deportes Tolima;Atlético Huila;1;0;1;5;5;2;0;3;0;20;10;8;2;16;19;49;51;Estadio Manuel Murillo Toro
+Sep 16 2013 - 12:45am;Deportivo Cali;Deportivo Pasto;0;0;0;5;2;5;0;4;0;10;13;2;8;19;21;50;50;Estadio Deportivo Cali
+Sep 19 2013 - 1:10am;Once Caldas;Deportivo Pasto;1;1;2;8;4;2;0;1;0;25;8;11;6;20;15;50;50;Estadio Palogrande
+Sep 20 2013 - 8:15pm;Rionegro Águilas;Junior;4;0;4;2;1;2;0;3;1;6;10;2;4;19;17;51;49;Estadio Metropolitano de Itagüí (Itagüí)
+Sep 21 2013 - 8:15pm;Alianza Petrolera;Patriotas Boyacá;0;0;0;6;5;1;1;1;0;9;10;6;3;24;18;50;50;Estadio Álvaro Gómez Hurtado
+Sep 21 2013 - 10:00pm;Santa Fe;Millonarios;0;0;0;3;6;5;1;2;0;13;11;4;5;14;17;50;50;Estadio Nemesio Camacho El Campín
+Sep 21 2013 - 10:30pm;Deportivo Pasto;Envigado;0;0;0;2;6;3;0;2;0;7;14;3;6;14;17;50;50;Estadio Departamental Libertad
+Sep 22 2013 - 12:45am;Atlético Nacional;Deportes Tolima;2;0;2;5;1;1;0;3;0;14;6;7;5;17;17;51;49;Estadio Polideportivo Sur
+Sep 22 2013 - 8:15pm;Cúcuta Deportivo;Independiente Medellín;0;1;1;6;2;1;0;1;0;11;10;3;3;18;18;48;52;Estadio General Santander
+Sep 22 2013 - 10:00pm;Deportes Quindío;Deportivo Cali;0;5;5;5;3;4;0;1;0;9;4;4;3;17;12;47;53;Estadio Centenario (Armenia)
+Sep 22 2013 - 10:30pm;Atlético Huila;La Equidad;1;1;2;6;1;3;0;2;0;13;5;8;3;16;29;52;48;Estadio Guillermo Plazas Alcid
+Sep 23 2013 - 12:45am;Boyacá Chicó;Once Caldas;0;1;1;9;1;2;0;1;0;15;6;11;2;21;10;49;51;Estadio de La Independencia
+Sep 25 2013 - 11:00pm;Envigado;Cúcuta Deportivo;2;0;2;4;1;1;0;1;0;11;12;5;3;12;13;50;50;Estadio Polideportivo Sur
+Sep 25 2013 - 11:00pm;Deportivo Cali;Patriotas Boyacá;1;1;2;2;3;5;2;4;0;4;7;2;4;15;15;53;47;Estadio Deportivo Cali
+Sep 26 2013 - 1:10am;La Equidad;Santa Fe;1;1;2;1;5;5;0;4;1;8;10;4;5;25;21;52;48;Estadio Metropolitano de Techo
+Sep 26 2013 - 1:10am;Independiente Medellín;Atlético Huila;4;0;4;7;5;2;0;6;0;17;9;8;5;15;16;47;53;Estadio Atanasio Girardot
+Sep 26 2013 - 1:10am;Junior;Deportes Quindío;3;0;3;2;0;3;0;2;0;11;12;6;7;13;22;50;50;Estadio Metropolitano Roberto Meléndez
+Sep 27 2013 - 1:10am;Boyacá Chicó;Alianza Petrolera;1;2;3;11;6;3;0;4;0;15;9;6;4;21;20;51;49;Estadio de La Independencia
+Sep 28 2013 - 8:15pm;Atlético Huila;Envigado;2;1;3;4;3;5;1;4;0;12;9;9;5;21;15;48;52;Estadio Guillermo Plazas Alcid
+Sep 28 2013 - 10:00pm;Patriotas Boyacá;Junior;0;2;2;5;5;1;0;0;0;14;6;4;4;15;12;48;52;Estadio de La Independencia
+Sep 28 2013 - 10:30pm;Cúcuta Deportivo;Once Caldas;0;0;0;3;2;2;0;2;0;13;8;5;6;13;10;50;50;Estadio General Santander
+Sep 29 2013 - 12:45am;Deportes Quindío;Deportes Tolima;1;0;1;4;12;2;1;3;1;11;19;6;13;19;18;52;48;Estadio Centenario (Armenia)
+Sep 29 2013 - 6:00pm;Rionegro Águilas;Millonarios;2;2;4;5;10;4;0;4;0;4;13;2;8;19;13;52;48;Estadio Metropolitano de Itagüí (Itagüí)
+Sep 29 2013 - 8:15pm;Alianza Petrolera;Deportivo Cali;0;2;2;7;3;4;0;2;0;12;10;5;4;26;15;48;52;Estadio Álvaro Gómez Hurtado
+Sep 29 2013 - 10:00pm;Santa Fe;Independiente Medellín;1;1;2;13;6;4;0;3;0;22;9;11;4;15;14;52;48;Estadio Nemesio Camacho El Campín
+Sep 29 2013 - 10:30pm;Atlético Nacional;La Equidad;0;0;0;4;1;1;0;2;0;15;5;7;4;18;7;48;52;Estadio Atanasio Girardot
+Sep 30 2013 - 12:45am;Deportivo Pasto;Boyacá Chicó;4;3;7;2;2;1;0;3;1;9;15;6;5;8;20;47;53;Estadio Departamental Libertad
+Oct 02 2013 - 1:10am;Deportes Tolima;Patriotas Boyacá;1;1;2;4;5;1;0;1;0;12;12;7;8;11;15;47;53;Estadio Manuel Murillo Toro
+Oct 02 2013 - 11:00pm;Deportivo Pasto;Alianza Petrolera;2;1;3;3;4;3;0;4;0;12;13;7;4;15;19;51;49;Estadio Departamental Libertad
+Oct 02 2013 - 11:00pm;Independiente Medellín;Atlético Nacional;1;1;2;3;7;3;0;3;0;4;12;2;8;12;14;53;47;Estadio Atanasio Girardot
+Oct 03 2013 - 1:10am;Envigado;Santa Fe;2;1;3;6;5;1;0;4;0;14;8;6;5;17;23;50;50;Estadio Polideportivo Sur
+Oct 03 2013 - 1:10am;Millonarios;Deportes Quindío;2;0;2;6;1;2;0;3;0;16;8;7;4;11;20;51;49;Estadio Nemesio Camacho El Campín
+Oct 03 2013 - 1:10am;Junior;Deportivo Cali;1;1;2;8;6;3;0;5;0;12;13;7;7;9;14;48;52;Estadio Metropolitano Roberto Meléndez
+Oct 03 2013 - 11:00pm;Boyacá Chicó;Cúcuta Deportivo;3;1;4;5;1;2;0;5;0;10;7;2;3;20;11;51;49;Estadio de La Independencia
+Oct 04 2013 - 1:10am;Once Caldas;Atlético Huila;2;0;2;6;5;2;0;3;1;10;11;7;5;23;15;50;50;Estadio Palogrande
+Oct 05 2013 - 8:15pm;Alianza Petrolera;Junior;1;1;2;4;2;3;0;1;0;13;11;4;5;25;29;53;47;Estadio Álvaro Gómez Hurtado
+Oct 05 2013 - 10:00pm;Patriotas Boyacá;Millonarios;2;2;4;2;1;2;0;1;0;11;11;5;7;15;10;51;49;Estadio de La Independencia
+Oct 05 2013 - 10:30pm;Atlético Nacional;Envigado;4;1;5;0;8;2;0;4;0;6;8;4;3;20;12;48;52;Estadio Atanasio Girardot
+Oct 06 2013 - 12:45am;Deportivo Cali;Deportes Tolima;0;0;0;3;5;0;0;2;0;14;12;4;4;11;13;47;53;Estadio Olímpico Pascual Guerrero
+Oct 06 2013 - 6:00pm;Deportes Quindío;La Equidad;1;0;1;6;4;3;0;3;0;12;11;5;5;19;16;52;48;Estadio Centenario (Armenia)
+Oct 06 2013 - 8:15pm;Rionegro Águilas;Independiente Medellín;1;0;1;6;4;3;0;4;1;13;8;5;6;22;22;51;49;Estadio Metropolitano de Itagüí (Itagüí)
+Oct 06 2013 - 10:00pm;Santa Fe;Once Caldas;1;0;1;5;4;4;0;3;0;11;7;5;2;17;14;50;50;Estadio Nemesio Camacho El Campín
+Oct 06 2013 - 10:30pm;Cúcuta Deportivo;Deportivo Pasto;1;2;3;11;5;4;0;2;0;11;7;3;5;30;9;49;51;Estadio General Santander
+Oct 07 2013 - 12:45am;Atlético Huila;Boyacá Chicó;2;1;3;5;1;2;0;4;1;10;11;5;10;15;23;50;50;Estadio Guillermo Plazas Alcid
+Oct 09 2013 - 12:45am;Millonarios;Atlético Nacional;0;2;2;8;6;2;0;4;1;16;10;10;7;9;22;53;47;Estadio Nemesio Camacho El Campín
+Oct 10 2013 - 10:30pm;La Equidad;Rionegro Águilas;2;0;2;1;5;5;1;3;1;8;8;3;4;14;16;52;48;Estadio Metropolitano de Techo
+Oct 12 2013 - 10:30pm;Deportes Tolima;Santa Fe;1;1;2;4;5;2;0;5;1;17;13;11;4;15;19;48;52;Estadio Manuel Murillo Toro
+Oct 13 2013 - 10:30pm;Deportivo Pasto;La Equidad;4;1;5;1;9;2;0;6;0;10;17;6;10;15;15;47;53;Estadio Departamental Libertad
+Oct 14 2013 - 12:45am;Patriotas Boyacá;Atlético Nacional;1;0;1;1;11;3;0;0;0;7;14;3;6;11;6;47;53;Estadio de La Independencia
+Oct 17 2013 - 12:45am;Deportes Tolima;Rionegro Águilas;1;1;2;6;3;4;0;2;0;16;10;8;8;18;21;51;49;Estadio Manuel Murillo Toro
+Oct 19 2013 - 12:45am;Deportivo Pasto;Atlético Huila;2;2;4;6;1;1;2;3;0;13;10;8;2;18;14;53;47;Estadio Departamental Libertad
+Oct 19 2013 - 8:15pm;Envigado;Rionegro Águilas;1;1;2;2;6;6;1;4;2;10;12;4;9;22;11;53;47;Estadio Polideportivo Sur
+Oct 19 2013 - 10:00pm;Deportes Tolima;Junior;3;3;6;4;5;4;1;8;0;10;17;4;12;21;14;51;49;Estadio Manuel Murillo Toro
+Oct 19 2013 - 10:30pm;Once Caldas;Atlético Nacional;0;1;1;9;5;2;1;4;1;19;14;11;5;9;17;52;48;Estadio Palogrande
+Oct 20 2013 - 12:45am;Millonarios;Deportivo Cali;1;0;1;7;5;1;0;3;0;10;12;6;5;18;13;50;50;Estadio Nemesio Camacho El Campín
+Oct 20 2013 - 8:15pm;Cúcuta Deportivo;Alianza Petrolera;2;0;2;6;2;2;0;1;0;7;10;3;4;23;21;49;51;Estadio General Santander
+Oct 20 2013 - 10:00pm;Boyacá Chicó;Santa Fe;0;2;2;0;6;3;0;1;0;11;11;3;3;24;17;52;48;Estadio de La Independencia
+Oct 20 2013 - 10:30pm;La Equidad;Patriotas Boyacá;1;0;1;6;1;4;0;2;1;9;6;6;2;10;15;52;48;Estadio Metropolitano de Techo
+Oct 21 2013 - 12:45am;Independiente Medellín;Deportes Quindío;1;0;1;5;1;0;0;2;1;12;11;7;8;14;20;48;52;Estadio Atanasio Girardot
+Oct 26 2013 - 12:45am;Patriotas Boyacá;Independiente Medellín;0;0;0;8;0;1;0;4;0;14;12;6;6;16;17;48;52;Estadio de La Independencia
+Oct 26 2013 - 8:15pm;Alianza Petrolera;Deportes Tolima;2;1;3;4;6;3;1;3;0;10;10;6;3;19;16;53;47;Estadio Álvaro Gómez Hurtado
+Oct 26 2013 - 10:00pm;Santa Fe;Deportivo Pasto;2;0;2;7;4;3;1;3;1;14;11;8;7;23;16;50;50;Estadio Metropolitano de Techo
+Oct 26 2013 - 10:30pm;Deportivo Cali;La Equidad;1;0;1;4;5;2;0;2;0;10;13;7;6;16;20;53;47;Estadio Olímpico Pascual Guerrero
+Oct 27 2013 - 1:45am;Atlético Huila;Cúcuta Deportivo;2;2;4;3;7;2;0;4;0;11;19;9;10;12;22;52;48;Estadio Guillermo Plazas Alcid
+Oct 27 2013 - 8:15pm;Junior;Millonarios;3;2;5;8;6;2;0;3;0;14;15;8;9;11;15;49;51;Estadio Metropolitano Roberto Meléndez
+Oct 27 2013 - 8:15pm;Rionegro Águilas;Once Caldas;0;4;4;8;4;1;1;5;0;15;11;6;4;11;17;49;51;Estadio Metropolitano de Itagüí (Itagüí)
+Oct 27 2013 - 10:30pm;Atlético Nacional;Boyacá Chicó;0;1;1;10;1;2;0;3;1;16;4;7;3;9;16;52;48;Estadio Atanasio Girardot
+Oct 28 2013 - 12:45am;Deportes Quindío;Envigado;1;2;3;5;7;2;0;3;0;17;15;7;8;16;17;47;53;Estadio Centenario (Armenia)
+Nov 02 2013 - 10:30pm;Atlético Huila;Alianza Petrolera;2;0;2;-1;-1;2;0;5;1;-1;-1;-1;-1;-1;-1;-1;-1;Estadio Guillermo Plazas Alcid
+Nov 02 2013 - 10:30pm;Cúcuta Deportivo;Santa Fe;1;0;1;8;2;3;0;4;0;19;5;8;4;16;10;43;57;Estadio General Santander
+Nov 02 2013 - 10:30pm;Once Caldas;Deportes Quindío;3;0;3;5;3;1;0;3;0;12;12;8;5;10;12;61;39;Estadio Palogrande
+Nov 02 2013 - 10:30pm;Envigado;Patriotas Boyacá;1;1;2;1;5;3;1;1;1;15;7;6;2;9;12;54;46;Estadio Polideportivo Sur
+Nov 03 2013 - 8:15pm;Independiente Medellín;Deportivo Cali;3;1;4;6;4;4;0;5;0;15;10;3;4;22;11;57;43;Estadio Atanasio Girardot
+Nov 03 2013 - 8:15pm;Millonarios;Deportes Tolima;2;1;3;5;7;4;0;1;0;13;18;8;8;13;17;48;52;Estadio Nemesio Camacho El Campín
+Nov 03 2013 - 8:15pm;La Equidad;Junior;2;2;4;2;4;2;0;5;0;8;7;4;4;19;19;58;42;Estadio Metropolitano de Techo
+Nov 03 2013 - 10:30pm;Deportivo Pasto;Atlético Nacional;1;1;2;7;3;4;0;2;1;14;6;7;3;12;25;57;43;Estadio Departamental Libertad
+Nov 03 2013 - 10:30pm;Boyacá Chicó;Rionegro Águilas;0;2;2;6;2;5;0;4;0;11;4;3;2;22;15;45;55;Estadio de La Independencia
+Nov 09 2013 - 8:15pm;Alianza Petrolera;Millonarios;0;1;1;13;4;6;0;3;0;17;10;10;3;22;19;50;50;Estadio Álvaro Gómez Hurtado
+Nov 09 2013 - 10:30pm;Deportes Quindío;Boyacá Chicó;2;1;3;6;2;4;0;0;0;6;10;3;5;16;14;53;47;Estadio Centenario (Armenia)
+Nov 09 2013 - 10:30pm;Atlético Nacional;Cúcuta Deportivo;1;2;3;12;2;4;0;2;0;12;8;8;5;15;8;62;38;Estadio Atanasio Girardot
+Nov 10 2013 - 8:15pm;Deportes Tolima;La Equidad;3;1;4;5;8;2;0;2;1;15;13;10;8;15;10;50;50;Estadio Manuel Murillo Toro
+Nov 10 2013 - 8:15pm;Junior;Independiente Medellín;3;2;5;7;8;2;0;3;0;8;20;6;11;21;15;42;58;Estadio Metropolitano Roberto Meléndez
+Nov 10 2013 - 8:15pm;Patriotas Boyacá;Once Caldas;0;1;1;4;6;0;0;0;0;7;13;4;6;12;15;48;52;Estadio Metropolitano de Techo
+Nov 10 2013 - 8:15pm;Rionegro Águilas;Deportivo Pasto;1;0;1;9;0;1;0;4;1;10;6;5;4;19;17;55;45;Estadio Metropolitano de Itagüí (Itagüí)
+Nov 10 2013 - 8:15pm;Santa Fe;Atlético Huila;3;4;7;11;0;2;0;2;0;22;4;7;2;12;17;54;46;Estadio Nemesio Camacho El Campín
+Nov 10 2013 - 8:15pm;Deportivo Cali;Envigado;1;1;2;5;2;1;0;4;0;8;5;5;3;10;16;57;43;Estadio Olímpico Pascual Guerrero
+Nov 16 2013 - 8:15pm;Rionegro Águilas;Junior;0;1;1;7;0;4;2;3;1;6;8;2;2;19;19;54;46;Estadio Metropolitano de Itagüí (Itagüí)
+Nov 16 2013 - 10:30pm;Deportivo Cali;Deportivo Pasto;3;2;5;5;2;1;0;5;0;19;12;8;5;14;24;52;48;Estadio Olímpico Pascual Guerrero
+Nov 21 2013 - 1:10am;Millonarios;Deportivo Cali;0;1;1;11;2;0;0;2;0;24;9;8;2;4;13;62;38;Estadio Nemesio Camacho El Campín
+Nov 21 2013 - 1:10am;Deportivo Pasto;Once Caldas;2;1;3;5;7;5;1;4;0;8;17;4;6;15;21;49;51;Estadio Departamental Libertad
+Nov 21 2013 - 11:00pm;Atlético Nacional;Rionegro Águilas;3;2;5;10;6;3;0;4;0;8;5;5;4;15;14;58;42;Estadio Polideportivo Sur
+Nov 22 2013 - 1:10am;Junior;Santa Fe;3;2;5;5;3;3;0;4;1;15;11;7;4;14;18;54;46;Estadio Metropolitano Roberto Meléndez
+Nov 23 2013 - 10:00pm;Millonarios;Deportivo Pasto;2;0;2;3;4;0;0;3;0;21;9;6;6;14;9;59;41;Estadio Nemesio Camacho El Campín
+Nov 24 2013 - 12:45am;Once Caldas;Deportivo Cali;1;2;3;5;10;3;0;4;0;16;12;8;8;17;11;48;52;Estadio Palogrande
+Nov 24 2013 - 8:15pm;Rionegro Águilas;Santa Fe;1;2;3;9;2;5;0;4;1;14;7;5;2;21;23;66;34;Estadio Metropolitano de Itagüí (Itagüí)
+Nov 24 2013 - 10:30pm;Junior;Atlético Nacional;0;0;0;1;5;2;0;4;0;13;11;8;7;20;23;53;47;Estadio Metropolitano Roberto Meléndez
+Nov 28 2013 - 2:00pm;Once Caldas;Millonarios;2;1;3;2;5;2;0;1;1;7;12;3;8;8;11;42;58;Estadio Palogrande
+Nov 29 2013 - 12:45am;Santa Fe;Atlético Nacional;0;2;2;5;2;5;1;6;0;6;9;3;6;13;15;41;59;Estadio Nemesio Camacho El Campín
+Nov 30 2013 - 10:45pm;Deportivo Pasto;Millonarios;4;1;5;2;6;2;0;2;0;11;10;8;4;16;10;46;54;Estadio Departamental Libertad
+Dec 01 2013 - 12:45am;Deportivo Cali;Once Caldas;1;0;1;7;4;1;1;2;1;23;7;9;3;11;11;61;39;Estadio Olímpico Pascual Guerrero
+Dec 01 2013 - 8:15pm;Santa Fe;Rionegro Águilas;0;2;2;4;5;4;1;3;0;16;9;4;4;21;16;57;43;Estadio Nemesio Camacho El Campín
+Dec 02 2013 - 12:00am;Atlético Nacional;Junior;2;1;3;2;3;2;0;2;0;12;14;6;6;25;15;46;54;Estadio Atanasio Girardot
+Dec 04 2013 - 11:00pm;Once Caldas;Deportivo Pasto;3;1;4;8;4;3;0;3;0;10;18;4;8;19;12;51;49;Estadio Palogrande
+Dec 05 2013 - 1:10am;Deportivo Cali;Millonarios;4;2;6;2;5;5;0;3;0;19;15;8;3;16;13;50;50;Estadio Olímpico Pascual Guerrero
+Dec 06 2013 - 12:45am;Santa Fe;Junior;2;1;3;7;7;4;1;5;0;16;17;5;11;19;17;47;53;Estadio Nemesio Camacho El Campín
+Dec 06 2013 - 12:45am;Rionegro Águilas;Atlético Nacional;0;4;4;2;3;3;0;6;2;8;7;4;4;15;21;54;46;Estadio Polideportivo Sur
+Dec 07 2013 - 10:30pm;Millonarios;Once Caldas;3;1;4;9;5;1;0;3;0;19;9;6;5;17;19;54;46;Estadio Nemesio Camacho El Campín
+Dec 08 2013 - 12:45am;Deportivo Pasto;Deportivo Cali;3;2;5;1;4;4;1;5;0;5;12;2;7;17;22;52;48;Estadio Departamental Libertad
+Dec 08 2013 - 10:30pm;Junior;Rionegro Águilas;4;1;5;7;7;6;1;8;2;2;12;2;5;16;14;48;52;Estadio Metropolitano Roberto Meléndez
+Dec 08 2013 - 10:30pm;Atlético Nacional;Santa Fe;2;1;3;1;5;2;0;3;0;9;14;2;7;20;12;45;55;Estadio Atanasio Girardot
+Dec 12 2013 - 1:30am;Deportivo Cali;Atlético Nacional;0;0;0;8;2;3;0;4;0;15;8;4;5;15;20;52;48;Estadio Olímpico Pascual Guerrero
+Dec 15 2013 - 10:30pm;Atlético Nacional;Deportivo Cali;2;0;2;2;8;4;0;1;0;9;11;5;4;22;10;53;47;Estadio Atanasio Girardot

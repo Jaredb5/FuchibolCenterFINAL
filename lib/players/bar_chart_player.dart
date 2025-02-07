@@ -1,19 +1,22 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'player_model.dart';
 
-class BarChartSamplePlayer extends StatelessWidget {
-  final Player player;
+class BarChartSamplePlayerComparison extends StatelessWidget {
   final String dataType;
+  final List<Player> playerData;
 
-  BarChartSamplePlayer({required this.player, required this.dataType});
+  // ignore: prefer_const_constructors_in_immutables
+  BarChartSamplePlayerComparison(
+      {required this.dataType, required this.playerData});
 
   @override
   Widget build(BuildContext context) {
-    double maxY = player.appearances_overall.toDouble();
+    double maxY = 0;
     List<BarChartGroupData> barGroups = [];
 
-    // Función para generar las barras con etiquetas
     BarChartGroupData createBarChartGroup(int x, double y, Color color) {
       return BarChartGroupData(
         x: x,
@@ -25,34 +28,28 @@ class BarChartSamplePlayer extends StatelessWidget {
             borderRadius: BorderRadius.circular(0),
           ),
         ],
-        showingTooltipIndicators: [
-          0
-        ], // Para mostrar las etiquetas en el gráfico
+        showingTooltipIndicators: [0],
       );
     }
 
-    if (dataType == 'goals') {
-      maxY = player.appearances_overall.toDouble();
-      barGroups = [
-        createBarChartGroup(0, player.goalsOverall.toDouble(), Colors.purple),
-        createBarChartGroup(1, player.goalsHome.toDouble(), Colors.blue),
-        createBarChartGroup(2, player.goalsAway.toDouble(), Colors.orange),
-      ];
-    } else if (dataType == 'assists') {
-      maxY = player.assistsOverall.toDouble();
-      barGroups = [
-        createBarChartGroup(0, player.assistsHome.toDouble(), Colors.green),
-        createBarChartGroup(1, player.assistsAway.toDouble(), Colors.pink),
-      ];
-    } else if (dataType == 'yellowCards') {
-      maxY = player.yellowCardsOverall.toDouble();
-      barGroups = [
-        createBarChartGroup(
-            0, player.yellowCardsOverall.toDouble(), Colors.amber),
-      ];
-    } else {
-      maxY = 0;
-      barGroups = [];
+    for (int i = 0; i < playerData.length; i++) {
+      Player player = playerData[i];
+      double value = 0;
+      if (dataType == 'averageGoals') {
+        value = player.appearances_overall > 0
+            ? player.goalsOverall / player.appearances_overall
+            : 0;
+      } else if (dataType == 'averageAssists') {
+        value = player.appearances_overall > 0
+            ? player.assistsOverall / player.appearances_overall
+            : 0;
+      } else if (dataType == 'averageYellowCards') {
+        value = player.appearances_overall > 0
+            ? player.yellowCardsOverall / player.appearances_overall
+            : 0;
+      }
+      barGroups.add(createBarChartGroup(i, value, Colors.blue));
+      if (value > maxY) maxY = value;
     }
 
     return BarChart(
@@ -60,7 +57,7 @@ class BarChartSamplePlayer extends StatelessWidget {
         alignment: BarChartAlignment.spaceAround,
         maxY: maxY,
         barGroups: barGroups,
-        titlesData: _buildTitlesData(dataType),
+        titlesData: _buildTitlesData(),
         barTouchData: BarTouchData(
           enabled: true,
           touchTooltipData: BarTouchTooltipData(
@@ -69,7 +66,7 @@ class BarChartSamplePlayer extends StatelessWidget {
             tooltipMargin: 0,
             getTooltipItem: (group, groupIndex, rod, rodIndex) {
               return BarTooltipItem(
-                rod.y.toInt().toString(), // Convertir el valor a entero
+                rod.y.toStringAsFixed(2),
                 const TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -80,44 +77,32 @@ class BarChartSamplePlayer extends StatelessWidget {
           ),
         ),
         gridData: FlGridData(show: false),
-        borderData: FlBorderData(show: false),
+        borderData: FlBorderData(
+          show: true,
+          border: Border.all(
+            color: const Color(0xff37434d),
+            width: 1,
+          ),
+        ),
       ),
     );
   }
 
-  FlTitlesData _buildTitlesData(String dataType) {
+  FlTitlesData _buildTitlesData() {
     return FlTitlesData(
       bottomTitles: SideTitles(
         showTitles: true,
         getTextStyles: (context, value) => const TextStyle(
           color: Color(0xff7589a2),
           fontWeight: FontWeight.bold,
-          fontSize: 14,
+          fontSize: 10,
         ),
-        margin: 16,
+        margin: 32,
+        interval: 1,
+        rotateAngle: 45,
         getTitles: (double value) {
-          if (dataType == 'goals') {
-            switch (value.toInt()) {
-              case 0:
-                return 'Total Goles';
-              case 1:
-                return 'Goles Casa';
-              case 2:
-                return 'Goles Visitante';
-              default:
-                return '';
-            }
-          } else if (dataType == 'assists') {
-            switch (value.toInt()) {
-              case 0:
-                return 'Asistencias en Casa';
-              case 1:
-                return 'Asistencias de Visitante';
-              default:
-                return '';
-            }
-          } else if (dataType == 'yellowCards') {
-            return 'Tarjetas Amarillas';
+          if (value.toInt() >= 0 && value.toInt() < playerData.length) {
+            return playerData[value.toInt()].season.toString();
           } else {
             return '';
           }
@@ -132,8 +117,13 @@ class BarChartSamplePlayer extends StatelessWidget {
         ),
         margin: 10,
         reservedSize: 28,
+        interval: 0.5,
         getTitles: (value) {
-          return '$value';
+          if (value % 0.5 == 0) {
+            return value.toString();
+          } else {
+            return '';
+          }
         },
       ),
       topTitles: SideTitles(showTitles: false),

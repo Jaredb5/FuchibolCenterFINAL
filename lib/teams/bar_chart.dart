@@ -2,66 +2,62 @@ import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'teams_model.dart';
 
-class BarChartSampleTeam extends StatelessWidget {
-  final Team team;
+class BarChartSampleTeamComparison extends StatelessWidget {
   final String dataType;
+  final List<Team> teamData;
 
-  BarChartSampleTeam({super.key, required this.team, required this.dataType});
+  BarChartSampleTeamComparison(
+      {required this.dataType, required this.teamData});
 
   @override
   Widget build(BuildContext context) {
     double maxY = 0;
     List<BarChartGroupData> barGroups = [];
 
-    // Función para generar las barras con etiquetas
     BarChartGroupData createBarChartGroup(int x, double y, Color color) {
       return BarChartGroupData(
         x: x,
         barRods: [
           BarChartRodData(
-            y: y,
+            y: y.roundToDouble(), // Redondear al entero más cercano
             colors: [color],
             width: 22,
             borderRadius: BorderRadius.circular(0),
           ),
         ],
-        showingTooltipIndicators: [
-          0
-        ], // Para mostrar las etiquetas en el gráfico
+        showingTooltipIndicators: [0],
       );
     }
 
-    if (dataType == 'matches') {
-      maxY = team.matches_played.toDouble();
-      barGroups = [
-        createBarChartGroup(0, team.wins.toDouble(), Colors.green),
-        createBarChartGroup(1, team.draws.toDouble(), Colors.amber),
-        createBarChartGroup(2, team.losses.toDouble(), Colors.red),
-      ];
-    } else if (dataType == 'goals') {
-      maxY = [team.goals_scored.toDouble(), team.goals_conceded.toDouble()]
-          .reduce((a, b) => a > b ? a : b);
-      barGroups = [
-        createBarChartGroup(0, team.goals_scored.toDouble(), Colors.blue),
-        createBarChartGroup(1, team.goals_conceded.toDouble(), Colors.orange),
-      ];
-    } else if (dataType == 'corners') {
-      maxY = team.corners_total.toDouble();
-      barGroups = [
-        createBarChartGroup(0, team.corners_total_home.toDouble(), Colors.pink),
-        createBarChartGroup(
-            1, team.corners_total_away.toDouble(), Colors.yellow),
-      ];
-    } else {
-      barGroups = [];
+    for (int i = 0; i < teamData.length; i++) {
+      Team team = teamData[i];
+      double value = 0;
+      if (dataType == 'matches') {
+        value = team.matches_played.toDouble();
+      } else if (dataType == 'goals') {
+        value = team.goals_scored.toDouble();
+      } else if (dataType == 'cards') {
+        value = team.cards_total.toDouble();
+      } else if (dataType == 'averageGoals') {
+        value = team.matches_played > 0
+            ? team.goals_scored.toDouble() / team.matches_played
+            : 0;
+      } else if (dataType == 'averageCards') {
+        value = team.matches_played > 0
+            ? team.cards_total.toDouble() / team.matches_played
+            : 0;
+      }
+      value = value.roundToDouble(); // Asegurarse de que el valor sea un entero
+      barGroups.add(createBarChartGroup(i, value, Colors.blue));
+      if (value > maxY) maxY = value;
     }
 
     return BarChart(
       BarChartData(
         alignment: BarChartAlignment.spaceAround,
-        maxY: maxY,
+        maxY: (maxY + 1).roundToDouble(), // Redondear también el valor máximo
         barGroups: barGroups,
-        titlesData: _buildTitlesData(dataType),
+        titlesData: _buildTitlesData(),
         barTouchData: BarTouchData(
           enabled: true,
           touchTooltipData: BarTouchTooltipData(
@@ -70,7 +66,7 @@ class BarChartSampleTeam extends StatelessWidget {
             tooltipMargin: 0,
             getTooltipItem: (group, groupIndex, rod, rodIndex) {
               return BarTooltipItem(
-                rod.y.toInt().toString(), // Convertir el valor a entero
+                rod.y.toInt().toString(), // Mostrar como entero
                 const TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
@@ -81,51 +77,32 @@ class BarChartSampleTeam extends StatelessWidget {
           ),
         ),
         gridData: FlGridData(show: false),
-        borderData: FlBorderData(show: false),
+        borderData: FlBorderData(
+          show: true,
+          border: Border.all(
+            color: const Color(0xff37434d),
+            width: 1,
+          ),
+        ),
       ),
     );
   }
 
-  FlTitlesData _buildTitlesData(String dataType) {
+  FlTitlesData _buildTitlesData() {
     return FlTitlesData(
       bottomTitles: SideTitles(
         showTitles: true,
         getTextStyles: (context, value) => const TextStyle(
           color: Color(0xff7589a2),
           fontWeight: FontWeight.bold,
-          fontSize: 14,
+          fontSize: 10,
         ),
-        margin: 16,
+        margin: 8,
+        interval: 1,
+        rotateAngle: 45,
         getTitles: (double value) {
-          if (dataType == 'matches') {
-            switch (value.toInt()) {
-              case 0:
-                return 'Victorias';
-              case 1:
-                return 'Empates';
-              case 2:
-                return 'Derrotas';
-              default:
-                return '';
-            }
-          } else if (dataType == 'goals') {
-            switch (value.toInt()) {
-              case 0:
-                return 'Anotados';
-              case 1:
-                return 'Recibidos';
-              default:
-                return '';
-            }
-          } else if (dataType == 'corners') {
-            switch (value.toInt()) {
-              case 0:
-                return 'Corners en casa';
-              case 1:
-                return 'Corners fuera';
-              default:
-                return '';
-            }
+          if (value.toInt() >= 0 && value.toInt() < teamData.length) {
+            return teamData[value.toInt()].season.toString();
           } else {
             return '';
           }
@@ -133,6 +110,7 @@ class BarChartSampleTeam extends StatelessWidget {
       ),
       leftTitles: SideTitles(
         showTitles: true,
+        interval: 10,
         getTextStyles: (context, value) => const TextStyle(
           color: Color(0xff7589a2),
           fontWeight: FontWeight.bold,
@@ -141,7 +119,7 @@ class BarChartSampleTeam extends StatelessWidget {
         margin: 10,
         reservedSize: 28,
         getTitles: (value) {
-          return '$value';
+          return value.toInt().toString(); // Mostrar sólo enteros en el eje Y
         },
       ),
       topTitles: SideTitles(showTitles: false),

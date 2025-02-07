@@ -54,15 +54,26 @@ class TeamSearchDelegate extends SearchDelegate<Team?> {
 
   Widget _buildTeamList(List<Team> teams) {
     if (teams.isEmpty) {
-      return Center(child: Text('No se encontraron equipos.'));
+      return const Center(child: Text('No se encontraron equipos.'));
     }
+
+    // Filtrar nombres únicos de equipos
+    Map<String, Team> uniqueTeams = {};
+    for (var team in teams) {
+      uniqueTeams[team.commonName] = team;
+    }
+    List<String> uniqueTeamNames = uniqueTeams.keys.toList();
+
     return ListView.builder(
-      itemCount: teams.length,
+      itemCount: uniqueTeamNames.length,
       itemBuilder: (context, index) {
-        final team = teams[index];
+        final teamName = uniqueTeamNames[index];
+        final team = uniqueTeams[teamName];
+
         return ListTile(
-          title: Text(team.commonName),
-          subtitle: Text('Nombre: ${team.commonName}, Temporada: ${team.season}'),
+          title: Text(teamName),
+          subtitle:
+              Text('Nombre: ${team!.commonName}, Temporada: ${team.season}'),
           onTap: () {
             close(context, null);
             Navigator.of(context).push(

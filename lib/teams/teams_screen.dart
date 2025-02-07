@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use, use_build_context_synchronously
-
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -11,23 +9,21 @@ import 'team_search.dart';
 class TeamsScreen extends StatelessWidget {
   final String year;
   final String supabaseUrl =
-      'https://eksgwihmgfwwanfrxnmg.supabase.co/storage/v1/object/public/Data/teams_csv'; // Usa tu URL de Supabase
+      'https://eksgwihmgfwwanfrxnmg.supabase.co/storage/v1/object/public/Data/teams_csv'; // URL de Supabase
 
   const TeamsScreen({required this.year, Key? key}) : super(key: key);
 
   Future<List<Team>> loadTeamsForYear(String year) async {
-    var fileUrl = '$supabaseUrl/teams $year.csv';
-    var response = await http.get(Uri.parse(fileUrl));
+    final fileUrl = '$supabaseUrl/teams $year.csv'; // Archivo específico del año
+    final response = await http.get(Uri.parse(fileUrl));
 
     if (response.statusCode == 200) {
-      // Decodificar la respuesta como UTF-8
-      final String csvString = utf8.decode(response.bodyBytes);
-      List<List<dynamic>> csvData =
+      final csvString = utf8.decode(response.bodyBytes); // Decodificación UTF-8
+      final csvData =
           const CsvToListConverter(fieldDelimiter: ';').convert(csvString);
 
       List<Team> allTeams = [];
-      for (List<dynamic> row in csvData.skip(1)) {
-        // Asumiendo que la primera fila es el encabezado
+      for (final row in csvData.skip(1)) { // Saltar encabezado
         allTeams.add(Team(
           commonName: row[0].toString(),
           season: int.tryParse(row[1].toString()) ?? 0,
@@ -54,14 +50,12 @@ class TeamsScreen extends StatelessWidget {
           cards_total: int.tryParse(row[22].toString()) ?? 0,
           cards_total_home: int.tryParse(row[23].toString()) ?? 0,
           cards_total_away: int.tryParse(row[24].toString()) ?? 0,
-          // ... otros campos según tu modelo
         ));
       }
       return allTeams;
     } else {
-      // Manejar el caso de error al cargar el archivo
       throw Exception(
-          'Failed to load team data from Supabase Storage for year $year');
+          'No se pudo cargar la información de equipos para el año $year');
     }
   }
 
@@ -70,8 +64,7 @@ class TeamsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Equipos $year'),
-        backgroundColor: Colors.greenAccent,
-        actions: <Widget>[
+        actions: [
           IconButton(
             icon: const Icon(Icons.search),
             onPressed: () async {
@@ -90,12 +83,13 @@ class TeamsScreen extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
-            return Center(child: Text('Error: ${snapshot.error}'));
+            return Center(
+                child: Text('Error al cargar datos: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return const Center(
                 child: Text('No hay equipos disponibles para este año.'));
           } else {
-            List<Team> teams = snapshot.data!;
+            final teams = snapshot.data!;
             return Scrollbar(
               thumbVisibility: true,
               thickness: 6.0,
@@ -117,7 +111,8 @@ class TeamsScreen extends StatelessWidget {
                       trailing:
                           const Icon(Icons.arrow_forward, color: Colors.grey),
                       onTap: () {
-                        Navigator.of(context).push(
+                        Navigator.push(
+                          context,
                           MaterialPageRoute(
                             builder: (_) => TeamDetailsScreen(team: team),
                           ),

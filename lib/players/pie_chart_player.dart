@@ -2,59 +2,40 @@ import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'player_model.dart';
 
-class PieChartSamplePlayer extends StatelessWidget {
-  final Player player;
+class PieChartSamplePlayerComparison extends StatelessWidget {
   final String dataType;
+  final List<Player> playerData;
 
-  PieChartSamplePlayer({required this.player, required this.dataType});
+  PieChartSamplePlayerComparison({required this.dataType, required this.playerData});
 
   @override
   Widget build(BuildContext context) {
-    List<PieChartSectionData> sections;
+    List<PieChartSectionData> sections = [];
 
-    // Helper function para reducir el texto si es necesario
-    String truncateText(String text, int maxLength) {
-      return text.length <= maxLength
-          ? text
-          : '${text.substring(0, maxLength)}...';
-    }
-
-    PieChartSectionData createSection(double value, Color color, String label) {
-      return PieChartSectionData(
+    for (int i = 0; i < playerData.length; i++) {
+      Player player = playerData[i];
+      double value = 0;
+      if (dataType == 'averageGoals') {
+        value = player.appearances_overall > 0
+            ? player.goalsOverall / player.appearances_overall
+            : 0;
+      } else if (dataType == 'averageAssists') {
+        value = player.appearances_overall > 0
+            ? player.assistsOverall / player.appearances_overall
+            : 0;
+      } else if (dataType == 'averageYellowCards') {
+        value = player.appearances_overall > 0
+            ? player.yellowCardsOverall / player.appearances_overall
+            : 0;
+      }
+      sections.add(PieChartSectionData(
         value: value,
-        color: color,
-        title:
-            '${value.toInt()}\n${truncateText(label, 10)}', // Mostrar solo números enteros
+        color: Colors.primaries[i % Colors.primaries.length],
+        title: value.toStringAsFixed(2),
         radius: 50,
         titleStyle: const TextStyle(
-          fontSize: 12, // Tamaño de texto más pequeño
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-        ),
-        titlePositionPercentageOffset: 0.6, // Ajustar posición del texto
-      );
-    }
-
-    if (dataType == 'goals') {
-      sections = [
-        createSection(player.goalsHome.toDouble(), Colors.blue, 'Goles Casa'),
-        createSection(
-            player.goalsAway.toDouble(), Colors.orange, 'Goles Fuera'),
-      ];
-    } else if (dataType == 'assists') {
-      sections = [
-        createSection(
-            player.assistsHome.toDouble(), Colors.green, 'Asistencias Casa'),
-        createSection(
-            player.assistsAway.toDouble(), Colors.pink, 'Asistencias Fuera'),
-      ];
-    } else if (dataType == 'yellowCards') {
-      sections = [
-        createSection(player.yellowCardsOverall.toDouble(), Colors.amber,
-            'Tarjetas Amarillas'),
-      ];
-    } else {
-      sections = [];
+            fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white),
+      ));
     }
 
     return PieChart(
@@ -62,7 +43,14 @@ class PieChartSamplePlayer extends StatelessWidget {
         sections: sections,
         sectionsSpace: 2,
         centerSpaceRadius: 40,
-        pieTouchData: PieTouchData(touchCallback: (pieTouchResponse) {}),
+        pieTouchData: PieTouchData(
+          touchCallback: (PieTouchResponse? pieTouchResponse) {
+            if (pieTouchResponse != null &&
+                pieTouchResponse.touchedSection != null) {
+              print("Se tocó una sección: ${pieTouchResponse.touchedSection!.touchedSectionIndex}");
+            }
+          },
+        ),
       ),
     );
   }

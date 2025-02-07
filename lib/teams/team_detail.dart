@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'teams_model.dart';
+import 'data_teams.dart';
+import 'team_info_card.dart';
 import 'bar_chart.dart';
 import 'line_chart.dart';
 import 'pie_chart.dart';
-
-enum ChartType { barra, lineal, circular }
 
 class TeamDetailsScreen extends StatefulWidget {
   final Team team;
@@ -16,265 +16,198 @@ class TeamDetailsScreen extends StatefulWidget {
 }
 
 class _TeamDetailsScreenState extends State<TeamDetailsScreen> {
-  ChartType _selectedChartTypeMatches = ChartType.barra;
-  ChartType _selectedChartTypeGoals = ChartType.barra;
-  bool _isMatchesChartVisible = false;
-  bool _isGoalsChartVisible = false;
+  String _selectedChartType = 'Barra';
 
-  String _chartTypeToDisplayString(ChartType chartType) {
-    switch (chartType) {
-      case ChartType.barra:
-        return 'Gráfico de Barra';
-      case ChartType.lineal:
-        return 'Gráfico Lineal';
-      case ChartType.circular:
-        return 'Gráfico Circular';
-      default:
-        return '';
-    }
+  List<Team> getTeamDataForLast10Years(List<Team> allTeams, String teamName) {
+    return allTeams.where((t) => t.commonName == teamName).toList();
   }
 
-  Widget _buildChart(ChartType chartType, String dataType) {
-    switch (chartType) {
-      case ChartType.barra:
-        return BarChartSampleTeam(team: widget.team, dataType: dataType);
-      case ChartType.lineal:
-        return LineChartSampleTeam(team: widget.team, dataType: dataType);
-      case ChartType.circular:
-        return PieChartSampleTeam(team: widget.team, dataType: dataType);
-      default:
-        return Container();
-    }
+  double _calculateAverage(double total, int matches) {
+    return matches > 0 ? total / matches : 0;
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.team.commonName),
-        ),
-        body: Scrollbar(
-          thumbVisibility: true,
-          thickness: 6.0,
-          radius: const Radius.circular(10),
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'Detalles del Equipo:',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                ),
-                const SizedBox(height: 20),
-                TeamInfoCard(
-                  title: 'Nombre',
-                  value: widget.team.commonName,
-                  icon: Icons.group,
-                ),
-                TeamInfoCard(
-                  title: 'Temporada',
-                  value: widget.team.season.toString(),
-                  icon: Icons.calendar_today,
-                ),
-                ExpansionTile(
-                  title: const Text('Estadísticas de Partidos'),
-                  initiallyExpanded: _isMatchesChartVisible,
-                  onExpansionChanged: (expanded) {
-                    setState(() => _isMatchesChartVisible = expanded);
-                  },
-                  children: [
-                    _buildDropdown(_selectedChartTypeMatches,
-                        (ChartType? newValue) {
-                      setState(() {
-                        _selectedChartTypeMatches = newValue!;
-                      });
-                    }),
-                    if (_isMatchesChartVisible)
-                      SizedBox(
-                          height: 200,
-                          child: _buildChart(
-                              _selectedChartTypeMatches, "matches")),
-                  ],
-                ),
-                TeamInfoCard(
-                  title: 'Partidos Jugados en Casa',
-                  value: widget.team.matches_played_home.toString(),
-                  icon: Icons.home,
-                ),
-                TeamInfoCard(
-                  title: 'Partidos Jugados Fuera',
-                  value: widget.team.matches_played_away.toString(),
-                  icon: Icons.directions_run,
-                ),
-                TeamInfoCard(
-                  title: 'Victorias en Casa',
-                  value: widget.team.wins_home.toString(),
-                  icon: Icons.home,
-                ),
-                TeamInfoCard(
-                  title: 'Victorias Fuera',
-                  value: widget.team.wins_away.toString(),
-                  icon: Icons.directions_run,
-                ),
-                TeamInfoCard(
-                  title: 'Empates en Casa',
-                  value: widget.team.draws_home.toString(),
-                  icon: Icons.home,
-                ),
-                TeamInfoCard(
-                  title: 'Empates Fuera',
-                  value: widget.team.draws_away.toString(),
-                  icon: Icons.directions_run,
-                ),
-                TeamInfoCard(
-                  title: 'Derrotas en Casa',
-                  value: widget.team.losses_home.toString(),
-                  icon: Icons.home,
-                ),
-                TeamInfoCard(
-                  title: 'Derrotas Fuera',
-                  value: widget.team.losses_away.toString(),
-                  icon: Icons.directions_run,
-                ),
-                ExpansionTile(
-                  title: const Text('Estadísticas de Goles'),
-                  initiallyExpanded: _isGoalsChartVisible,
-                  onExpansionChanged: (expanded) {
-                    setState(() => _isGoalsChartVisible = expanded);
-                  },
-                  children: [
-                    _buildDropdown(_selectedChartTypeGoals,
-                        (ChartType? newValue) {
-                      setState(() {
-                        _selectedChartTypeGoals = newValue!;
-                      });
-                    }),
-                    if (_isGoalsChartVisible)
-                      SizedBox(
-                          height: 200,
-                          child: _buildChart(_selectedChartTypeGoals, "goals")),
-                  ],
-                ),
-                TeamInfoCard(
-                  title: 'Posición en la Liga',
-                  value: widget.team.league_position.toString(),
-                  icon: Icons.leaderboard,
-                ),
-                TeamInfoCard(
-                  title: 'Diferencia de Goles',
-                  value: widget.team.goals_difference.toString(),
-                  icon: Icons.show_chart,
-                ),
-                ExpansionTile(
-                  title: const Text('Estadísticas de Corners'),
-                  initiallyExpanded: _isGoalsChartVisible,
-                  onExpansionChanged: (expanded) {
-                    setState(() => _isGoalsChartVisible = expanded);
-                  },
-                  children: [
-                    _buildDropdown(_selectedChartTypeGoals,
-                        (ChartType? newValue) {
-                      setState(() {
-                        _selectedChartTypeGoals = newValue!;
-                      });
-                    }),
-                    if (_isGoalsChartVisible)
-                      SizedBox(
-                          height: 350,
-                          child:
-                              _buildChart(_selectedChartTypeGoals, "corners")),
-                  ],
-                ),
-                TeamInfoCard(
-                  title: 'Córners en Casa',
-                  value: widget.team.corners_total_home.toString(),
-                  icon: Icons.home,
-                ),
-                TeamInfoCard(
-                  title: 'Córners Fuera',
-                  value: widget.team.corners_total_away.toString(),
-                  icon: Icons.directions_run,
-                ),
-                TeamInfoCard(
-                  title: 'Total de Tarjetas',
-                  value: widget.team.cards_total.toString(),
-                  icon: Icons.warning_amber,
-                ),
-                TeamInfoCard(
-                  title: 'Tarjetas en Casa',
-                  value: widget.team.cards_total_home.toString(),
-                  icon: Icons.home,
-                ),
-                TeamInfoCard(
-                  title: 'Tarjetas Fuera',
-                  value: widget.team.cards_total_away.toString(),
-                  icon: Icons.directions_run,
-                ),
-              ],
-            ),
-          ),
-        ));
-  }
+      appBar: AppBar(
+        title: Text(widget.team.commonName),
+        backgroundColor: Colors.blueAccent,
+      ),
+      body: FutureBuilder<List<Team>>(
+        future: loadAllTeamData(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+            return const Center(
+                child: Text('No hay datos disponibles para este equipo.'));
+          } else {
+            List<Team> allTeams = snapshot.data!;
+            List<Team> teamData =
+                getTeamDataForLast10Years(allTeams, widget.team.commonName);
 
-  DropdownButton<ChartType> _buildDropdown(
-      ChartType selectedChartType, ValueChanged<ChartType?> onChanged) {
-    return DropdownButton<ChartType>(
-      value: selectedChartType,
-      onChanged: onChanged,
-      items: ChartType.values.map((ChartType type) {
-        return DropdownMenuItem<ChartType>(
-          value: type,
-          child: Text(_chartTypeToDisplayString(type)),
-        );
-      }).toList(),
+            double averageGoals = _calculateAverage(
+                widget.team.goals_scored.toDouble(),
+                widget.team.matches_played);
+            double averageCards = _calculateAverage(
+                widget.team.cards_total.toDouble(), widget.team.matches_played);
+
+            return SingleChildScrollView(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Detalles del Equipo:',
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 20),
+                  TeamInfoCard(
+                    title: 'Nombre',
+                    value: widget.team.commonName,
+                    icon: Icons.group,
+                  ),
+                  TeamInfoCard(
+                    title: 'Promedio de Goles General por Partido',
+                    value: averageGoals.toStringAsFixed(2),
+                    icon: Icons.sports_soccer,
+                  ),
+                  TeamInfoCard(
+                    title: 'Promedio de Tarjetas en General por Partido',
+                    value: averageCards.toStringAsFixed(2),
+                    icon: Icons.warning_amber,
+                  ),
+                  const SizedBox(height: 20),
+                  const Text(
+                    'Estadísticas:',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 10),
+                  _buildStatisticsTable(teamData),
+                  const SizedBox(height: 20),
+                  _buildStatisticsExpansionTile(
+                      'Promedio de Goles por Partido en cada temporada',
+                      'averageGoals',
+                      teamData),
+                  _buildStatisticsExpansionTile('Goles', 'goals', teamData),
+                  _buildStatisticsExpansionTile('Tarjetas', 'cards', teamData),
+                  // Añade un nuevo caso en el método _buildStatisticsExpansionTile
+                  _buildStatisticsExpansionTile(
+                      'Promedio de Tarjetas por Partido en cada temporada',
+                      'averageCards', // Nuevo dataType
+                      teamData),
+                ],
+              ),
+            );
+          }
+        },
+      ),
     );
   }
-}
 
-class TeamInfoCard extends StatelessWidget {
-  final String title;
-  final String value;
-  final IconData icon;
-
-  const TeamInfoCard({
-    Key? key,
-    required this.title,
-    required this.value,
-    required this.icon,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.only(bottom: 10),
-      padding: const EdgeInsets.all(10),
-      decoration: BoxDecoration(
-        color: Colors.blue.shade100,
-        borderRadius: BorderRadius.circular(10),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.blue.shade200,
-            blurRadius: 5,
-            offset: const Offset(0, 2),
+  Widget _buildStatisticsTable(List<Team> teamData) {
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: DataTable(
+        columns: const [
+          DataColumn(
+            label: Text(
+              'Temporada',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
           ),
-        ],
-      ),
-      child: Row(
-        children: [
-          Icon(icon, color: Colors.blue.shade800),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Text(
-              '$title: $value',
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.blue.shade800,
-              ),
+          DataColumn(
+            label: Text(
+              'Partidos',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ),
+          DataColumn(
+            label: Text(
+              'Goles',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ),
+          DataColumn(
+            label: Text(
+              'Tarjetas',
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
         ],
+        rows: teamData.map((team) {
+          return DataRow(cells: [
+            DataCell(Text(team.season.toString())),
+            DataCell(Text(team.matches_played.toString())),
+            DataCell(Text(team.goals_scored.toString())),
+            DataCell(Text(team.cards_total.toString())),
+          ]);
+        }).toList(),
+        headingRowColor: MaterialStateColor.resolveWith(
+          (states) => Colors.blueAccent.shade100,
+        ),
+        headingTextStyle: const TextStyle(
+          color: Colors.black,
+          fontWeight: FontWeight.bold,
+        ),
+        dataRowColor: MaterialStateColor.resolveWith(
+          (states) => Colors.blueAccent.shade100,
+        ),
+        dataTextStyle: const TextStyle(
+          color: Colors.black,
+        ),
+        border: TableBorder.all(
+          color: Colors.blueAccent,
+          width: 1.5,
+        ),
+        columnSpacing: 20.0,
       ),
+    );
+  }
+
+  ExpansionTile _buildStatisticsExpansionTile(
+      String title, String dataType, List<Team> teamData) {
+    return ExpansionTile(
+      title: Text(
+        title,
+        style: const TextStyle(fontWeight: FontWeight.bold),
+      ),
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          child: DropdownButton<String>(
+            value: _selectedChartType,
+            items: <String>['Barra', 'Lineal', 'Circular'].map((String value) {
+              return DropdownMenuItem<String>(
+                value: value,
+                child: Text(value),
+              );
+            }).toList(),
+            onChanged: (String? newValue) {
+              setState(() {
+                _selectedChartType = newValue!;
+              });
+            },
+          ),
+        ),
+        _buildChartComparison(teamData, dataType),
+      ],
+    );
+  }
+
+  Widget _buildChartComparison(List<Team> teamData, String dataType) {
+    return Container(
+      height: 300,
+      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      child: _selectedChartType == 'Barra'
+          ? BarChartSampleTeamComparison(dataType: dataType, teamData: teamData)
+          : _selectedChartType == 'Lineal'
+              ? LineChartSampleTeamComparison(
+                  dataType: dataType, teamData: teamData)
+              : PieChartSampleTeamComparison(
+                  dataType: dataType, teamData: teamData),
     );
   }
 }

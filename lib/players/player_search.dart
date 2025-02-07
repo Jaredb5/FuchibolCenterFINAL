@@ -8,21 +8,19 @@ class PlayerSearchDelegate extends SearchDelegate<Player?> {
   PlayerSearchDelegate(this.players);
 
   @override
-  List<Widget> buildActions(BuildContext context) {
+  List<Widget>? buildActions(BuildContext context) {
     return [
-      if (query.isNotEmpty)
-        IconButton(
-          icon: const Icon(Icons.clear),
-          onPressed: () {
-            query = '';
-            showSuggestions(context);
-          },
-        ),
+      IconButton(
+        icon: const Icon(Icons.clear),
+        onPressed: () {
+          query = '';
+        },
+      ),
     ];
   }
 
   @override
-  Widget buildLeading(BuildContext context) {
+  Widget? buildLeading(BuildContext context) {
     return IconButton(
       icon: const Icon(Icons.arrow_back),
       onPressed: () {
@@ -33,40 +31,68 @@ class PlayerSearchDelegate extends SearchDelegate<Player?> {
 
   @override
   Widget buildResults(BuildContext context) {
-    return _buildPlayerList(_getSuggestions());
+    final results = players
+        .where((player) =>
+            player.fullName.toLowerCase().contains(query.toLowerCase()))
+        .toList();
+
+    // Filtrar nombres únicos de jugadores y mantener relación con los objetos Player
+    Map<String, Player> uniquePlayers = {};
+    for (var player in results) {
+      uniquePlayers[player.fullName] = player;
+    }
+
+    List<String> uniquePlayerNames = uniquePlayers.keys.toList();
+
+    return ListView.builder(
+      itemCount: uniquePlayerNames.length,
+      itemBuilder: (context, index) {
+        final playerName = uniquePlayerNames[index];
+        final player = uniquePlayers[playerName];
+
+        return ListTile(
+          title: Text(playerName),
+          subtitle: Text('Edad: ${player!.age}, Liga: ${player.league}'),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => PlayerDetailsScreen(player: player),
+              ),
+            );
+          },
+        );
+      },
+    );
   }
 
   @override
   Widget buildSuggestions(BuildContext context) {
-    return _buildPlayerList(_getSuggestions());
-  }
+    final suggestions = players
+        .where((player) =>
+            player.fullName.toLowerCase().contains(query.toLowerCase()))
+        .toList();
 
-  List<Player> _getSuggestions() {
-    if (query.isEmpty) {
-      return players;
-    } else {
-      final queryLower = query.toLowerCase();
-      return players.where((player) {
-        return player.fullName.toLowerCase().contains(queryLower);
-      }).toList();
+    // Filtrar nombres únicos de jugadores y mantener relación con los objetos Player
+    Map<String, Player> uniquePlayers = {};
+    for (var player in suggestions) {
+      uniquePlayers[player.fullName] = player;
     }
-  }
 
-  Widget _buildPlayerList(List<Player> players) {
+    List<String> uniquePlayerNames = uniquePlayers.keys.toList();
+
     return ListView.builder(
-      itemCount: players.length,
+      itemCount: uniquePlayerNames.length,
       itemBuilder: (context, index) {
-        final player = players[index];
+        final playerName = uniquePlayerNames[index];
+        final player = uniquePlayers[playerName];
+
         return ListTile(
-          title: Text(player.fullName),
-          subtitle: Text('Edad: ${player.age}, Liga: ${player.league}'),
+          title: Text(playerName),
+          subtitle: Text('Edad: ${player!.age}, Liga: ${player.league}'),
           onTap: () {
-            close(context, player);
-            Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (_) => PlayerDetailsScreen(player: player),
-              ),
-            );
+            query = playerName;
+            showResults(context);
           },
         );
       },

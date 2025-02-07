@@ -1,70 +1,86 @@
-// ignore_for_file: use_build_context_synchronously
-
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import 'package:csv/csv.dart';
+import 'package:http/http.dart' as http;
 import 'player_model.dart';
 import 'player_detail.dart';
 import 'player_search.dart';
+import 'dart:convert';
 
 class PlayersScreen extends StatelessWidget {
   final String year;
   final String supabaseUrl =
       'https://eksgwihmgfwwanfrxnmg.supabase.co/storage/v1/object/public/Data/players_csv';
+  const PlayersScreen({Key? key, required this.year}) : super(key: key);
 
-  const PlayersScreen({required this.year, Key? key}) : super(key: key);
+  Future<List<Player>> loadAllPlayers() async {
+    List<String> fileNames = [
+      'player 2013.csv',
+      'player 2014.csv',
+      'player 2015.csv',
+      'player 2016.csv',
+      'player 2017.csv',
+      'player 2018.csv',
+      'player 2019.csv',
+      'player 2020.csv',
+      'player 2021.csv',
+      'player 2022.csv',
+      'player 2023.csv',
+    ];
 
-  Future<List<Player>> loadPlayersForYear(String year) async {
-    var fileUrl = '$supabaseUrl/player $year.csv';
-    var response = await http.get(Uri.parse(fileUrl));
+    List<Player> allPlayers = [];
 
-    if (response.statusCode == 200) {
-      // Decodificar la respuesta como UTF-8
-      final String csvString =
-          utf8.decode(response.bodyBytes, allowMalformed: true);
-      List<List<dynamic>> csvData =
-          const CsvToListConverter(fieldDelimiter: ';').convert(csvString);
+    for (String fileName in fileNames) {
+      try {
+        var fileUrl = '$supabaseUrl/$fileName';
+        var response = await http.get(Uri.parse(fileUrl));
 
-      List<Player> players = [];
-      for (List<dynamic> row in csvData.skip(1)) {
-        players.add(Player(
-          fullName: row[0],
-          age: int.parse(row[1].toString()),
-          league: row[2],
-          season: int.parse(row[3].toString()),
-          position: row[4],
-          currentClub: row[5],
-          nationality: row[6],
-          appearances_overall: int.parse(row[7].toString()),
-          goalsOverall: int.parse(row[8].toString()),
-          goalsHome: int.parse(row[9].toString()),
-          goalsAway: int.parse(row[10].toString()),
-          assistsOverall: int.parse(row[11].toString()),
-          assistsHome: int.parse(row[12].toString()),
-          assistsAway: int.parse(row[13].toString()),
-          yellowCardsOverall: int.parse(row[14].toString()),
-          redCardsOverall: int.parse(row[15].toString()),
-        ));
+        if (response.statusCode == 200) {
+          final String csvString = utf8.decode(response.bodyBytes);
+          List<List<dynamic>> csvData =
+              const CsvToListConverter(fieldDelimiter: ';').convert(csvString);
+
+          for (List<dynamic> row in csvData.skip(1)) {
+            allPlayers.add(Player(
+              fullName: row[0],
+              age: int.parse(row[1].toString()),
+              league: row[2],
+              season: int.parse(row[3].toString()),
+              position: row[4],
+              currentClub: row[5],
+              nationality: row[6],
+              appearances_overall: int.parse(row[7].toString()),
+              goalsOverall: int.parse(row[8].toString()),
+              goalsHome: int.parse(row[9].toString()),
+              goalsAway: int.parse(row[10].toString()),
+              assistsOverall: int.parse(row[11].toString()),
+              assistsHome: int.parse(row[12].toString()),
+              assistsAway: int.parse(row[13].toString()),
+              yellowCardsOverall: int.parse(row[14].toString()),
+              redCardsOverall: int.parse(row[15].toString()),
+            ));
+          }
+        } else {
+          print('Error al cargar $fileName: ${response.statusCode}');
+        }
+      } catch (e) {
+        print('Excepción al cargar $fileName: $e');
       }
-      return players;
-    } else {
-      throw Exception(
-          'Failed to load player data from Supabase Storage for year $year');
     }
+
+    return allPlayers;
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Jugadores $year'),
+        title: const Text('Jugadores'),
         backgroundColor: Colors.blueAccent,
         actions: [
           IconButton(
             icon: const Icon(Icons.search),
             onPressed: () async {
-              final players = await loadPlayersForYear(year);
+              final players = await loadAllPlayers();
               showSearch(
                 context: context,
                 delegate: PlayerSearchDelegate(players),
@@ -74,7 +90,7 @@ class PlayersScreen extends StatelessWidget {
         ],
       ),
       body: FutureBuilder<List<Player>>(
-        future: loadPlayersForYear(year),
+        future: loadAllPlayers(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
@@ -82,7 +98,7 @@ class PlayersScreen extends StatelessWidget {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return const Center(
-                child: Text('No hay jugadores disponibles para este año.'));
+                child: Text('No hay jugadores disponibles.'));
           } else {
             List<Player> players = snapshot.data!;
             return Scrollbar(

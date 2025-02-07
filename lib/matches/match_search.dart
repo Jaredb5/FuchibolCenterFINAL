@@ -47,8 +47,8 @@ class MatchSearchDelegate extends SearchDelegate<Match?> {
     } else {
       final queryLower = query.toLowerCase();
       return matches.where((match) {
-        return match.homeTeam.toLowerCase().contains(queryLower) || 
-               match.awayTeam.toLowerCase().contains(queryLower);
+        return match.homeTeam.toLowerCase().contains(queryLower) ||
+            match.awayTeam.toLowerCase().contains(queryLower);
       }).toList();
     }
   }

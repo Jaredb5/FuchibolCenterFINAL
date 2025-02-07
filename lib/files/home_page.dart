@@ -1,17 +1,22 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/teams/team_by_year.dart';
 import 'package:flutter_application_2/files/user_preferences.dart';
-import '../matches/match_by_year.dart';
-import '../players/player_by_year.dart';
-import 'login.dart';
+import '../matches/match_selection_screen.dart'; 
+import '../players/player_selection.dart';
+import '../teams/team_selection_screen.dart';
+import '../test/massive_list_screen.dart'; // Importa la nueva pantalla de lista masiva
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    var screenSize = MediaQuery.of(context).size;
+    var deviceWidth = screenSize.width;
+
+    double iconSize = deviceWidth < 392 ? 80 : deviceWidth > 392 ? 120 : 100;
+    double titleFontSize = deviceWidth < 392 ? 20 : 24;
+    double subtitleFontSize = deviceWidth < 392 ? 14 : 16;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Inicio'),
@@ -22,10 +27,9 @@ class HomeScreen extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
               accountName:
-                  Text(UserPreferences.isLoggedIn() ? 'Usuario' : 'Invitado'),
-              accountEmail: Text(UserPreferences.isLoggedIn()
-                  ? 'usuario@correo.com'
-                  : 'No autenticado'),
+                  Text(UserPreferences.isLoggedIn() ? 'Usuario' : 'Usuario'),
+              accountEmail: Text(
+                  UserPreferences.isLoggedIn() ? 'usuario@correo.com' : ''),
               currentAccountPicture: const CircleAvatar(
                 backgroundColor: Colors.white,
                 child: Icon(Icons.person),
@@ -42,7 +46,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => YearSelectionScreenPlayers(),
+                    builder: (context) => PlayerSelectionScreen(),
                   ),
                 );
               },
@@ -55,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => YearSelectionScreenTeams(),
+                    builder: (context) => TeamSelectionScreen(),
                   ),
                 );
               },
@@ -68,7 +72,20 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => YearSelectionScreenMatches(),
+                    builder: (context) => MatchSelectionScreen(),
+                  ),
+                );
+              },
+            ),
+            _createDrawerItem(
+              icon: Icons.list,
+              text: 'Lista Masiva',
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => MassiveListScreen(),
                   ),
                 );
               },
@@ -81,43 +98,35 @@ class HomeScreen extends StatelessWidget {
                   await UserPreferences.setLoggedIn(false);
                   Navigator.of(context).pop();
                   Navigator.of(context).pushAndRemoveUntil(
-                    // ignore: prefer_const_constructors
-                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                    MaterialPageRoute(builder: (context) => const HomeScreen()),
                     (Route<dynamic> route) => false,
-                  );
-                },
-              ),
-            if (!UserPreferences.isLoggedIn())
-              _createDrawerItem(
-                icon: Icons.login,
-                text: 'Iniciar sesión',
-                onTap: () {
-                  Navigator.of(context).pop();
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => LoginScreen(),
-                    ),
                   );
                 },
               ),
           ],
         ),
       ),
-      body: const Center(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.sports_soccer, size: 100, color: Colors.blue),
-            SizedBox(height: 20),
+            Icon(
+              Icons.sports_soccer,
+              size: iconSize,
+              color: Colors.blue,
+            ),
+            const SizedBox(height: 20),
             Text(
               'Bienvenido a Fuchibol Center',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                fontSize: titleFontSize,
+                fontWeight: FontWeight.bold,
+              ),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Text(
               'Disfruta de toda la información sobre el fútbol.',
-              style: TextStyle(fontSize: 16),
+              style: TextStyle(fontSize: subtitleFontSize),
               textAlign: TextAlign.center,
             ),
           ],
@@ -126,10 +135,11 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _createDrawerItem(
-      {required IconData icon,
-      required String text,
-      required GestureTapCallback onTap}) {
+  Widget _createDrawerItem({
+    required IconData icon,
+    required String text,
+    required GestureTapCallback onTap,
+  }) {
     return ListTile(
       leading: Icon(icon),
       title: Text(text),
