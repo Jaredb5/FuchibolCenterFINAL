@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:csv/csv.dart';
 import 'package:http/http.dart' as http;
+import 'dart:convert';
+
 import 'player_model.dart';
 import 'player_detail.dart';
 import 'player_search.dart';
-import 'dart:convert';
 
 class PlayersScreen extends StatelessWidget {
   final String year;
+
+  // ✅ NUEVA URL de Supabase actualizada
   final String supabaseUrl =
-      'https://eksgwihmgfwwanfrxnmg.supabase.co/storage/v1/object/public/Data/players_csv';
+      'https://erxdcztffrdgbsiirsmu.supabase.co/storage/v1/object/public/data/players';
+
   const PlayersScreen({Key? key, required this.year}) : super(key: key);
 
   Future<List<Player>> loadAllPlayers() async {
@@ -31,11 +35,12 @@ class PlayersScreen extends StatelessWidget {
 
     for (String fileName in fileNames) {
       try {
-        var fileUrl = '$supabaseUrl/$fileName';
-        var response = await http.get(Uri.parse(fileUrl));
+        final encodedFileName = Uri.encodeComponent(fileName); // Manejo de espacios
+        final fileUrl = '$supabaseUrl/$encodedFileName';
+        final response = await http.get(Uri.parse(fileUrl));
 
         if (response.statusCode == 200) {
-          final String csvString = utf8.decode(response.bodyBytes);
+          final csvString = utf8.decode(response.bodyBytes);
           List<List<dynamic>> csvData =
               const CsvToListConverter(fieldDelimiter: ';').convert(csvString);
 
@@ -60,10 +65,10 @@ class PlayersScreen extends StatelessWidget {
             ));
           }
         } else {
-          print('Error al cargar $fileName: ${response.statusCode}');
+          print('❌ Error al cargar $fileName: ${response.statusCode}');
         }
       } catch (e) {
-        print('Excepción al cargar $fileName: $e');
+        print('⚠️ Excepción al cargar $fileName: $e');
       }
     }
 
@@ -97,10 +102,9 @@ class PlayersScreen extends StatelessWidget {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return const Center(
-                child: Text('No hay jugadores disponibles.'));
+            return const Center(child: Text('No hay jugadores disponibles.'));
           } else {
-            List<Player> players = snapshot.data!;
+            final players = snapshot.data!;
             return Scrollbar(
               thumbVisibility: true,
               thickness: 6.0,
@@ -109,8 +113,8 @@ class PlayersScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   final player = players[index];
                   return Card(
-                    margin:
-                        const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                    margin: const EdgeInsets.symmetric(
+                        vertical: 8, horizontal: 16),
                     child: ListTile(
                       leading:
                           const Icon(Icons.person, color: Colors.blueAccent),

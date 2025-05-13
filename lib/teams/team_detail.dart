@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'teams_model.dart';
 import 'data_teams.dart';
-import 'team_info_card.dart';
 import 'bar_chart.dart';
-import 'line_chart.dart';
-import 'pie_chart.dart';
+import 'team_info_card.dart';
+import 'simple_team_performance_data.dart';
+
 
 class TeamDetailsScreen extends StatefulWidget {
   final Team team;
@@ -16,21 +16,21 @@ class TeamDetailsScreen extends StatefulWidget {
 }
 
 class _TeamDetailsScreenState extends State<TeamDetailsScreen> {
-  String _selectedChartType = 'Barra';
+  String _selectedViewType = 'Tabla';
 
-  List<Team> getTeamDataForLast10Years(List<Team> allTeams, String teamName) {
-    return allTeams.where((t) => t.commonName == teamName).toList();
-  }
+  List<Team> allTeams = [];
+  List<Team> seasons = [];
+  Team? selectedSeason;
 
-  double _calculateAverage(double total, int matches) {
-    return matches > 0 ? total / matches : 0;
-  }
+  double avgWins = 0;
+  double avgDraws = 0;
+  double avgLosses = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.team.commonName),
+        title: Text('Rendimiento de ${widget.team.commonName}'),
         backgroundColor: Colors.blueAccent,
       ),
       body: FutureBuilder<List<Team>>(
@@ -42,62 +42,40 @@ class _TeamDetailsScreenState extends State<TeamDetailsScreen> {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return const Center(
-                child: Text('No hay datos disponibles para este equipo.'));
+              child: Text('No hay datos disponibles para este equipo.'),
+            );
           } else {
-            List<Team> allTeams = snapshot.data!;
-            List<Team> teamData =
-                getTeamDataForLast10Years(allTeams, widget.team.commonName);
+            allTeams = snapshot.data!;
+            seasons = allTeams
+                .where((t) => t.commonName == widget.team.commonName)
+                .toList()
+              ..sort((a, b) => b.season.compareTo(a.season));
 
-            double averageGoals = _calculateAverage(
-                widget.team.goals_scored.toDouble(),
-                widget.team.matches_played);
-            double averageCards = _calculateAverage(
-                widget.team.cards_total.toDouble(), widget.team.matches_played);
+            if (selectedSeason == null && seasons.isNotEmpty) {
+              selectedSeason = seasons.first;
+              _calculatePerformance();
+            }
 
             return SingleChildScrollView(
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Detalles del Equipo:',
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                  ),
+                  _buildTeamHeader(),
                   const SizedBox(height: 20),
-                  TeamInfoCard(
-                    title: 'Nombre',
-                    value: widget.team.commonName,
-                    icon: Icons.group,
-                  ),
-                  TeamInfoCard(
-                    title: 'Promedio de Goles General por Partido',
-                    value: averageGoals.toStringAsFixed(2),
-                    icon: Icons.sports_soccer,
-                  ),
-                  TeamInfoCard(
-                    title: 'Promedio de Tarjetas en General por Partido',
-                    value: averageCards.toStringAsFixed(2),
-                    icon: Icons.warning_amber,
-                  ),
+                  _buildSeasonDropdown(),
                   const SizedBox(height: 20),
-                  const Text(
-                    'Estadísticas:',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                  const SizedBox(height: 10),
-                  _buildStatisticsTable(teamData),
+                  _buildViewSelector(),
                   const SizedBox(height: 20),
-                  _buildStatisticsExpansionTile(
-                      'Promedio de Goles por Partido en cada temporada',
-                      'averageGoals',
-                      teamData),
-                  _buildStatisticsExpansionTile('Goles', 'goals', teamData),
-                  _buildStatisticsExpansionTile('Tarjetas', 'cards', teamData),
-                  // Añade un nuevo caso en el método _buildStatisticsExpansionTile
-                  _buildStatisticsExpansionTile(
-                      'Promedio de Tarjetas por Partido en cada temporada',
-                      'averageCards', // Nuevo dataType
-                      teamData),
+                  _selectedViewType == 'Tabla'
+                      ? _buildPerformanceTable()
+                      : SizedBox(
+                          height: 300,
+                          child: BarChartSampleTeamComparison(
+                          data: _buildChartData(),
+                          barColors: [Colors.blue, Colors.green, Colors.orange], // puedes personalizar
+                        ),
+                        ),
                 ],
               ),
             );
@@ -107,107 +85,205 @@ class _TeamDetailsScreenState extends State<TeamDetailsScreen> {
     );
   }
 
-  Widget _buildStatisticsTable(List<Team> teamData) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: DataTable(
-        columns: const [
-          DataColumn(
-            label: Text(
-              'Temporada',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ),
-          DataColumn(
-            label: Text(
-              'Partidos',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ),
-          DataColumn(
-            label: Text(
-              'Goles',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ),
-          DataColumn(
-            label: Text(
-              'Tarjetas',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ),
-        ],
-        rows: teamData.map((team) {
-          return DataRow(cells: [
-            DataCell(Text(team.season.toString())),
-            DataCell(Text(team.matches_played.toString())),
-            DataCell(Text(team.goals_scored.toString())),
-            DataCell(Text(team.cards_total.toString())),
-          ]);
-        }).toList(),
-        headingRowColor: MaterialStateColor.resolveWith(
-          (states) => Colors.blueAccent.shade100,
-        ),
-        headingTextStyle: const TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.bold,
-        ),
-        dataRowColor: MaterialStateColor.resolveWith(
-          (states) => Colors.blueAccent.shade100,
-        ),
-        dataTextStyle: const TextStyle(
-          color: Colors.black,
-        ),
-        border: TableBorder.all(
-          color: Colors.blueAccent,
-          width: 1.5,
-        ),
-        columnSpacing: 20.0,
-      ),
+  void _calculatePerformance() {
+    if (selectedSeason == null) return;
+    final matches = selectedSeason!.matches_played;
+    avgWins = _safeDivide(selectedSeason!.wins, matches);
+    avgDraws = _safeDivide(selectedSeason!.draws, matches);
+    avgLosses = _safeDivide(selectedSeason!.losses, matches);
+  }
+
+  double _safeDivide(int value, int matches) {
+    return matches > 0 ? value / matches : 0.0;
+  }
+
+  Widget _buildTeamHeader() {
+  if (selectedSeason == null) {
+    return const Center(
+      child: Text('No hay datos para mostrar del equipo.'),
     );
   }
 
-  ExpansionTile _buildStatisticsExpansionTile(
-      String title, String dataType, List<Team> teamData) {
-    return ExpansionTile(
-      title: Text(
-        title,
-        style: const TextStyle(fontWeight: FontWeight.bold),
+  return Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      TeamInfoCard(
+        title: 'Nombre',
+        value: selectedSeason!.commonName,
+        icon: Icons.group,
       ),
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          child: DropdownButton<String>(
-            value: _selectedChartType,
-            items: <String>['Barra', 'Lineal', 'Circular'].map((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(value),
+      TeamInfoCard(
+        title: 'Temporada',
+        value: selectedSeason!.season.toString(),
+        icon: Icons.calendar_today,
+      ),
+      TeamInfoCard(
+        title: 'Partidos Jugados',
+        value: selectedSeason!.matches_played.toString(),
+        icon: Icons.sports_soccer,
+      ),
+      TeamInfoCard(
+        title: 'Victorias',
+        value: selectedSeason!.wins.toString(),
+        icon: Icons.military_tech,
+      ),
+      TeamInfoCard(
+        title: 'Empates',
+        value: selectedSeason!.draws.toString(),
+        icon: Icons.handshake,
+      ),
+      TeamInfoCard(
+        title: 'Derrotas',
+        value: selectedSeason!.losses.toString(),
+        icon: Icons.cancel,
+      ),
+    ],
+  );
+}
+
+
+  Widget _buildSeasonDropdown() {
+  return Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      const Text(
+        'Seleccionar temporada',
+        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+      ),
+      const SizedBox(height: 6),
+      Container(
+        padding: const EdgeInsets.symmetric(horizontal: 12),
+        decoration: BoxDecoration(
+          border: Border.all(color: Colors.blue.shade100),
+          borderRadius: BorderRadius.circular(10),
+          color: Colors.grey.shade100,
+        ),
+        child: DropdownButtonHideUnderline(
+          child: DropdownButton<int>(
+            value: selectedSeason?.season,
+            isExpanded: true,
+            icon: const Icon(Icons.keyboard_arrow_down),
+            items: seasons.map((t) {
+              return DropdownMenuItem<int>(
+                value: t.season,
+                child: Text('Temporada ${t.season}'),
               );
             }).toList(),
-            onChanged: (String? newValue) {
+            onChanged: (int? newYear) {
               setState(() {
-                _selectedChartType = newValue!;
+                selectedSeason =
+                    seasons.firstWhere((t) => t.season == newYear);
+                _calculatePerformance();
               });
             },
           ),
         ),
-        _buildChartComparison(teamData, dataType),
-      ],
-    );
-  }
+      ),
+    ],
+  );
+}
 
-  Widget _buildChartComparison(List<Team> teamData, String dataType) {
-    return Container(
-      height: 300,
-      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      child: _selectedChartType == 'Barra'
-          ? BarChartSampleTeamComparison(dataType: dataType, teamData: teamData)
-          : _selectedChartType == 'Lineal'
-              ? LineChartSampleTeamComparison(
-                  dataType: dataType, teamData: teamData)
-              : PieChartSampleTeamComparison(
-                  dataType: dataType, teamData: teamData),
-    );
+Widget _buildViewSelector() {
+  return Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      const Text(
+        'Visualización',
+        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+      ),
+      const SizedBox(height: 6),
+      Container(
+        padding: const EdgeInsets.symmetric(horizontal: 12),
+        decoration: BoxDecoration(
+          border: Border.all(color: Colors.blue.shade100),
+          borderRadius: BorderRadius.circular(10),
+          color: Colors.grey.shade100,
+        ),
+        child: DropdownButtonHideUnderline(
+          child: DropdownButton<String>(
+            value: _selectedViewType,
+            isExpanded: true,
+            icon: const Icon(Icons.keyboard_arrow_down),
+            items: ['Tabla', 'Gráfica'].map((type) {
+              return DropdownMenuItem<String>(
+                value: type,
+                child: Text(type),
+              );
+            }).toList(),
+            onChanged: (value) {
+              setState(() {
+                _selectedViewType = value!;
+              });
+            },
+          ),
+        ),
+      ),
+    ],
+  );
+}
+
+
+  Widget _buildPerformanceTable() {
+  return Container(
+    decoration: BoxDecoration(
+      border: Border.all(color: Colors.blue.shade100),
+      borderRadius: BorderRadius.circular(8),
+      color: Colors.white,
+    ),
+    child: Table(
+      columnWidths: const {
+        0: FlexColumnWidth(2),
+        1: FlexColumnWidth(2),
+      },
+      border: TableBorder.symmetric(
+        inside: BorderSide(color: Colors.blue.shade50),
+      ),
+      children: [
+        TableRow(
+          decoration: BoxDecoration(color: Colors.blue.shade100),
+          children: const [
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text('Métrica',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold, color: Colors.black87)),
+            ),
+            Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text('Promedio',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold, color: Colors.black87)),
+            ),
+          ],
+        ),
+        _buildTableRow('Victorias por partido', avgWins.toStringAsFixed(2)),
+        _buildTableRow('Empates por partido', avgDraws.toStringAsFixed(2)),
+        _buildTableRow('Derrotas por partido', avgLosses.toStringAsFixed(2)),
+      ],
+    ),
+  );
+}
+
+
+  TableRow _buildTableRow(String label, String value) {
+  return TableRow(children: [
+    Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(label),
+    ),
+    Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(value),
+    ),
+  ]);
+}
+
+
+  List<SimpleTeamPerformanceData> _buildChartData() {
+    return [
+      SimpleTeamPerformanceData('Victorias', avgWins),
+      SimpleTeamPerformanceData('Empates', avgDraws),
+      SimpleTeamPerformanceData('Derrotas', avgLosses),
+    ];
   }
 }

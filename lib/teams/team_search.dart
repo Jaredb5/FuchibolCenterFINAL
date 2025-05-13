@@ -4,8 +4,9 @@ import 'team_detail.dart';
 
 class TeamSearchDelegate extends SearchDelegate<Team?> {
   final List<Team> teams;
+  final bool isForComparison;
 
-  TeamSearchDelegate(this.teams);
+  TeamSearchDelegate(this.teams, {this.isForComparison = false});
 
   @override
   List<Widget> buildActions(BuildContext context) {
@@ -52,35 +53,35 @@ class TeamSearchDelegate extends SearchDelegate<Team?> {
     }
   }
 
-  Widget _buildTeamList(List<Team> teams) {
-    if (teams.isEmpty) {
+  Widget _buildTeamList(List<Team> results) {
+    if (results.isEmpty) {
       return const Center(child: Text('No se encontraron equipos.'));
     }
 
-    // Filtrar nombres únicos de equipos
-    Map<String, Team> uniqueTeams = {};
-    for (var team in teams) {
+    final Map<String, Team> uniqueTeams = {};
+    for (var team in results) {
       uniqueTeams[team.commonName] = team;
     }
-    List<String> uniqueTeamNames = uniqueTeams.keys.toList();
+
+    final uniqueTeamNames = uniqueTeams.keys.toList();
 
     return ListView.builder(
       itemCount: uniqueTeamNames.length,
       itemBuilder: (context, index) {
-        final teamName = uniqueTeamNames[index];
-        final team = uniqueTeams[teamName];
+        final name = uniqueTeamNames[index];
+        final team = uniqueTeams[name];
 
         return ListTile(
-          title: Text(teamName),
-          subtitle:
-              Text('Nombre: ${team!.commonName}, Temporada: ${team.season}'),
+          title: Text(name),
+          subtitle: Text('Temporada: ${team!.season}'),
           onTap: () {
-            close(context, null);
-            Navigator.of(context).push(
-              MaterialPageRoute(
+            if (isForComparison) {
+              close(context, team); // ← ✅ Devuelve el equipo seleccionado
+            } else {
+              Navigator.of(context).push(MaterialPageRoute(
                 builder: (_) => TeamDetailsScreen(team: team),
-              ),
-            );
+              ));
+            }
           },
         );
       },

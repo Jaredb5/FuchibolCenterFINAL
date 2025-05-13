@@ -1,59 +1,65 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
-import 'teams_model.dart';
+import 'simple_team_performance_data.dart';
 
 class PieChartSampleTeamComparison extends StatelessWidget {
-  final String dataType;
-  final List<Team> teamData;
+  final List<SimpleTeamPerformanceData> data;
+  final List<String> teamNames;
 
-  PieChartSampleTeamComparison({required this.dataType, required this.teamData});
+  const PieChartSampleTeamComparison({
+    Key? key,
+    required this.data,
+    required this.teamNames,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    List<PieChartSectionData> sections = [];
-
-    for (int i = 0; i < teamData.length; i++) {
-      Team team = teamData[i];
-      double value = 0;
-      if (dataType == 'matches') {
-        value = team.matches_played.toDouble();
-      } else if (dataType == 'goals') {
-        value = team.goals_scored.toDouble();
-      } else if (dataType == 'cards') {
-        value = team.cards_total.toDouble();
-      } else if (dataType == 'averageGoals') {
-        value = team.matches_played > 0
-            ? team.goals_scored.toDouble() / team.matches_played
-            : 0;
-      } else if (dataType == 'averageCards') {
-        value = team.matches_played > 0
-            ? team.cards_total.toDouble() / team.matches_played
-            : 0;
-      }
-      sections.add(PieChartSectionData(
-        value: value,
-        color: Colors.primaries[i % Colors.primaries.length],
-        title: value.toStringAsFixed(2),
+    final List<PieChartSectionData> sections = List.generate(data.length, (i) {
+      return PieChartSectionData(
+        value: data[i].value,
+        title: data[i].value.toStringAsFixed(2),
+        color: i == 0 ? Colors.blue : Colors.green,
         radius: 50,
         titleStyle: const TextStyle(
-            fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white),
-      ));
-    }
-
-    return PieChart(
-      PieChartData(
-        sections: sections,
-        sectionsSpace: 2,
-        centerSpaceRadius: 40,
-        pieTouchData: PieTouchData(
-          touchCallback: (PieTouchResponse? pieTouchResponse) {
-            if (pieTouchResponse != null &&
-                pieTouchResponse.touchedSection != null) {
-              print("Se tocó una sección: ${pieTouchResponse.touchedSection!.touchedSectionIndex}");
-            }
-          },
+          fontSize: 12,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
         ),
-      ),
+      );
+    });
+
+    return Column(
+      children: [
+        SizedBox(
+          height: 200,
+          child: PieChart(
+            PieChartData(
+              sections: sections,
+              centerSpaceRadius: 40,
+              sectionsSpace: 2,
+              borderData: FlBorderData(show: false),
+            ),
+          ),
+        ),
+        const SizedBox(height: 12),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: List.generate(data.length, (i) {
+            return Row(
+              children: [
+                Container(
+                  width: 12,
+                  height: 12,
+                  color: i == 0 ? Colors.blue : Colors.green,
+                ),
+                const SizedBox(width: 4),
+                Text(teamNames[i]),
+                const SizedBox(width: 16),
+              ],
+            );
+          }),
+        ),
+      ],
     );
   }
 }

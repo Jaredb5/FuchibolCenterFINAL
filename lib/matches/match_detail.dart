@@ -71,7 +71,7 @@ class MatchDetailsScreen extends StatelessWidget {
     try {
       return int.parse(value);
     } catch (e) {
-      return 1; // Valor por defecto si no se puede convertir
+      return 1;
     }
   }
 
@@ -85,45 +85,46 @@ class MatchDetailsScreen extends StatelessWidget {
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 10),
-        ListView.builder(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          itemCount: previousMatches.length,
-          itemBuilder: (context, index) {
-            final previousMatch = previousMatches[index];
-            return Card(
-              margin: const EdgeInsets.symmetric(vertical: 8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundColor: Colors.blue,
-                  child: Text(
-                    previousMatch.homeTeamGoal,
-                    style: const TextStyle(color: Colors.white),
-                  ),
-                ),
-                title: Text(
-                  '${previousMatch.homeTeam} vs ${previousMatch.awayTeam}',
-                  style: const TextStyle(fontWeight: FontWeight.bold),
-                ),
-                subtitle: Text('Fecha: ${previousMatch.dateGMT}'),
-                trailing: CircleAvatar(
-                  backgroundColor: Colors.red,
-                  child: Text(
-                    previousMatch.awayTeamGoal,
-                    style: const TextStyle(color: Colors.white),
-                  ),
-                ),
-                onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) =>
-                          MatchDetailsScreen(match: previousMatch),
+        SizedBox(
+          height: 300, // Altura fija para evitar conflictos de renderizado
+          child: ListView.builder(
+            itemCount: previousMatches.length,
+            itemBuilder: (context, index) {
+              final previousMatch = previousMatches[index];
+              return Card(
+                margin: const EdgeInsets.symmetric(vertical: 8.0),
+                child: ListTile(
+                  leading: CircleAvatar(
+                    backgroundColor: Colors.blue,
+                    child: Text(
+                      previousMatch.homeTeamGoal,
+                      style: const TextStyle(color: Colors.white),
                     ),
-                  );
-                },
-              ),
-            );
-          },
+                  ),
+                  title: Text(
+                    '${previousMatch.homeTeam} vs ${previousMatch.awayTeam}',
+                    style: const TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  subtitle: Text('Fecha: ${previousMatch.dateGMT}'),
+                  trailing: CircleAvatar(
+                    backgroundColor: Colors.red,
+                    child: Text(
+                      previousMatch.awayTeamGoal,
+                      style: const TextStyle(color: Colors.white),
+                    ),
+                  ),
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            MatchDetailsScreen(match: previousMatch),
+                      ),
+                    );
+                  },
+                ),
+              );
+            },
+          ),
         ),
       ],
     );

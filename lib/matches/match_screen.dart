@@ -1,5 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -10,7 +8,7 @@ import 'match_search.dart';
 
 class MatchScreen extends StatelessWidget {
   final String supabaseUrl =
-      'https://eksgwihmgfwwanfrxnmg.supabase.co/storage/v1/object/public/Data/matches_csv';
+      'https://erxdcztffrdgbsiirsmu.supabase.co/storage/v1/object/public/data/matches';
 
   const MatchScreen({Key? key}) : super(key: key);
 
@@ -33,11 +31,12 @@ class MatchScreen extends StatelessWidget {
 
     for (String fileName in fileNames) {
       try {
-        var fileUrl = '$supabaseUrl/$fileName'; // URL del archivo en Supabase
-        var response = await http.get(Uri.parse(fileUrl));
+        final encodedFileName = Uri.encodeComponent(fileName);
+        final fileUrl = '$supabaseUrl/$encodedFileName';
+        final response = await http.get(Uri.parse(fileUrl));
 
         if (response.statusCode == 200) {
-          final String csvString = utf8.decode(response.bodyBytes);
+          final csvString = utf8.decode(response.bodyBytes);
           List<List<dynamic>> csvData =
               const CsvToListConverter(fieldDelimiter: ';').convert(csvString);
 

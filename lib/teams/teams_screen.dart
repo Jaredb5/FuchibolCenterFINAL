@@ -8,22 +8,24 @@ import 'team_search.dart';
 
 class TeamsScreen extends StatelessWidget {
   final String year;
+
   final String supabaseUrl =
-      'https://eksgwihmgfwwanfrxnmg.supabase.co/storage/v1/object/public/Data/teams_csv'; // URL de Supabase
+      'https://erxdcztffrdgbsiirsmu.supabase.co/storage/v1/object/public/data/teams';
 
   const TeamsScreen({required this.year, Key? key}) : super(key: key);
 
   Future<List<Team>> loadTeamsForYear(String year) async {
-    final fileUrl = '$supabaseUrl/teams $year.csv'; // Archivo específico del año
+    final encodedFileName = Uri.encodeComponent('teams $year.csv');
+    final fileUrl = '$supabaseUrl/$encodedFileName';
     final response = await http.get(Uri.parse(fileUrl));
 
     if (response.statusCode == 200) {
-      final csvString = utf8.decode(response.bodyBytes); // Decodificación UTF-8
+      final csvString = utf8.decode(response.bodyBytes);
       final csvData =
           const CsvToListConverter(fieldDelimiter: ';').convert(csvString);
 
       List<Team> allTeams = [];
-      for (final row in csvData.skip(1)) { // Saltar encabezado
+      for (final row in csvData.skip(1)) {
         allTeams.add(Team(
           commonName: row[0].toString(),
           season: int.tryParse(row[1].toString()) ?? 0,
@@ -98,8 +100,8 @@ class TeamsScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   final team = teams[index];
                   return Card(
-                    margin:
-                        const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                    margin: const EdgeInsets.symmetric(
+                        vertical: 8, horizontal: 16),
                     child: ListTile(
                       leading: const Icon(Icons.sports_soccer,
                           color: Colors.greenAccent),

@@ -1,55 +1,39 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
-import 'player_model.dart';
+import 'player_detail.dart';
 
 class PieChartSamplePlayerComparison extends StatelessWidget {
-  final String dataType;
-  final List<Player> playerData;
+  final List<SimplePerformanceData> data;
 
-  PieChartSamplePlayerComparison({required this.dataType, required this.playerData});
+  const PieChartSamplePlayerComparison({Key? key, required this.data})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    List<PieChartSectionData> sections = [];
+    final List<Color> fixedColors = [Colors.blue, Colors.green];
 
-    for (int i = 0; i < playerData.length; i++) {
-      Player player = playerData[i];
-      double value = 0;
-      if (dataType == 'averageGoals') {
-        value = player.appearances_overall > 0
-            ? player.goalsOverall / player.appearances_overall
-            : 0;
-      } else if (dataType == 'averageAssists') {
-        value = player.appearances_overall > 0
-            ? player.assistsOverall / player.appearances_overall
-            : 0;
-      } else if (dataType == 'averageYellowCards') {
-        value = player.appearances_overall > 0
-            ? player.yellowCardsOverall / player.appearances_overall
-            : 0;
-      }
-      sections.add(PieChartSectionData(
-        value: value,
-        color: Colors.primaries[i % Colors.primaries.length],
-        title: value.toStringAsFixed(2),
-        radius: 50,
+    final List<PieChartSectionData> sections = List.generate(data.length, (i) {
+      return PieChartSectionData(
+        value: data[i].value,
+        title: data[i].value.toStringAsFixed(2),
+        color: fixedColors[i % fixedColors.length],
+        radius: 60,
         titleStyle: const TextStyle(
-            fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white),
-      ));
-    }
+          fontSize: 12,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),
+      );
+    });
 
-    return PieChart(
-      PieChartData(
-        sections: sections,
-        sectionsSpace: 2,
-        centerSpaceRadius: 40,
-        pieTouchData: PieTouchData(
-          touchCallback: (PieTouchResponse? pieTouchResponse) {
-            if (pieTouchResponse != null &&
-                pieTouchResponse.touchedSection != null) {
-              print("Se tocó una sección: ${pieTouchResponse.touchedSection!.touchedSectionIndex}");
-            }
-          },
+    return SizedBox(
+      height: 220,
+      child: PieChart(
+        PieChartData(
+          sections: sections,
+          centerSpaceRadius: 40,
+          sectionsSpace: 2,
+          borderData: FlBorderData(show: false),
         ),
       ),
     );

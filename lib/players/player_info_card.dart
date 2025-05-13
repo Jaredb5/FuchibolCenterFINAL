@@ -16,28 +16,22 @@ class PlayerInfoCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
-        color: Colors.blue.shade100,
+        color: Colors.grey.shade100,
         borderRadius: BorderRadius.circular(10),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.blue.shade200,
-            blurRadius: 5,
-            offset: const Offset(0, 2),
-          ),
-        ],
+        border: Border.all(color: Colors.blue.shade100, width: 1),
       ),
       child: Row(
         children: [
-          Icon(icon, color: Colors.blue.shade800),
-          const SizedBox(width: 10),
+          Icon(icon, color: Colors.blue.shade700, size: 24),
+          const SizedBox(width: 12),
           Expanded(
             child: Text(
               '$title: $value',
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.blue.shade800,
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.black87,
               ),
             ),
           ),

@@ -1,9 +1,14 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/files/user_preferences.dart';
 import '../matches/match_selection_screen.dart'; 
 import '../players/player_selection.dart';
 import '../teams/team_selection_screen.dart';
-import '../test/massive_list_screen.dart'; // Importa la nueva pantalla de lista masiva
+import '../players/player_compare_selection_screen.dart';
+import '../teams/team_compare_selection_screen.dart';
+import '../teams/tournament_screen.dart'; // Ajusta la ruta si es necesario
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -52,6 +57,32 @@ class HomeScreen extends StatelessWidget {
               },
             ),
             _createDrawerItem(
+              icon: Icons.compare_arrows,
+              text: 'Comparar Jugadores',
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const PlayerCompareSelectionScreen(),
+                  ),
+                );
+              },
+            ),
+            _createDrawerItem(
+              icon: Icons.groups,
+              text: 'Comparar Equipos',
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TeamCompareSelectionScreen(),
+                  ),
+                );
+              },
+            ),
+            _createDrawerItem(
               icon: Icons.group,
               text: 'Ver Equipos',
               onTap: () {
@@ -78,18 +109,19 @@ class HomeScreen extends StatelessWidget {
               },
             ),
             _createDrawerItem(
-              icon: Icons.list,
-              text: 'Lista Masiva',
+              icon: Icons.emoji_events,
+              text: 'Consultar Torneo',
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => MassiveListScreen(),
+                    builder: (context) => const TournamentScreen(),
                   ),
                 );
               },
             ),
+
             if (UserPreferences.isLoggedIn())
               _createDrawerItem(
                 icon: Icons.exit_to_app,
